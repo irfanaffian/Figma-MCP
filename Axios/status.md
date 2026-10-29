@@ -36,6 +36,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 29 Oktober 2026: Kartu Soft Start Cleanser dijadikan patokan gaya kartu produk. Swatch terpilih 18 px di dalam cincin 24 px; warna swatch (#EDE6DA, #D8C7B0, #B9C2AE) dan warna badge disamakan di keempat kartu.
 - 29 Oktober 2026: Kontras badge dinaikkan agar tidak menyatu dengan foto: badge pertama putih solid (teks #21211F, titik sage), badge kedua terakota #9A5540 (teks dan titik putih). Outline swatch warna yang tidak terpilih disembunyikan di semua kartu mengikuti kartu 1.
 - 29 Oktober 2026 (feedback Sid): Garis atas "Moments of care" (`215:328`) dibuat edge to edge (1512 px, x 0). Outline atas grid dihapus dan diganti garis 1 px warna sama (#21211F 12%). Pembagi kolom vertikal tetap. Tinggi section Cloud Comfort tetap 1232 px.
+- 29 Oktober 2026 (feedback Sid): Posisi section kartu ritual "Three simple steps" (`287:4146`) ditukar dengan product grid Shop (`215:377`). Urutan baru: marquee → Shop (y 2108) → Cloud Comfort (y 3108) → Three simple steps (y 4460) → ribbon review kedua (y 5288). Jarak antar section tetap 120 px; posisi section lain tidak berubah.
 
 ## Bagian yang tidak disentuh
 
