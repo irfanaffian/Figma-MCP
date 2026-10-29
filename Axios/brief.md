@@ -54,4 +54,4 @@ Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa
 10. Section "Skincare should feel like a pause" dengan foto asimetris.
 11. Banner foto dengan bingkai garis.
 12. Community — Small rituals, real stories.
-13. Closing CTA (layout split dengan garis: 3 foto ritual + label di kiri, headline dua warna di kanan, paragraf dan tombol di bawah) dan footer.
+13. Closing CTA (layout split dengan garis: 3 foto ritual + label di kiri, headline dua warna dengan foto pill inline di kanan, paragraf dan tombol di bawah) dan footer.
