@@ -34,6 +34,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 29 Oktober 2026: Announcement bar dengan countdown di atas header sempat dicoba, lalu dibatalkan atas permintaan pengguna.
 - 29 Oktober 2026 (feedback Sid): 4 kartu produk di section Shop (`215:377`) dirombak. Kartu di-detach dari komponen `Axios / Product card` (192:1758, dipakai 24 instance) supaya frame lain tidak ikut berubah. Perubahan: garis putus-putus dan wishlist dihapus; harga 16 px Medium (tidak bold) dengan dukungan harga sale (harga coret abu) di kartu Soft Start Cleanser; tombol Add pindah ke kondisi hover (contoh di kartu Daily Dew Serum: tombol "Add to bag" di bawah foto); ditambah swatch warna (3 lingkaran 16 px) dan swatch ukuran (chip ml); dua badge berwarna per kartu (badge pertama sand, badge kedua clay di semua kartu; label: status + Sale/Morning/Night). Ukuran ml dipindah dari deskripsi ke swatch. Tinggi kartu tetap 544 px.
 - 29 Oktober 2026: Kartu Soft Start Cleanser dijadikan patokan gaya kartu produk. Swatch terpilih 18 px di dalam cincin 24 px; warna swatch (#EDE6DA, #D8C7B0, #B9C2AE) dan warna badge disamakan di keempat kartu.
+- 29 Oktober 2026: Kontras badge dinaikkan agar tidak menyatu dengan foto: badge pertama putih solid (teks #21211F, titik sage), badge kedua terakota #9A5540 (teks dan titik putih). Outline swatch warna yang tidak terpilih disembunyikan di semua kartu mengikuti kartu 1.
 
 ## Bagian yang tidak disentuh
 
