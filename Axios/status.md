@@ -32,6 +32,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 29 Oktober 2026 (feedback Sid): 12 grid marker di hero dan banner foto diganti dari dua kotak 6 px menjadi satu kotak 8×8 px di titik pertemuan garis.
 - 29 Oktober 2026 (feedback Sid): Countdown ditambahkan di banner foto (`215:119`), kolom kanan di atas tombol "Find your ritual": label "THE RITUAL SET ENDS IN", angka 32 px dan unit 12 px (Days/Hrs/Min/Sec). Angka dan label masih contoh untuk template. Posisi bawah konten banner tetap.
 - 29 Oktober 2026: Announcement bar dengan countdown di atas header sempat dicoba, lalu dibatalkan atas permintaan pengguna.
+- 29 Oktober 2026 (feedback Sid): 4 kartu produk di section Shop (`215:377`) dirombak. Kartu di-detach dari komponen `Axios / Product card` (192:1758, dipakai 24 instance) supaya frame lain tidak ikut berubah. Perubahan: garis putus-putus dan wishlist dihapus; harga 16 px Medium (tidak bold) dengan dukungan harga sale (harga coret abu) di kartu Soft Start Cleanser; tombol Add pindah ke kondisi hover (contoh di kartu Daily Dew Serum: tombol "Add to bag" di bawah foto); ditambah swatch warna (3 lingkaran 16 px) dan swatch ukuran (chip ml); dua badge berwarna per kartu (sand untuk status, clay untuk Sale, sage untuk waktu ritual Morning/Night). Ukuran ml dipindah dari deskripsi ke swatch. Tinggi kartu tetap 544 px.
 
 ## Bagian yang tidak disentuh
 
@@ -41,7 +42,8 @@ Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pert
 
 - Nama layer di beberapa frame tidak lagi sama dengan teksnya, misalnya layer "Cleanse, hydrate and comfort. Three everyday essentials…". Teks di canvas yang menjadi acuan.
 - Angka "34+" dan "190+ Customer Reviews" perlu dipastikan ke pengguna punya sumber datanya.
-- Kartu produk di section Shop masih berupa instance dari komponen yang sudah ada sebelumnya; ini bukan komponen baru.
+- Kartu produk di section Shop Desktop - 11 sudah di-detach (layer biasa). Komponen `Axios / Product card` versi lama tetap dipakai di frame lain.
+- Harga sale ($24 dari $30), varian warna, dan ukuran di kartu produk adalah contoh template; perlu dikonfirmasi ke klien.
 
 ## Melanjutkan dari perangkat lain
 
