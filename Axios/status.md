@@ -27,6 +27,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - Hero dibuat ulang dengan bingkai garis, grid marker, dan headline uppercase 80 px.
 - Banner foto diberi treatment garis yang sama dengan hero.
 - 29 Oktober 2026: Closing CTA (`215:460`) disusun ulang mengikuti referensi pengguna. Baris atas berbingkai garis dengan pembagi vertikal: kiri 3 foto ritual bulat 96 px + label "Cleanse | Hydrate | Comfort"; kanan eyebrow + headline 64 px dua warna ("More room for [foto pill] *you.*" abu). Foto pill 104×64 px (tekstur krim Cloud Comfort) disisipkan di tengah kalimat, mengikuti treatment brand intro. Baris bawah: paragraf dan tombol, rata dengan kolom kanan. Warna oranye dan tombol panah slider dari referensi sengaja tidak dipakai. Tinggi Desktop - 11 menjadi 9294 px.
+- 29 Oktober 2026: Rating 5 bintang (24 px, gap 8 px, bintang terisi warna teks kutipan) ditambahkan di bawah kutipan testimonial pada kartu Featured customer review (`215:428`), jarak 32 px dari kutipan.
 
 ## Bagian yang tidak disentuh
 
