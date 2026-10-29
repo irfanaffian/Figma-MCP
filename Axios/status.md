@@ -29,6 +29,9 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 29 Oktober 2026: Closing CTA (`215:460`) disusun ulang mengikuti referensi pengguna. Baris atas berbingkai garis dengan pembagi vertikal: kiri 3 foto ritual bulat 96 px + label "Cleanse | Hydrate | Comfort"; kanan eyebrow + headline 64 px dua warna ("More room for [foto pill] *you.*" abu). Foto pill 104×64 px (tekstur krim Cloud Comfort) disisipkan di tengah kalimat, mengikuti treatment brand intro. Baris bawah: paragraf dan tombol, rata dengan kolom kanan. Warna oranye dan tombol panah slider dari referensi sengaja tidak dipakai. Tinggi Desktop - 11 menjadi 9294 px.
 - 29 Oktober 2026: Rating 5 bintang (24 px, gap 8 px, bintang terisi warna teks kutipan) ditambahkan di bawah kutipan testimonial pada kartu Featured customer review (`215:428`), jarak 32 px dari kutipan.
 - 29 Oktober 2026 (feedback Sid): Marquee "Daily care, simplified" (`215:228`) — ikon daun pemisah diganti 4 thumbnail foto pill 72×44 px (radius 22). Tinggi strip tetap 92 px (jarak garis ke isi 24 px).
+- 29 Oktober 2026 (feedback Sid): 12 grid marker di hero dan banner foto diganti dari dua kotak 6 px menjadi satu kotak 8×8 px di titik pertemuan garis.
+- 29 Oktober 2026 (feedback Sid): Countdown ditambahkan di banner foto (`215:119`), kolom kanan di atas tombol "Find your ritual": label "THE RITUAL SET ENDS IN", angka 32 px dan unit 12 px (Days/Hrs/Min/Sec). Angka dan label masih contoh untuk template. Posisi bawah konten banner tetap.
+- 29 Oktober 2026: Announcement bar dengan countdown di atas header sempat dicoba, lalu dibatalkan atas permintaan pengguna.
 
 ## Bagian yang tidak disentuh
 

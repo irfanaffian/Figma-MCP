@@ -36,7 +36,7 @@ Retouch dan redesign visual landing page desktop Axios (lebar frame 1512 px), da
 
 ## Treatment garis dan penanda
 
-Garis tipis dengan penanda kotak (grid marker 2×6 kotak 6 px) hanya dipakai di **hero** dan **banner foto**.
+Garis tipis dengan penanda kotak hanya dipakai di **hero** dan **banner foto**. Penanda berupa **satu kotak putih 8×8 px** tepat di titik pertemuan garis (feedback Sid, 29 Oktober 2026; sebelumnya dua kotak 6 px).
 
 Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa grid marker (garis atas, bawah, dan pembagi vertikal), mengikuti referensi yang dilampirkan pengguna. Jangan diterapkan ke section lain tanpa instruksi.
 
@@ -52,6 +52,6 @@ Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa
 8. Shop — Everyday essentials: kategori dan 4 kartu produk.
 9. Ribbon review kedua.
 10. Section "Skincare should feel like a pause" dengan foto asimetris.
-11. Banner foto dengan bingkai garis.
+11. Banner foto dengan bingkai garis dan countdown di kolom kanan, di atas tombol.
 12. Community — Small rituals, real stories.
 13. Closing CTA (layout split dengan garis: 3 foto ritual + label di kiri, headline dua warna dengan foto pill inline di kanan, paragraf dan tombol di bawah) dan footer.
