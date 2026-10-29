@@ -12,7 +12,7 @@ Axios adalah folder proyek di repository Figma-MCP, dengan riwayat Git bersama r
 
 ## Sumber dan desain
 
-File Figma `69Z4JFbNdaEfbjMOHS7oTE`, halaman **HiFi** (`11:2160`; sebelumnya Moodboard `0:1`). File juga memiliki halaman HiFi (`11:2160`) dan Archive (`112:2542`).
+File Figma `69Z4JFbNdaEfbjMOHS7oTE`, halaman **HiFi** (`11:2160`; sebelumnya Moodboard `0:1`). File juga memiliki halaman Moodboard (`0:1`, iterasi lama) dan Archive (`112:2542`).
 
 | Frame | Peran | Tautan |
 | --- | --- | --- |
