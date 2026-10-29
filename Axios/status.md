@@ -9,7 +9,7 @@ Tidak ada tugas yang tertunda. Menunggu instruksi berikutnya dari pengguna. Fram
 ## Terverifikasi pada sesi ini
 
 - MCP Figma berhasil membaca file `69Z4JFbNdaEfbjMOHS7oTE`. Halaman: Moodboard (`0:1`), HiFi (`11:2160`), Archive (`112:2542`).
-- Metadata Desktop - 11 berhasil dibaca: lebar 1512 px, tinggi 9128 px.
+- Metadata Desktop - 11 berhasil dibaca: lebar 1512 px, tinggi 9128 px (sebelum revisi CTA).
 - Struktur section sesuai daftar di [brief](./brief.md#struktur-halaman-desktop---11).
 - Grid marker dan garis bingkai hanya ditemukan di hero dan banner foto.
 
@@ -26,6 +26,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - "Moments of care" diubah menjadi 4 kolom dengan garis pemisah dan ikon 32 px.
 - Hero dibuat ulang dengan bingkai garis, grid marker, dan headline uppercase 80 px.
 - Banner foto diberi treatment garis yang sama dengan hero.
+- 29 Oktober 2026: Closing CTA (`215:460`) disusun ulang mengikuti referensi pengguna. Baris atas berbingkai garis dengan pembagi vertikal: kiri 3 foto ritual bulat 96 px + label "Cleanse | Hydrate | Comfort"; kanan eyebrow + headline 64 px dua warna ("More room for *you.*" abu). Baris bawah: paragraf dan tombol, rata dengan kolom kanan. Warna oranye dan tombol panah slider dari referensi sengaja tidak dipakai. Tinggi Desktop - 11 menjadi 9290 px.
 
 ## Bagian yang tidak disentuh
 
