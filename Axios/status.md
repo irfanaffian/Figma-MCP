@@ -42,6 +42,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 29 Oktober 2026 (feedback Sid): Announcement bar dengan countdown dipasang di atas header (48 px, semua konten turun 48 px).
 - 29 Oktober 2026 (feedback Sid): 3 section baru — Collections / Shop by category (`300:2045`, setelah Shop, mengikuti referensi carousel kategori), Shoppable videos (`301:2022`, setelah Three simple steps), Before & after (`301:2096`, setelah banner foto). Jarak antar section 120 px; Desktop - 11 kini 12422 px.
 - 29 Oktober 2026 (feedback Sid): Deretan 3 foto di atas brand intro diganti Stories (`301:2132`): 6 lingkaran 96 px dengan cincin 2 px dan label 12 px.
+- 29 Oktober 2026: Layout Shoppable videos dieksplorasi ulang agar tidak monoton: heading split, video unggulan + 3 video 9:16 berundak, info produk jadi kartu mengambang di dalam video, gradien bawah untuk keterbacaan.
 
 ## Bagian yang tidak disentuh
 

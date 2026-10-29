@@ -53,7 +53,7 @@ Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa
 8. Collections — Shop by category: judul rata kiri + prev/next, 5 kartu kategori 320×400 (kartu kelima terpotong sebagai petunjuk carousel).
 9. Cloud Comfort — slider (foto + catatan langkah, titik indikator, prev/next), lalu "Moments of care" 4 kolom.
 10. Three simple steps — kartu produk ritual.
-11. Shoppable videos — "Rituals in motion.": 4 poster video 480 px (durasi, tombol play) + baris produk (thumbnail, nama, harga, tombol tambah).
+11. Shoppable videos — "Rituals in motion.": judul kiri, intro + prev/next kanan; 1 video unggulan besar (600 px) + 3 video 9:16 (268×476) rata bawah; kartu produk putih mengambang di dalam video (unggulan dengan tombol "Add to bag").
 12. Ribbon review kedua.
 13. Section "Skincare should feel like a pause" dengan foto asimetris.
 14. Banner foto dengan bingkai garis dan countdown.
