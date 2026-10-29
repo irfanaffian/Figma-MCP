@@ -42,16 +42,21 @@ Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa
 
 ## Struktur halaman (Desktop - 11)
 
-1. Header: logo, menu Shop / Rituals / Our story / Journal, currency switcher (USD $), ikon akun, keranjang, cari, tombol.
+0. Announcement bar 48 px gelap dengan countdown (Days/Hrs/Min/Sec) dan link "Shop the set".
+1. Header: logo, menu Shop / Rituals / Our story / Journal, currency switcher (USD $, pill glass), ikon akun, keranjang, cari, tombol.
 2. Hero: foto penuh, bingkai garis dengan grid marker, label kiri dan kanan, intro, avatar, headline uppercase, tombol.
 3. Ribbon review pertama.
-4. Brand introduction dengan foto inline.
-5. Ribbon "Daily care, simplified".
-6. Shop — Your daily essentials: kategori dan 4 kartu produk (dinaikkan atas feedback Sid agar product grid lebih diprioritaskan).
-7. Cloud Comfort — The everyday essential: slider (foto + catatan langkah, dengan titik indikator dan prev/next), lalu "Moments of care" 4 kolom.
-8. Three simple steps — kartu produk ritual (Cleanse, Hydrate, Restore).
-9. Ribbon review kedua.
-10. Section "Skincare should feel like a pause" dengan foto asimetris.
-11. Banner foto dengan bingkai garis dan countdown di kolom kanan, di atas tombol.
-12. Community — Small rituals, real stories.
-13. Closing CTA (layout split dengan garis: 3 foto ritual + label di kiri, headline dua warna dengan foto pill inline di kanan, paragraf dan tombol di bawah) dan footer.
+4. Stories: 6 lingkaran story (Cleanse, Hydrate, Comfort bercincin terakota = baru; Routines, Textures, Community bercincin abu = sudah dilihat).
+5. Brand introduction dengan foto inline.
+6. Ribbon "Daily care, simplified" dengan thumbnail foto.
+7. Shop — Your daily essentials: kategori dan 4 kartu produk.
+8. Collections — Shop by category: judul rata kiri + prev/next, 5 kartu kategori 320×400 (kartu kelima terpotong sebagai petunjuk carousel).
+9. Cloud Comfort — slider (foto + catatan langkah, titik indikator, prev/next), lalu "Moments of care" 4 kolom.
+10. Three simple steps — kartu produk ritual.
+11. Shoppable videos — "Rituals in motion.": 4 poster video 480 px (durasi, tombol play) + baris produk (thumbnail, nama, harga, tombol tambah).
+12. Ribbon review kedua.
+13. Section "Skincare should feel like a pause" dengan foto asimetris.
+14. Banner foto dengan bingkai garis dan countdown.
+15. Before & after — 3 kartu 560 px dengan toggle Before/After, disclaimer "Individual results vary."
+16. Community — Small rituals, real stories.
+17. Closing CTA dan footer.

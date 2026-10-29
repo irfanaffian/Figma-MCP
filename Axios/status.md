@@ -39,6 +39,9 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 29 Oktober 2026 (feedback Sid): Posisi section kartu ritual "Three simple steps" (`287:4146`) ditukar dengan product grid Shop (`215:377`). Urutan baru: marquee → Shop (y 2108) → Cloud Comfort (y 3108) → Three simple steps (y 4460) → ribbon review kedua (y 5288). Jarak antar section tetap 120 px; posisi section lain tidak berubah.
 - 29 Oktober 2026 (feedback Sid): Section Cloud Comfort (`215:309`) dijadikan slider. Kontrol di atas foto, 32 px dari kiri, kanan, dan bawah: 3 titik indikator (Cleanse, Hydrate, Comfort; titik ketiga aktif berupa pill 24×8 px, sesuai "Step 03") dan tombol prev/next 48 px yang menyalin gaya Community. Kartu catatan kanan tidak diubah, jadi bisa dipakai untuk konten how to use / step 1, 2, 3.
 - 29 Oktober 2026 (feedback Sid): Currency switcher "USD $" + caret ditambahkan di header (`215:156`), sebelum ikon akun, dalam pill glass tinggi 40 px (putih 16%, outline putih 24%, background blur 16, padding 8/12/8/16), teks 14 px Regular putih.
+- 29 Oktober 2026 (feedback Sid): Announcement bar dengan countdown dipasang di atas header (48 px, semua konten turun 48 px).
+- 29 Oktober 2026 (feedback Sid): 3 section baru — Collections / Shop by category (`300:2045`, setelah Shop, mengikuti referensi carousel kategori), Shoppable videos (`301:2022`, setelah Three simple steps), Before & after (`301:2096`, setelah banner foto). Jarak antar section 120 px; Desktop - 11 kini 12422 px.
+- 29 Oktober 2026 (feedback Sid): Deretan 3 foto di atas brand intro diganti Stories (`301:2132`): 6 lingkaran 96 px dengan cincin 2 px dan label 12 px.
 
 ## Bagian yang tidak disentuh
 
@@ -49,6 +52,8 @@ Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pert
 - Nama layer di beberapa frame tidak lagi sama dengan teksnya, misalnya layer "Cleanse, hydrate and comfort. Three everyday essentials…". Teks di canvas yang menjadi acuan.
 - Angka "34+" dan "190+ Customer Reviews" perlu dipastikan ke pengguna punya sumber datanya.
 - Kartu produk di section Shop Desktop - 11 sudah di-detach (layer biasa). Komponen `Axios / Product card` versi lama tetap dipakai di frame lain.
+- Foto di section baru (collection, video, before/after, stories) memakai ulang foto yang sudah ada sebagai placeholder; before/after belum memakai pasangan foto sebelum/sesudah asli.
+- Copy before/after (durasi minggu, keluhan kulit) adalah contoh; perlu data nyata dari klien sebelum dipakai.
 - Harga sale ($24 dari $30), varian warna, dan ukuran di kartu produk adalah contoh template; perlu dikonfirmasi ke klien.
 
 ## Melanjutkan dari perangkat lain
