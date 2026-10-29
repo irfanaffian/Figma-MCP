@@ -37,6 +37,8 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 29 Oktober 2026: Kontras badge dinaikkan agar tidak menyatu dengan foto: badge pertama putih solid (teks #21211F, titik sage), badge kedua terakota #9A5540 (teks dan titik putih). Outline swatch warna yang tidak terpilih disembunyikan di semua kartu mengikuti kartu 1.
 - 29 Oktober 2026 (feedback Sid): Garis atas "Moments of care" (`215:328`) dibuat edge to edge (1512 px, x 0). Outline atas grid dihapus dan diganti garis 1 px warna sama (#21211F 12%). Pembagi kolom vertikal tetap. Tinggi section Cloud Comfort tetap 1232 px.
 - 29 Oktober 2026 (feedback Sid): Posisi section kartu ritual "Three simple steps" (`287:4146`) ditukar dengan product grid Shop (`215:377`). Urutan baru: marquee → Shop (y 2108) → Cloud Comfort (y 3108) → Three simple steps (y 4460) → ribbon review kedua (y 5288). Jarak antar section tetap 120 px; posisi section lain tidak berubah.
+- 29 Oktober 2026 (feedback Sid): Section Cloud Comfort (`215:309`) dijadikan slider. Kontrol di atas foto, 32 px dari kiri, kanan, dan bawah: 3 titik indikator (Cleanse, Hydrate, Comfort; titik ketiga aktif berupa pill 24×8 px, sesuai "Step 03") dan tombol prev/next 48 px yang menyalin gaya Community. Kartu catatan kanan tidak diubah, jadi bisa dipakai untuk konten how to use / step 1, 2, 3.
+- 29 Oktober 2026 (feedback Sid): Currency switcher "USD $" + caret ditambahkan di header (`215:156`), sebelum ikon akun, gaya sama dengan menu "Shop" (14 px Regular putih).
 
 ## Bagian yang tidak disentuh
 

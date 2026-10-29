@@ -42,13 +42,13 @@ Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa
 
 ## Struktur halaman (Desktop - 11)
 
-1. Header: logo, menu Shop / Rituals / Our story / Journal, ikon akun, keranjang, cari, tombol.
+1. Header: logo, menu Shop / Rituals / Our story / Journal, currency switcher (USD $), ikon akun, keranjang, cari, tombol.
 2. Hero: foto penuh, bingkai garis dengan grid marker, label kiri dan kanan, intro, avatar, headline uppercase, tombol.
 3. Ribbon review pertama.
 4. Brand introduction dengan foto inline.
 5. Ribbon "Daily care, simplified".
 6. Shop — Your daily essentials: kategori dan 4 kartu produk (dinaikkan atas feedback Sid agar product grid lebih diprioritaskan).
-7. Cloud Comfort — The everyday essential, termasuk "Moments of care" 4 kolom.
+7. Cloud Comfort — The everyday essential: slider (foto + catatan langkah, dengan titik indikator dan prev/next), lalu "Moments of care" 4 kolom.
 8. Three simple steps — kartu produk ritual (Cleanse, Hydrate, Restore).
 9. Ribbon review kedua.
 10. Section "Skincare should feel like a pause" dengan foto asimetris.
