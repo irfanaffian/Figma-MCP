@@ -44,6 +44,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 29 Oktober 2026 (feedback Sid): Deretan 3 foto di atas brand intro diganti Stories (`301:2132`): 6 lingkaran 96 px dengan cincin 2 px dan label 12 px.
 - 29 Oktober 2026: Layout Shoppable videos dieksplorasi ulang agar tidak monoton: heading split, video unggulan + 3 video 9:16 berundak, info produk jadi kartu mengambang di dalam video, gradien bawah untuk keterbacaan.
 - 29 Oktober 2026: Shoppable videos — konsep "video aktif di kiri": pengguna menyisakan 2 video kecil di kanan (grup `299:4147`), lalu keduanya dibuat square 268×268.
+- 29 Oktober 2026: Intro dan prev/next Shoppable videos dipindah ke kolom kanan (`305:2022`) di atas antrean; ditambah label "UP NEXT". Tinggi section 776 px.
 
 ## Bagian yang tidak disentuh
 
