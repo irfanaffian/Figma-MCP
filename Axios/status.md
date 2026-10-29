@@ -4,7 +4,7 @@ Diperbarui: 29 Oktober 2026.
 
 ## Posisi saat ini
 
-Tidak ada tugas yang tertunda. Menunggu instruksi berikutnya dari pengguna. Frame kerja aktif adalah **Desktop - 11** (`215:90`).
+Tidak ada tugas yang tertunda. Footer Version B (`274:2115`) menunggu keputusan Sid/pengguna: dipakai menggantikan footer utama atau tidak. Frame kerja aktif adalah **Desktop - 11** (`215:90`).
 
 ## Terverifikasi pada sesi ini
 
@@ -29,6 +29,10 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 29 Oktober 2026: Closing CTA (`215:460`) disusun ulang mengikuti referensi pengguna. Baris atas berbingkai garis dengan pembagi vertikal: kiri 3 foto ritual bulat 96 px + label "Cleanse | Hydrate | Comfort"; kanan eyebrow + headline 64 px dua warna ("More room for [foto pill] *you.*" abu). Foto pill 104×64 px (tekstur krim Cloud Comfort) disisipkan di tengah kalimat, mengikuti treatment brand intro. Baris bawah: paragraf dan tombol, rata dengan kolom kanan. Warna oranye dan tombol panah slider dari referensi sengaja tidak dipakai. Tinggi Desktop - 11 menjadi 9294 px.
 - 29 Oktober 2026: Rating 5 bintang (24 px, gap 8 px, bintang terisi warna teks kutipan) ditambahkan di bawah kutipan testimonial pada kartu Featured customer review (`215:428`), jarak 32 px dari kutipan.
 - 29 Oktober 2026 (feedback Sid): Marquee "Daily care, simplified" (`215:228`) — ikon daun pemisah diganti 4 thumbnail foto pill 72×44 px (radius 22). Tinggi strip tetap 92 px (jarak garis ke isi 24 px).
+- 29 Oktober 2026 (feedback Sid, footer `215:474`):
+  - Link utama kolom Shop dan Learn diperkecil dari 24 px Medium menjadi 18 px Regular, gap 12 px. Tinggi footer tetap 640 px.
+  - Teks region "United States · USD" diganti pill dropdown "USD" dengan ikon Phosphor CaretDown 16 px (stroke 1 px). Pill tinggi 32 px, garis 1 px, padding 16/12, gap 8. Wrapper "Region" lebar 220 px menjaga posisi copyright.
+  - Versi kedua footer dibuat: **Axios / Footer — Version B (big wordmark)** (`274:2115`), di canvas sebelah kanan Desktop - 11 (x 9068, y 12760). Isinya sama dengan footer utama, tanpa logo kecil. Ditambah wordmark "Axios" Inter Display Medium 619 px selebar konten (1432 px) di bagian bawah. Kolom link dibuat hug (tinggi 1099 px). Versi B belum dipasang ke Desktop - 11.
 
 ## Bagian yang tidak disentuh
 
