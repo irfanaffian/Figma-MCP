@@ -45,6 +45,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 29 Oktober 2026: Layout Shoppable videos dieksplorasi ulang agar tidak monoton: heading split, video unggulan + 3 video 9:16 berundak, info produk jadi kartu mengambang di dalam video, gradien bawah untuk keterbacaan.
 - 29 Oktober 2026: Shoppable videos — konsep "video aktif di kiri": pengguna menyisakan 2 video kecil di kanan (grup `299:4147`), lalu keduanya dibuat square 268×268.
 - 29 Oktober 2026: Intro dan prev/next Shoppable videos dipindah ke kolom kanan (`305:2022`) di atas antrean; ditambah label "UP NEXT". Tinggi section 776 px.
+- 29 Oktober 2026: Desktop - 11 kini berada di halaman HiFi (`11:2160`). Elemen baru disesuaikan dengan gaya section lama: headline letter-spacing -1%, teks pendukung 18 px Medium gelap, tombol "Add to bag" memakai pola pill Inter Display. Eyebrow diberi nomor urut ulang: 01 Axios care, 02 Shop by category, 03 Comfort ritual, 04 Watch & shop, 05 Our philosophy, 06 Before & after, 07 Community, 08 Your next little ritual.
 
 ## Bagian yang tidak disentuh
 

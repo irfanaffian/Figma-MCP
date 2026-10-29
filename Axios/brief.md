@@ -28,9 +28,11 @@ Retouch dan redesign visual landing page desktop Axios (lebar frame 1512 px), da
 | Judul ke konten | 64 px |
 | Eyebrow ke judul | 20 px |
 | Warna teks | Gelap `#21211F`, abu `#807A73` |
-| Headline | 64 px, line-height 115% (hero 80 px uppercase) |
+| Headline | 64 px Medium, line-height 115%, letter-spacing -1% (hero 80 px uppercase) |
+| Eyebrow | 12 px SemiBold, line-height 150%, letter-spacing 9%, #807A73, bernomor urut halaman (01 hero … 08 CTA) |
+| Teks pendukung heading | 18 px Medium, #21211F, letter-spacing -1% |
 | Body | 18 / 16 / 14 px, line-height 150% |
-| Tombol | Pill, jarak label ke ikon 12 px, line-height 125% |
+| Tombol | Pill, label Inter Display Medium 16 px (line-height 125%), ikon di lingkaran trailing, jarak 12 px, padding 8/8/8/20 |
 | Radius dan gap | Mengikuti patokan Desktop - 9 (radius 8 px, gap 8 px), bukan Desktop - 7 |
 | Ikon | Phosphor Icons Regular sebagai vector stroke; stroke-width = 16/256 dari ukuran ikon |
 
