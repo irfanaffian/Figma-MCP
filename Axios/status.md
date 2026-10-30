@@ -50,6 +50,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 30 Oktober 2026 (feedback Sid): Panah kecil kiri/kanan (Phosphor caret 16 px, putih) ditambahkan di ujung announcement bar (`300:2022`), 40 px dari tepi, sejajar margin halaman.
 - 30 Oktober 2026: Kotak penanda putih 8×8 px (gaya hero) ditambahkan di titik pertemuan garis footer dan pembagi ml pada 3 kartu ritual (`215:186`).
 - 30 Oktober 2026: Kartu produk di video unggulan Shoppable videos diganti footer bergaya kartu ritual (`330:2022`): menempel di bawah video, lapisan gelap transparan, garis atas putih 28%; kolom nama + deskripsi, kolom harga besar "$24 USD" (54 px), kolom tombol terang "Add to bag" (gaya tombol banner), dipisah garis vertikal putih 35%, plus 2 kotak penanda 8 px di titik pertemuan garis.
+- 30 Oktober 2026: Dua video antrean (`299:4147`) memakai footer bergaya kartu ritual versi sederhana (tinggi 72 px): nama produk SemiBold 16 | harga 24 px, dipisah garis vertikal + kotak penanda 8 px. Thumbnail, tombol tambah, dan deskripsi dihapus.
 
 ## Bagian yang tidak disentuh
 
