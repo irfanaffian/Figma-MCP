@@ -20,6 +20,6 @@ Desain editable tetap berada di Figma. Penyimpanan konteks di GitHub tidak otoma
 | Skill | Fungsi |
 | --- | --- |
 | [figma-design-audit](./.claude/skills/figma-design-audit/SKILL.md) | Audit dan rapikan konsistensi desain Figma (font, warna, tombol, ikon, overflow, jarak section) untuk proyek mana pun di repo ini |
-| [figma-comments](./.claude/skills/figma-comments/SKILL.md) | Baca semua comment file Figma (isi, pengirim, balasan, resolved) lewat Figma REST API dan cocokkan ke frame. Mendukung beberapa akun Figma: env `FIGMA_TOKEN`, `FIGMA_TOKEN_<NAMA>` (cloud) atau Keychain `figma-token`, `figma-token-<nama>` (Mac). Token tidak pernah disimpan di repo |
+| [figma-comments](./.claude/skills/figma-comments/SKILL.md) | Baca, balas, dan lacak status comment file Figma (terbuka / sudah dikerjakan ✅ / resolved) lewat Figma REST API dan cocokkan ke frame. Mendukung beberapa akun Figma: env `FIGMA_TOKEN`, `FIGMA_TOKEN_<NAMA>` (cloud) atau Keychain `figma-token`, `figma-token-<nama>` (Mac). Token tidak pernah disimpan di repo |
 
 Skill di `.claude/skills/` otomatis tersedia di setiap sesi Claude Code yang memakai repo ini.

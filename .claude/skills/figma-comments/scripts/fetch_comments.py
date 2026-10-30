@@ -2,7 +2,9 @@
 """Ambil comment sebuah file Figma lewat REST API dan tampilkan per thread.
 
 Pemakaian:
-  python3 fetch_comments.py <link-figma | file_key> [--open] [--node 1:23] [--json] [--account NAMA]
+  python3 fetch_comments.py <link-figma | file_key> [--open | --pending] [--node 1:23] [--json] [--account NAMA]
+
+Status thread: TERBUKA → SUDAH DIKERJAKAN (ada balasan berawalan ✅ atau reaksi ✅) → RESOLVED.
 
 Mendukung beberapa akun Figma. Token dicari (tidak pernah dicetak):
   - env FIGMA_TOKEN (akun "utama") dan FIGMA_TOKEN_<NAMA> (akun lain) — sesi cloud
@@ -147,6 +149,22 @@ def location(meta):
     return None, None
 
 
+DONE_MARK = "✅"
+DONE_EMOJI = {":white_check_mark:", ":heavy_check_mark:", "✅", "✔️"}
+
+
+def status_of(c, replies):
+    """resolved > dikerjakan (balasan berawalan ✅ atau reaksi ✅) > terbuka."""
+    if c.get("resolved_at"):
+        return "resolved", None
+    for r in replies:
+        if r["message"].strip().startswith(DONE_MARK):
+            return "dikerjakan", r["message"].strip()
+    if any(x.get("emoji") in DONE_EMOJI for x in (c.get("reactions") or [])):
+        return "dikerjakan", "(reaksi ✅)"
+    return "terbuka", None
+
+
 def build_threads(comments):
     roots, replies = [], {}
     for c in comments:
@@ -157,35 +175,41 @@ def build_threads(comments):
     threads = []
     for c in sorted(roots, key=lambda c: c["created_at"]):
         node_id, where = location(c.get("client_meta"))
+        rs = sorted(replies.get(c["id"], []), key=lambda r: r["created_at"])
+        status, done_note = status_of(c, rs)
         threads.append({
             "id": c["id"],
             "order": c.get("order_id"),
             "author": c["user"]["handle"],
             "created_at": c["created_at"],
             "resolved_at": c.get("resolved_at"),
+            "status": status,
+            "done_note": done_note,
             "node_id": node_id,
             "where": where,
             "message": c["message"],
             "reactions": len(c.get("reactions") or []),
             "replies": [
                 {"author": r["user"]["handle"], "created_at": r["created_at"], "message": r["message"]}
-                for r in sorted(replies.get(c["id"], []), key=lambda r: r["created_at"])
+                for r in rs
             ],
         })
     return threads
 
 
-def print_markdown(key, account, link_node, threads, total_open, total_resolved):
+def print_markdown(key, account, link_node, threads, counts):
     print(f"# Comment Figma — file {key}" + (f" (link menunjuk node {link_node})" if link_node else ""))
     print(f"Akun: {account}")
-    print(f"{len(threads)} thread ditampilkan · {total_open} terbuka · {total_resolved} resolved (total file)\n")
+    print(f"{len(threads)} thread ditampilkan · total file: {counts['terbuka']} terbuka · "
+          f"{counts['dikerjakan']} sudah dikerjakan (belum resolved) · {counts['resolved']} resolved\n")
     by_node = {}
     for t in threads:
         by_node.setdefault(t["node_id"] or "(tanpa frame — titik di kanvas)", []).append(t)
     for node, items in by_node.items():
         print(f"## Node {node}")
         for t in items:
-            status = f"RESOLVED {t['resolved_at'][:10]}" if t["resolved_at"] else "TERBUKA"
+            status = {"resolved": f"RESOLVED {(t['resolved_at'] or '')[:10]}",
+                      "dikerjakan": "SUDAH DIKERJAKAN", "terbuka": "TERBUKA"}[t["status"]]
             num = f"#{t['order']} " if t["order"] else ""
             print(f"\n### {num}[{status}] {t['author']} · {t['created_at'][:16].replace('T', ' ')}")
             if t["where"]:
@@ -200,6 +224,8 @@ def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("target", help="link Figma atau file key")
     p.add_argument("--open", action="store_true", help="hanya thread yang belum resolved")
+    p.add_argument("--pending", action="store_true",
+                   help="hanya yang belum dikerjakan (bukan resolved, belum ada balasan/reaksi ✅)")
     p.add_argument("--node", help="hanya comment yang ditempel langsung ke node ini (mis. 1:23)")
     p.add_argument("--account", help="pakai token akun ini saja (mis. utama, app)")
     p.add_argument("--json", action="store_true", help="keluarkan JSON ringkas (untuk diolah lanjut)")
@@ -208,22 +234,23 @@ def main():
     key, link_node = parse_target(a.target)
     account, data = fetch_any(key, get_tokens(a.account))
     threads = build_threads(data.get("comments", []))
-    total_open = sum(1 for t in threads if not t["resolved_at"])
-    total_resolved = len(threads) - total_open
+    counts = {k: sum(1 for t in threads if t["status"] == k) for k in ("terbuka", "dikerjakan", "resolved")}
 
     node = a.node
     if a.open:
-        threads = [t for t in threads if not t["resolved_at"]]
+        threads = [t for t in threads if t["status"] != "resolved"]
+    if a.pending:
+        threads = [t for t in threads if t["status"] == "terbuka"]
     if node:
         # Hanya cocok langsung. Comment di dalam child frame perlu dicocokkan lewat Figma MCP (get_metadata).
         threads = [t for t in threads if t["node_id"] == node]
 
     if a.json:
-        json.dump({"file_key": key, "account": account, "link_node_id": link_node, "node_filter": node, "open": total_open,
-                   "resolved": total_resolved, "threads": threads}, sys.stdout, ensure_ascii=False, indent=2)
+        json.dump({"file_key": key, "account": account, "link_node_id": link_node, "node_filter": node, "counts": counts,
+                   "threads": threads}, sys.stdout, ensure_ascii=False, indent=2)
         print()
     else:
-        print_markdown(key, account, link_node, threads, total_open, total_resolved)
+        print_markdown(key, account, link_node, threads, counts)
 
 
 if __name__ == "__main__":
