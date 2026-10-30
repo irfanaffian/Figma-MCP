@@ -38,10 +38,11 @@ Dihapus dari homepage: W05 (state pudar), W06/W07 kartu melayang, W08 globe laya
 ## Belum bisa dikerjakan (butuh klien/tim lain)
 
 - **Still/poster film terbaru** (W01, W02): sementara memakai gambar kubus dari file sebagai placeholder (layer bernama "film poster (placeholder …)").
-- **IMG_5012** karakter baru (W03): layer gambar diberi nama "GANTI ke IMG_5012".
+- **IMG_5012** karakter baru (W03): file sudah dikirim pengguna (ponytail, visor, headset, jaket silver), tetapi belum ada di Figma dan upload lewat MCP diblokir jaringan sandbox (`mcp.figma.com`). Tempel manual ke layer "Karakter – GANTI ke IMG_5012" (`325:8578`) di frame 01c.
 - **Video 30 detik**: ganti karakter dan perjelas forecast (C03, C07) — editor video.
 - **Atribusi dataset 23.000 proyek** (W24): teks sementara "[provider], [dataset edition]".
 - **Status sertifikasi** (W20): GDPR ditaruh di "Completed" karena sumbernya menulis "Compliant"; perlu konfirmasi klien.
 - **Halaman detail** W27 (Automotive) dan W28 (Financial services) — belum dibuat, di luar homepage.
-- **Mobile 390/768 px** dan state hover/focus (C08) — belum dibuat.
-- Kolom H20 terpotong di sheet; tanyakan lanjutan kalimatnya ke klien.
+- **Mobile 390/768 px** dan state hover/focus (C08) — ditunda; fokus desktop dulu (keputusan pengguna 30 Okt).
+- Sel H20 (kolom H "HH key art-direction feedback", baris W13 Step 1) terpotong: "Today, the cubes in the video were absolutely brilliant, it is important that we …". Tanyakan lanjutannya ke klien.
+- Status Trust disamakan dengan kartu sertifikasi asli: TISAX 6.0.3 dan ISO 27001:2022 Stage 1 = on-site assessment passed, menunggu evaluasi lembaga sertifikasi.
