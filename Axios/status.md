@@ -60,6 +60,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
   - Stroke ikon 18 px dikoreksi ke 1.125 (rumus 16/256).
   - Section disusun ulang agar menempel tanpa tumpukan/celah (sebelumnya Cloud Comfort bertumpuk 8 px, philosophy→banner bercelah 7 px); Stories 256 px. Tinggi Desktop - 11 kini 12364 px.
   - Overflow teks diperbaiki (nama produk Cloud Comfort, deskripsi Moments of care); kolom Moments of care dibuat rata atas agar judul sejajar.
+- 30 Oktober 2026: Nama produk di footer 2 video antrean dikembalikan ke SemiBold 16 (audit sempat mengubahnya ke Medium).
 
 ## Bagian yang tidak disentuh
 

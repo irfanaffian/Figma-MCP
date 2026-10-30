@@ -48,6 +48,7 @@ Hanya 2 keluarga font: **Plus Jakarta Sans** (semua teks) dan **Inter Display** 
 | Judul di atas foto | 32 Medium/SemiBold, 125%, -1% |
 | Judul kecil kartu | 24 Medium, 125% |
 | Nama produk / judul item | 20 Medium, 130%, -1% |
+| Nama produk di footer video antrean | 16 SemiBold, 125% (dikembalikan atas permintaan pengguna) |
 | Teks pendukung & label 18 | 18 Medium, 150%, -1% |
 | Body 18 / 16 / 14 / 12 | Regular, 150%, 0% |
 | Ribbon | 18 SemiBold, 28 px, -2%, uppercase |
