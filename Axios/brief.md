@@ -40,6 +40,8 @@ Retouch dan redesign visual landing page desktop Axios (lebar frame 1512 px), da
 
 Garis tipis dengan penanda kotak hanya dipakai di **hero** dan **banner foto**. Penanda berupa **satu kotak putih 8×8 px** tepat di titik pertemuan garis (feedback Sid, 29 Oktober 2026; sebelumnya dua kotak 6 px).
 
+Kotak penanda yang sama juga dipakai di **kartu ritual Three simple steps** (titik pertemuan garis atas footer dan pembagi vertikal ml), atas permintaan pengguna 30 Oktober 2026.
+
 Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa grid marker (garis atas, bawah, dan pembagi vertikal), mengikuti referensi yang dilampirkan pengguna. Jangan diterapkan ke section lain tanpa instruksi.
 
 ## Struktur halaman (Desktop - 11)
