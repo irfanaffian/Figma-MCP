@@ -65,6 +65,9 @@ def get_tokens(account=None):
         if not tokens:
             sys.exit(f"ERROR: token untuk akun '{account}' tidak ditemukan "
                      f"(Keychain service '{PREFIX}-{account.lower()}' atau env FIGMA_TOKEN_{account.upper()}).")
+    if not tokens and not account and sys.platform != "darwin":
+        # Cloud dengan "Network secrets": proxy menyisipkan header X-Figma-Token sendiri.
+        return [("cloud-secret", None)]
     if not tokens:
         sys.exit(
             "ERROR: token Figma tidak ditemukan.\n"
@@ -101,12 +104,13 @@ class FetchError(Exception):
 
 
 def fetch(key, token):
-    req = urllib.request.Request(API.format(key=key), headers={"X-Figma-Token": token})
+    req = urllib.request.Request(API.format(key=key), headers={"X-Figma-Token": token} if token else {})
     try:
         with urllib.request.urlopen(req, timeout=30) as r:
             return json.load(r)
     except urllib.error.HTTPError as e:
         hints = {
+            401: "token tidak valid / sudah dihapus — buat token baru (atau isi Network secrets di cloud)",
             403: "token salah/kedaluwarsa, tidak punya izin 'File comments: Read', atau akun tidak punya akses ke file ini",
             404: "file tidak ditemukan atau akun tidak punya akses — cek link/file key",
             429: "kena rate limit — tunggu sebentar lalu ulangi",

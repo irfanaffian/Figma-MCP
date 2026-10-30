@@ -25,7 +25,7 @@ BASE = "https://api.figma.com/v1/files/{key}/comments"
 def post(url, token, body):
     req = urllib.request.Request(
         url, data=json.dumps(body).encode(), method="POST",
-        headers={"X-Figma-Token": token, "Content-Type": "application/json"},
+        headers={**({"X-Figma-Token": token} if token else {}), "Content-Type": "application/json"},
     )
     try:
         with urllib.request.urlopen(req, timeout=30) as r:

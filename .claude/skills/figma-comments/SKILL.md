@@ -13,7 +13,7 @@ Pengguna punya **lebih dari satu akun Figma** (akun di browser ≠ akun di aplik
 
 | Akun | Mac (Keychain service) | Cloud (env) |
 | --- | --- | --- |
-| `utama` | `figma-token` | `FIGMA_TOKEN` |
+| `utama` | `figma-token` | `FIGMA_TOKEN`, atau **Network secrets** (host `api.figma.com`, header `X-Figma-Token`) — token disisipkan proxy, script mengirim request tanpa token |
 | akun lain, mis. `app` | `figma-token-app` | `FIGMA_TOKEN_APP` |
 
 Tanpa `--account`, token dicoba berurutan (utama dulu) sampai ada yang punya akses; hasil menyebut akun mana yang berhasil (`Akun: …` / `"account"`). Pakai `--account app` bila pengguna menyebut akun tertentu.
