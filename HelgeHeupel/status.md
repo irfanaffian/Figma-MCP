@@ -35,6 +35,16 @@ Visual kubus di Step 1–3, Technology, dan halaman detail memakai still film "0
 
 Dihapus dari homepage: W05 (state pudar), W06/W07 kartu melayang, W08 globe layar penuh, W09 origin story, W10 dan W19 interstitial kubus, W11 detail DCIO (pindah ke halaman teknologi). Ini juga menghilangkan 3 link prototype yang macet di versi asli.
 
+## Frame state UI (tanpa prototype, 30 Okt)
+
+Diletakkan di kolom kanan section Revisi v1, sejajar frame asalnya:
+
+- **Interaction states (C08)** `357:111` — default / hover / selected / focus untuk tombol utama, kartu terang, item industri, text link, dan link di panel navy. Hover tombol `#1A36B0`, hover kartu garis `#9FB0C2` + bayangan 12%, selected garis cobalt 2 px, focus ring 2 px navy dengan jarak 3 px (putih di panel gelap).
+- **07 State – value card detail (W17)** `356:57` — panel detail kartu "Deliver critical programmes": Baseline / Action / Measure, label *Illustrative definitions, not promised gains*.
+- **09a State – form sent (W21/C09)** `356:2` — konfirmasi setelah form dikirim: langkah berikutnya tanpa janji waktu balasan, plus email langsung.
+
+Kartu Trust: lapisan gradasi cobalt di bagian bawah (`Contrast overlay (C06)`) dan teks roadmap dibuat putih penuh agar terbaca. Hapus layer overlay itu untuk kembali ke tampilan asli.
+
 ## Gaya yang dipakai
 
 - Headline: **Gelasio Bold Italic** sebagai pengganti Georgia Bold Italic. Body/UI: **Arimo** sebagai pengganti Arial. Georgia dan Arial tidak tersedia di server Figma MCP; Gelasio dan Arimo ukurannya identik. Disepakati pengguna (30 Okt) untuk dipakai dulu; ditukar ke Georgia/Arial lewat *Replace fonts* di Figma desktop bila diperlukan. Wordmark logo tetap GT Maru.
