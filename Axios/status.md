@@ -49,6 +49,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 30 Oktober 2026 (feedback Sid): Thumbnail marquee "Daily care, simplified" diperbesar dari 72×44 ke 96×56 px (radius 28). Tinggi strip 92 → 96 px (jarak garis ke isi 20 px), section di bawahnya turun 4 px.
 - 30 Oktober 2026 (feedback Sid): Panah kecil kiri/kanan (Phosphor caret 16 px, putih) ditambahkan di ujung announcement bar (`300:2022`), 40 px dari tepi, sejajar margin halaman.
 - 30 Oktober 2026: Kotak penanda putih 8×8 px (gaya hero) ditambahkan di titik pertemuan garis footer dan pembagi ml pada 3 kartu ritual (`215:186`).
+- 30 Oktober 2026: Kartu produk di video unggulan Shoppable videos diganti footer bergaya kartu ritual (`330:2022`): menempel di bawah video, lapisan gelap transparan, garis atas putih 28%; kolom nama + deskripsi, kolom harga besar "$24 USD" (54 px), kolom tombol terang "Add to bag" (gaya tombol banner), dipisah garis vertikal putih 35%, plus 2 kotak penanda 8 px di titik pertemuan garis.
 
 ## Bagian yang tidak disentuh
 

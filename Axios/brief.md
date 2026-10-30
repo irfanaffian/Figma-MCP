@@ -40,7 +40,7 @@ Retouch dan redesign visual landing page desktop Axios (lebar frame 1512 px), da
 
 Garis tipis dengan penanda kotak hanya dipakai di **hero** dan **banner foto**. Penanda berupa **satu kotak putih 8×8 px** tepat di titik pertemuan garis (feedback Sid, 29 Oktober 2026; sebelumnya dua kotak 6 px).
 
-Kotak penanda yang sama juga dipakai di **kartu ritual Three simple steps** (titik pertemuan garis atas footer dan pembagi vertikal ml), atas permintaan pengguna 30 Oktober 2026.
+Kotak penanda yang sama juga dipakai di **kartu ritual Three simple steps** (titik pertemuan garis atas footer dan pembagi vertikal ml) dan di footer video unggulan Shoppable videos, atas permintaan pengguna 30 Oktober 2026.
 
 Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa grid marker (garis atas, bawah, dan pembagi vertikal), mengikuti referensi yang dilampirkan pengguna. Jangan diterapkan ke section lain tanpa instruksi.
 
@@ -57,7 +57,7 @@ Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa
 8. Collections — Shop by category: judul rata kiri + prev/next, 5 kartu kategori 320×400 (kartu kelima terpotong sebagai petunjuk carousel).
 9. Cloud Comfort — slider (foto + catatan langkah, titik indikator, prev/next), lalu "Moments of care" 4 kolom.
 10. Three simple steps — kartu produk ritual.
-11. Shoppable videos — "Rituals in motion.": judul di atas; video aktif besar di kiri (856×600); kolom kanan: intro + prev/next di atas, label "UP NEXT" + 2 video antrean square 268×268 di bawah; kartu produk putih mengambang di dalam video (unggulan dengan tombol "Add to bag").
+11. Shoppable videos — "Rituals in motion.": judul di atas; video aktif besar di kiri (856×600); kolom kanan: intro + prev/next di atas, label "UP NEXT" + 2 video antrean square 268×268 di bawah; video unggulan memakai footer bergaya kartu ritual (nama, harga besar, tombol terang); video antrean masih memakai kartu produk putih mengambang.
 12. Ribbon review kedua.
 13. Section "Skincare should feel like a pause" dengan foto asimetris.
 14. Banner foto dengan bingkai garis dan countdown.
