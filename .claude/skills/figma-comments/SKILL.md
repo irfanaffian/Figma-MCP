@@ -31,6 +31,13 @@ Aturan:
 
 Izin token: **`file_comments:read`** untuk membaca; tambah **`file_comments:write`** untuk membalas/menandai. Token lama yang hanya read akan gagal 403 saat membalas — minta pengguna membuat token baru dengan kedua izin lalu menimpanya (`-U`).
 
+## Lampiran gambar di comment: tidak tersedia
+
+Figma REST API **tidak mengembalikan gambar yang dilampirkan di comment** (dites 30 Okt 2026: comment "ganti gambarnya dengan gambar terlampir" hanya punya kolom `client_meta, created_at, file_key, id, message, order_id, parent_id, reactions, resolved_at, user, uuid`, tanpa link gambar). Bila comment menyebut lampiran/"gambar terlampir"/"kyo iki":
+
+- Cari dulu gambar referensi **di kanvas** dekat posisi comment (screenshot area sekitar lewat Figma MCP) — sering diletakkan "di sebelah".
+- Bila tidak ada, minta pengguna menaruh gambar itu di kanvas Figma atau mengirimnya langsung ke chat. Jangan menebak isi lampiran.
+
 ## Status "sudah dikerjakan"
 
 Figma API **tidak bisa me-resolve** comment. Jadi status dilacak sendiri:
