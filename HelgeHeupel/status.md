@@ -37,7 +37,7 @@ Dihapus dari homepage: W05 (state pudar), W06/W07 kartu melayang, W08 globe laya
 
 ## Gaya yang dipakai
 
-- Headline: **Gelasio Bold Italic** sebagai pengganti Georgia Bold Italic. Body/UI: **Arimo** sebagai pengganti Arial. Georgia dan Arial tidak tersedia di server Figma MCP; Gelasio dan Arimo ukurannya identik. Di Figma desktop bisa ditukar lewat *Replace fonts*. Wordmark logo tetap GT Maru.
+- Headline: **Gelasio Bold Italic** sebagai pengganti Georgia Bold Italic. Body/UI: **Arimo** sebagai pengganti Arial. Georgia dan Arial tidak tersedia di server Figma MCP; Gelasio dan Arimo ukurannya identik. Disepakati pengguna (30 Okt) untuk dipakai dulu; ditukar ke Georgia/Arial lewat *Replace fonts* di Figma desktop bila diperlukan. Wordmark logo tetap GT Maru.
 - Warna: navy `#061F32` (teks/panel), cobalt `#2144DC` (tombol/terpilih), ice `#F2F8FC`, electric blue `#00A7F2` hanya untuk sinyal/forecast. Emas dan hijau dihapus.
 - Kartu terang: putih, garis `#D5DEE6`, radius 16, padding 24–32, bayangan navy 6%. Panel gelap: navy solid. Ikon stroke 2 px, berbeda per kartu.
 
