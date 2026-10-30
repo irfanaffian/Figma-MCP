@@ -162,7 +162,7 @@ def status_of(c, replies):
     if c.get("resolved_at"):
         return "resolved", None
     for r in replies:
-        if r["message"].strip().startswith(DONE_MARK):
+        if r["message"].strip().startswith((DONE_MARK, ":white_check_mark:", ":heavy_check_mark:")):
             return "dikerjakan", r["message"].strip()
     if any(x.get("emoji") in DONE_EMOJI for x in (c.get("reactions") or [])):
         return "dikerjakan", "(reaksi ✅)"
