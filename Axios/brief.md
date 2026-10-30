@@ -24,7 +24,7 @@ Retouch dan redesign visual landing page desktop Axios (lebar frame 1512 px), da
 | Aspek | Patokan |
 | --- | --- |
 | Grid spacing | Kelipatan 4 px; micro spacing di dalam pill boleh angka genap (6, 10) |
-| Antar section | 120 px |
+| Antar section | Section menempel; padding atas/bawah tiap section 80 px (lihat Sistem jarak section) |
 | Judul ke konten | 64 px |
 | Eyebrow ke judul | 20 px |
 | Warna teks | Gelap `#21211F`, abu `#807A73` |
@@ -35,6 +35,30 @@ Retouch dan redesign visual landing page desktop Axios (lebar frame 1512 px), da
 | Tombol | Pill, label Inter Display Medium 16 px (line-height 125%), ikon di lingkaran trailing, jarak 12 px, padding 8/8/8/20 |
 | Radius dan gap | Mengikuti patokan Desktop - 9 (radius 8 px, gap 8 px), bukan Desktop - 7 |
 | Ikon | Phosphor Icons Regular sebagai vector stroke; stroke-width = 16/256 dari ukuran ikon |
+
+## Skala tipografi (hasil audit 30 Oktober 2026)
+
+Hanya 2 keluarga font: **Plus Jakarta Sans** (semua teks) dan **Inter Display** (label tombol + wordmark). IBM Plex Mono tidak dipakai lagi.
+
+| Peran | Gaya |
+| --- | --- |
+| Headline section | 64 Medium, 115%, -1% (italic untuk aksen kata) |
+| Statement besar (brand intro, philosophy) | 48 Medium, 72 px, -4% |
+| Judul kartu besar / kutipan | 44 Medium, 125%, -2% |
+| Judul di atas foto | 32 Medium/SemiBold, 125%, -1% |
+| Judul kecil kartu | 24 Medium, 125% |
+| Nama produk / judul item | 20 Medium, 130%, -1% |
+| Teks pendukung & label 18 | 18 Medium, 150%, -1% |
+| Body 18 / 16 / 14 / 12 | Regular, 150%, 0% |
+| Ribbon | 18 SemiBold, 28 px, -2%, uppercase |
+| Eyebrow / label kecil | 12 SemiBold, 150%, 9% |
+| Label tombol | Inter Display Medium 16 (tombol 48 px) atau 18 (tombol 56 px), 125% |
+
+Warna teks hanya `#21211F` (gelap), `#807A73` (abu; 60% untuk teks pudar), dan putih (dengan opasitas di atas foto).
+
+## Sistem jarak section (versi pengguna)
+
+Section menempel satu sama lain (tanpa jarak antar frame); jarak visual berasal dari padding section **80 px atas/bawah** (Stories 64 px, ribbon 0).
 
 ## Treatment garis dan penanda
 

@@ -52,6 +52,14 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 30 Oktober 2026: Kartu produk di video unggulan Shoppable videos diganti footer bergaya kartu ritual (`330:2022`): menempel di bawah video, lapisan gelap transparan, garis atas putih 28%; kolom nama + deskripsi, kolom harga besar "$24 USD" (54 px), kolom tombol terang "Add to bag" (gaya tombol banner), dipisah garis vertikal putih 35%, plus 2 kotak penanda 8 px di titik pertemuan garis.
 - 30 Oktober 2026: Dua video antrean (`299:4147`) memakai footer bergaya kartu ritual versi sederhana (tinggi 72 px): nama produk SemiBold 16 | harga 24 px, dipisah garis vertikal + kotak penanda 8 px. Thumbnail, tombol tambah, dan deskripsi dihapus.
 - 30 Oktober 2026: Konten banner foto (`215:119`) diubah jadi pita bergaya kartu ritual (`332:2022`, 1100×184, x 206–1306, menempel di garis bawah bingkai): kolom pesan (teks 32 px), kolom countdown, dan kolom tombol, dipisah garis vertikal putih 35%. Kotak penanda 8 px ditambahkan di titik pertemuan garis atas pita (4) dan di garis bawah pada pembagi kolom (2).
+- 30 Oktober 2026 — **Audit konsistensi Desktop - 11**:
+  - Gaya teks unik turun dari 82 ke 43; IBM Plex Mono (3 teks ribbon) diganti Plus Jakarta Sans SemiBold 18; ukuran ganjil 17/15 px dihapus.
+  - Warna teks dan elemen dirapikan: gelap #262623/#282723/#000000 → #21211F; abu #7C766E/#736B60/#625D55 → #807A73; #C4C4C4 → #807A73 60%.
+  - Line-height/tracking diseragamkan per peran (lihat Skala tipografi di brief); judul 20 px semua Medium; eyebrow CTA dan judul kolom footer jadi gaya eyebrow standar; unit countdown announcement disamakan dengan banner (uppercase SemiBold 9%).
+  - Tombol: radius/jarak CTA disamakan; tombol terang di atas foto putih #FFFFFF; label tombol hover "Add to bag" jadi Inter Display 16.
+  - Stroke ikon 18 px dikoreksi ke 1.125 (rumus 16/256).
+  - Section disusun ulang agar menempel tanpa tumpukan/celah (sebelumnya Cloud Comfort bertumpuk 8 px, philosophy→banner bercelah 7 px); Stories 256 px. Tinggi Desktop - 11 kini 12364 px.
+  - Overflow teks diperbaiki (nama produk Cloud Comfort, deskripsi Moments of care); kolom Moments of care dibuat rata atas agar judul sejajar.
 
 ## Bagian yang tidak disentuh
 
@@ -64,6 +72,7 @@ Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pert
 - Kartu produk di section Shop Desktop - 11 sudah di-detach (layer biasa). Komponen `Axios / Product card` versi lama tetap dipakai di frame lain.
 - Foto di section baru (collection, video, before/after, stories) memakai ulang foto yang sudah ada sebagai placeholder; before/after belum memakai pasangan foto sebelum/sesudah asli.
 - Copy before/after (durasi minggu, keluhan kulit) adalah contoh; perlu data nyata dari klien sebelum dipakai.
+- Ada dua countdown untuk promo yang sama (announcement bar dan banner foto) — keduanya diminta Sid; pertimbangkan cukup satu.
 - Harga sale ($24 dari $30), varian warna, dan ukuran di kartu produk adalah contoh template; perlu dikonfirmasi ke klien.
 
 ## Melanjutkan dari perangkat lain
