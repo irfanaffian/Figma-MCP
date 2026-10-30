@@ -61,6 +61,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
   - Section disusun ulang agar menempel tanpa tumpukan/celah (sebelumnya Cloud Comfort bertumpuk 8 px, philosophy→banner bercelah 7 px); Stories 256 px. Tinggi Desktop - 11 kini 12364 px.
   - Overflow teks diperbaiki (nama produk Cloud Comfort, deskripsi Moments of care); kolom Moments of care dibuat rata atas agar judul sejajar.
 - 30 Oktober 2026: Nama produk di footer 2 video antrean dikembalikan ke SemiBold 16 (audit sempat mengubahnya ke Medium).
+- 30 Oktober 2026: Atas permintaan pengguna, 2 video antrean dikembalikan ke kartu produk putih mengambang (foto 40 px, nama 14 Medium, harga 12 abu, tombol + 32 px); footer gelap bergaris dan kotak penanda di video antrean dihapus. Video unggulan tetap memakai footer bergaya kartu ritual.
 
 ## Bagian yang tidak disentuh
 
