@@ -90,3 +90,7 @@ File Excel dibongkar (sheet, kolom, baris, drawing, shared strings): tidak ada k
   - W27/W28: use case berlabel *Illustrative* sesuai kolom G.
   - W11 tidak bertentangan: teaser di homepage + detail teknis di halaman dalam (Page sequence G15).
 - Di luar desain: edit video (W02, W03, W14, C07).
+
+## W24 atribusi (30 Okt)
+
+Aturan kerja: hanya memakai isi sheet, tanpa sumber luar. Counting unit diisi dari kolom E W24: "One megaproject reference point". Provider, dataset edition, dan access/attribution basis tidak ada di sheet, jadi tetap "[to be confirmed by HH]".
