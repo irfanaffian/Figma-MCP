@@ -72,7 +72,12 @@ def fetch(key, token):
             404: "file tidak ditemukan — cek link/file key",
             429: "kena rate limit — tunggu sebentar lalu ulangi",
         }
-        sys.exit(f"ERROR HTTP {e.code}: {hints.get(e.code, e.reason)}")
+        try:
+            detail = json.loads(e.read().decode()).get("err") or ""
+        except Exception:
+            detail = ""
+        detail = f"\nPesan Figma: {detail}" if detail else ""
+        sys.exit(f"ERROR HTTP {e.code}: {hints.get(e.code, e.reason)}{detail}")
     except urllib.error.URLError as e:
         sys.exit(f"ERROR jaringan: {e.reason} (di cloud: pastikan api.figma.com diizinkan di Network access)")
 
