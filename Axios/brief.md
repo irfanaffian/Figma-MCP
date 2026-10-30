@@ -40,7 +40,7 @@ Retouch dan redesign visual landing page desktop Axios (lebar frame 1512 px), da
 
 Garis tipis dengan penanda kotak hanya dipakai di **hero** dan **banner foto**. Penanda berupa **satu kotak putih 8×8 px** tepat di titik pertemuan garis (feedback Sid, 29 Oktober 2026; sebelumnya dua kotak 6 px).
 
-Kotak penanda yang sama juga dipakai di **kartu ritual Three simple steps** (titik pertemuan garis atas footer dan pembagi vertikal ml) dan di footer video unggulan Shoppable videos, atas permintaan pengguna 30 Oktober 2026.
+Kotak penanda yang sama juga dipakai di **kartu ritual Three simple steps** (titik pertemuan garis atas footer dan pembagi vertikal ml) di footer video Shoppable videos, dan di pita konten banner foto, atas permintaan pengguna 30 Oktober 2026.
 
 Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa grid marker (garis atas, bawah, dan pembagi vertikal), mengikuti referensi yang dilampirkan pengguna. Jangan diterapkan ke section lain tanpa instruksi.
 
@@ -60,7 +60,7 @@ Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa
 11. Shoppable videos — "Rituals in motion.": judul di atas; video aktif besar di kiri (856×600); kolom kanan: intro + prev/next di atas, label "UP NEXT" + 2 video antrean square 268×268 di bawah; video unggulan memakai footer bergaya kartu ritual (nama, harga besar, tombol terang); video antrean memakai footer versi sederhana (nama | harga).
 12. Ribbon review kedua.
 13. Section "Skincare should feel like a pause" dengan foto asimetris.
-14. Banner foto dengan bingkai garis dan countdown.
+14. Banner foto dengan bingkai garis; konten di pita bergaya kartu ritual (pesan | countdown | tombol) yang menempel di garis bawah.
 15. Before & after — 3 kartu 560 px dengan toggle Before/After, disclaimer "Individual results vary."
 16. Community — Small rituals, real stories.
 17. Closing CTA dan footer.
