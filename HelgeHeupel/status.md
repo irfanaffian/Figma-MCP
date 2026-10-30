@@ -94,3 +94,13 @@ File Excel dibongkar (sheet, kolom, baris, drawing, shared strings): tidak ada k
 ## W24 atribusi (30 Okt)
 
 Aturan kerja: hanya memakai isi sheet, tanpa sumber luar. Counting unit diisi dari kolom E W24: "One megaproject reference point". Provider, dataset edition, dan access/attribution basis tidak ada di sheet, jadi tetap "[to be confirmed by HH]".
+
+## Audit detail kolom per kolom (30 Okt)
+
+Cek otomatis: semua copy kolom E W01–W28 ada di Figma; semua teks memakai Gelasio Bold Italic / Arimo (wordmark GT Maru); tidak ada teks yang terpotong. Selisih kecil dari kolom F/G yang diperbaiki:
+
+- **W08 F** — globe langsung setelah metrik endpoint 15,000+ (sebelumnya setelah 99.999%).
+- **W14 G** — label "Decision" pada Option A, melengkapi alur question → dependency → comparison → decision.
+- **W26 F** — ukuran di strip: People "rework, service quality", Planet "resource use, emissions", Profit "margin, cash, benefits" (frame utama + 4 frame detail).
+- **W27 F** — kartu delivery case dipindah langsung setelah alur keputusan, sebelum use case.
+- Perapian: sisa teks Company tersembunyi di frame footer dihapus; spasi berlebih di "Evidence"/"Security" dihapus.
