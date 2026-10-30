@@ -46,7 +46,7 @@ Dihapus dari homepage: W05 (state pudar), W06/W07 kartu melayang, W08 globe laya
 - **Still/poster film terbaru** (W01, W02): **Selesai 30 Okt:** poster film memakai still IMG_5012 versi bersih (tanpa label) dari pengguna — di media bawah hero (`325:8556`), frame 01b (`325:8559`), dan frame 01c (`325:8578`). Panel "Watch the 30-second film" dipindah ke kiri bawah agar tidak menutupi wajah. Pojok kanan atas hero memakai still "04 Connect the dots".
 - ~~IMG_5012~~ **Selesai 30 Okt:** karakter ponytail dipasang di layer "Karakter – IMG_5012 (ponytail, visor, headset)" (`325:8578`), frame 01c. Kemudian diganti versi bersih tanpa label.
 - **Video 30 detik**: ganti karakter dan perjelas forecast (C03, C07) — editor video.
-- **Atribusi dataset 23.000 proyek** (W24): teks sementara "[provider], [dataset edition]".
+- **Evidence base (W24)** — dikerjakan sesuai sheet (30 Okt): copy E31 persis; angka 23,000 dan 5,000 (subset) berdampingan; grafik bar subset + kalimat "5,000 adalah bagian, bukan tambahan"; penjelasan singkat comparable-project evidence; tanpa data performa dan tanpa klaim "world's largest". **Menunggu klien:** 4 kolom atribusi (Provider, Dataset edition, Counting unit, Access and attribution basis) masih "[to be confirmed by HH]" — sheet tidak menyebutkan nilainya.
 - **Status sertifikasi** (W20): GDPR ditaruh di "Completed" karena sumbernya menulis "Compliant"; perlu konfirmasi klien.
 - **W11 vs Page sequence**: sheet bertentangan; section Technology dikembalikan sebagai section pendek. Bisa dihapus bila klien ingin detail teknologi hanya di halaman dalam.
 - **Halaman detail W27/W28**: versi desktop sudah dibuat; contoh use case berlabel *Illustrative* dan perlu dicek klien.
