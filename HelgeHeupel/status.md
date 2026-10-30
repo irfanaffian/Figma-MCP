@@ -78,3 +78,15 @@ Kartu Trust: lapisan gradasi cobalt di bagian bawah (`Contrast overlay (C06)`) d
 Konflik di dalam sheet yang dibiarkan sesuai kolom E: tombol industri "Explore your industry" (Page sequence menulis "Discuss your industry challenge"); W11 tetap section pendek di homepage.
 
 Fokus kerja: **desktop saja**. Mobile responsive dan prototype tidak dikerjakan sampai ada instruksi baru.
+
+## Hasil baca ulang sheet (30 Okt) — yang benar-benar masih kurang
+
+File Excel dibongkar (sheet, kolom, baris, drawing, shared strings): tidak ada konten tersembunyi.
+
+- **Satu-satunya data yang tidak ada di sheet:** isi atribusi dataset W24 (provider, dataset edition, counting unit, access/attribution basis). Mungkin ada di brief awal klien ("the user brief" di D31).
+- **Bukan pertanyaan untuk klien (sudah dijawab sheet):**
+  - H20 terpotong di file asli, tetapi F20 sudah menyatakan kubus film dipertahankan sebagai objek bisnis — sudah dikerjakan.
+  - W22/W23: kolom G = "checked by owner", tanggung jawab klien saat review.
+  - W27/W28: use case berlabel *Illustrative* sesuai kolom G.
+  - W11 tidak bertentangan: teaser di homepage + detail teknis di halaman dalam (Page sequence G15).
+- Di luar desain: edit video (W02, W03, W14, C07).
