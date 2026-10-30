@@ -4,7 +4,7 @@ Diperbarui: 30 Oktober 2026.
 
 ## Posisi saat ini
 
-Homepage locked oleh Sid. Menunggu keputusan Sid atas Variant B section kartu ritual (`374:2022`). Frame kerja aktif adalah **Desktop - 11** (`215:90`) di halaman **HiFi** (`11:2160`), tinggi 12341 px. Semua teks Plus Jakarta Sans; audit konsistensi terakhir 30 Oktober 2026.
+Homepage locked oleh Sid. Menunggu keputusan Sid atas Variant B/C/D section kartu ritual (`374:2022`, `375:2022`, `375:2110`). Frame kerja aktif adalah **Desktop - 11** (`215:90`) di halaman **HiFi** (`11:2160`), tinggi 12341 px. Semua teks Plus Jakarta Sans; audit konsistensi terakhir 30 Oktober 2026.
 
 ## Terverifikasi pada sesi ini
 
@@ -65,6 +65,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 30 Oktober 2026 — **Audit kedua**: 41 gaya teks, 2 font, 3 warna teks (#21211F, #807A73, putih); 0 overflow, 0 ikon salah stroke, section menempel tanpa celah. Dirapikan: #111111 (bintang/asterisk ribbon) dan #000000 12% (outline tombol panah) → #21211F; tracking teks marquee → -2%. Dibiarkan: tint #241A12 13% di kartu ritual, shape mask #D9D9D9, tombol #F4F4F4 "Meet Axios" (di atas latar putih). Metode audit disimpan sebagai skill repo `.claude/skills/figma-design-audit`.
 - 30 Oktober 2026: Semua teks kini hanya Plus Jakarta Sans. 11 teks Inter Display (10 label tombol, logo header, wordmark footer) diganti dengan ketebalan sama. Wordmark footer diperkecil 619 → 590 px agar tetap satu baris (Plus Jakarta lebih lebar). Tidak ada overflow.
 - 31 Oktober 2026 (Sid): Homepage dinyatakan **locked**. Sid suka section kartu ritual tetapi khawatir terlihat menyalin referensi Seoul clinic (3 kartu foto sama besar, judul kiri atas, pita bawah dengan pembagi vertikal, angka besar + satuan kecil di kanan). Dibuat **Variant B** di samping frame Homepage (`374:2022`, x 9068, sejajar section asli) tanpa mengubah Homepage: pill glass "STEP 0X · CLEANSE/HYDRATE/COMFORT" di kiri atas; pita bawah + angka besar dihapus, diganti judul 32 px, garis tipis dengan kotak penanda 8 px, baris produk (nama + volume kecil) dan tombol panah putih; gradasi bawah untuk keterbacaan. Menunggu pilihan Sid.
+- 31 Oktober 2026: Eksplorasi tambahan kartu ritual di samping Variant B (Homepage tetap tidak diubah): **Variant C** (`375:2022`, x 10780) — foto bersih tanpa teks, garis ritual dengan kotak penanda + label "01 — CLEANSE" di atas tiap foto, judul 24 px + produk · volume dan tombol panah di bawah foto. **Variant D** (`375:2110`, x 12492) — kartu berundak 560/496/432 px rata bawah, pill STEP di atas, kartu produk putih mengambang di bawah.
 
 ## Bagian yang tidak disentuh
 
