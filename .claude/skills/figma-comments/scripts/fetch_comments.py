@@ -72,10 +72,13 @@ def fetch(key, token):
             404: "file tidak ditemukan — cek link/file key",
             429: "kena rate limit — tunggu sebentar lalu ulangi",
         }
+        raw = e.read().decode(errors="replace")
         try:
-            detail = json.loads(e.read().decode()).get("err") or ""
+            body = json.loads(raw)
+            detail = body.get("err") or body.get("message") or raw
         except Exception:
-            detail = ""
+            detail = raw
+        detail = str(detail).strip()[:300]
         detail = f"\nPesan Figma: {detail}" if detail else ""
         sys.exit(f"ERROR HTTP {e.code}: {hints.get(e.code, e.reason)}{detail}")
     except urllib.error.URLError as e:
