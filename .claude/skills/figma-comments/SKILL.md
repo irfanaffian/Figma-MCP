@@ -9,10 +9,20 @@ Figma MCP tidak punya tool untuk comment, jadi comment diambil lewat REST API (`
 
 ## Token (jangan pernah ditampilkan)
 
-Script mencari token sendiri, berurutan:
+Pengguna punya **lebih dari satu akun Figma** (akun di browser ≠ akun di aplikasi Figma). Satu token = satu akun, dan hanya bisa membaca file yang bisa dibuka akun itu. Script mencari semua token:
 
-1. env `FIGMA_TOKEN` — sesi cloud claude.ai/code (diisi pengguna di pengaturan environment).
-2. Keychain macOS service `figma-token` — Mac mini / MacBook.
+| Akun | Mac (Keychain service) | Cloud (env) |
+| --- | --- | --- |
+| `utama` | `figma-token` | `FIGMA_TOKEN` |
+| akun lain, mis. `app` | `figma-token-app` | `FIGMA_TOKEN_APP` |
+
+Tanpa `--account`, token dicoba berurutan (utama dulu) sampai ada yang punya akses; hasil menyebut akun mana yang berhasil (`Akun: …` / `"account"`). Pakai `--account app` bila pengguna menyebut akun tertentu.
+
+Menambah akun baru di Mac (token diketik saat diminta, tidak tampil):
+```bash
+security add-generic-password -a "$USER" -s figma-token-<nama> -w
+```
+Menimpa token yang kedaluwarsa: tambahkan `-U`.
 
 Aturan:
 - **Jangan** `echo`, `cat`, `printenv`, atau mencetak token dalam bentuk apa pun; jangan menaruhnya di argumen command, file, commit, atau chat.
@@ -54,6 +64,7 @@ Izin token yang cukup: **File comments: Read** (opsional *File content: Read* ti
 | `token Figma tidak ditemukan` | Cloud: isi `FIGMA_TOKEN` di pengaturan environment. Mac: `security add-generic-password -a "$USER" -s figma-token -w` (token diketik, tidak tampil) |
 | `HTTP 403` | Token salah/kedaluwarsa, izin *File comments: Read* belum dicentang, atau akun pemilik token tidak punya akses ke file |
 | `Invalid scope: ["current_user:read"]` | Token dibuat dengan centang yang salah. Buat ulang dengan `file_comments:read` (bagian **Files**), lalu timpa: `security add-generic-password -U -a "$USER" -s figma-token -w` |
+| `tidak ada akun yang bisa membaca comment file ini` | File hanya bisa dibuka akun Figma lain — tambahkan token akun itu (`figma-token-<nama>`) |
 | `HTTP 404` | File key salah — cek link |
 | `HTTP 429` | Rate limit — tunggu sebentar |
 | `ERROR jaringan` / `CONNECT tunnel failed 403` (cloud) | Network access environment memblokir `api.figma.com` — pengguna perlu menambahkannya di Allowed domains |
