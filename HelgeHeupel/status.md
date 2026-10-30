@@ -24,7 +24,7 @@ Prototype: flow **"Revisi v1"**, mulai dari `325:8509`. 16 frame, klik untuk lan
 | 05 | Delivery approach `332:2` | W25 |
 | 06 | Industries `325:4521` — klik Automotive / Banking and payments → halaman detail | W18 |
 | 07 | Outcomes + People/Planet/Profit `332:67` | W16, W17, W26 |
-| 08a | Trust `332:157` | W20 |
+| 08a | Trust `332:157` — kartu sertifikasi asli (desain pengguna) dengan copy baru | W20 |
 | 08b | Company `325:983` — + contoh delivery | W22 |
 | 09a | Closing + form `333:2` | W21, C09 |
 | 09b | Footer `325:4940` | W23 |
@@ -47,7 +47,7 @@ Dihapus dari homepage: W05 (state pudar), W06/W07 kartu melayang, W08 globe laya
 - ~~IMG_5012~~ **Selesai 30 Okt:** karakter ponytail dipasang di layer "Karakter – IMG_5012 (ponytail, visor, headset)" (`325:8578`), frame 01c. Kemudian diganti versi bersih tanpa label.
 - **Video 30 detik**: ganti karakter dan perjelas forecast (C03, C07) — editor video.
 - **Evidence base (W24)** — dikerjakan sesuai sheet (30 Okt): copy E31 persis; angka 23,000 dan 5,000 (subset) berdampingan; grafik bar subset + kalimat "5,000 adalah bagian, bukan tambahan"; penjelasan singkat comparable-project evidence; tanpa data performa dan tanpa klaim "world's largest". **Menunggu klien:** 4 kolom atribusi (Provider, Dataset edition, Counting unit, Access and attribution basis) masih "[to be confirmed by HH]" — sheet tidak menyebutkan nilainya.
-- **Status sertifikasi** (W20): GDPR ditaruh di "Completed" karena sumbernya menulis "Compliant"; perlu konfirmasi klien.
+- **Trust (W20)** — 30 Okt: sheet hanya mengubah copy, jadi layout kembali ke kartu sertifikasi asli (`355:2`, clone dari `321:14285`). Copy baru: headline, body, link "View trust and security", label status. TISAX 6.0.3 dan ISO 27001:2022 Stage 1 = *In progress*; GDPR = *Completed* (teks asli "Compliant; a regulation in force…" dipertahankan sebagai bukti); "Next on the roadmap" → *Planned*. Catatan: teks roadmap putih pudar di atas gradasi biru muda kontrasnya rendah (C06).
 - **W11 vs Page sequence**: sheet bertentangan; section Technology dikembalikan sebagai section pendek. Bisa dihapus bila klien ingin detail teknologi hanya di halaman dalam.
 - **Halaman detail W27/W28**: versi desktop sudah dibuat; contoh use case berlabel *Illustrative* dan perlu dicek klien.
 - **Mobile 390/768 px** dan state hover/focus (C08) — ditunda; fokus desktop dulu (keputusan pengguna 30 Okt).
