@@ -40,6 +40,10 @@ Laporkan temuan ke pengguna dalam bahasa sederhana (angka sebelum → sesudah), 
 - **Setelah mengubah teks**, cek ulang overflow — line-height lebih besar bisa membuat teks meluap dari frame fixed. Perbaiki dengan `textAutoResize='HEIGHT'` + `FILL`, atau ubah frame jadi hug.
 - **Kolom sejajar**: bila judul di grid kolom tidak sejajar karena isi rata bawah, ubah ke rata atas dengan jarak tetap.
 - **Section menempel**: susun ulang `y` setiap section = akhir section sebelumnya; ubah tinggi frame halaman.
+- **Wordmark / teks display lebar tetap**: setelah ganti font, ukur lebar alami lewat *clone sementara di luar auto-layout* (`textAutoResize='WIDTH_AND_HEIGHT'`), lalu skala `fontSize = size × lebarTarget / lebarAlami`. Mengukur langsung di dalam frame FILL tidak berhasil.
+- **Paint tersembunyi**: bandingkan juga `visible` pada setiap fill/stroke. Outline yang disembunyikan pengguna (`visible:false`) adalah patokan — jangan dihidupkan lagi, dan samakan elemen saudaranya.
+- **Edit manual pengguna = patokan**: bila satu elemen sudah diubah pengguna dan diminta "terapkan ke yang lain", salin *semua* properti (ukuran, posisi anak, visibilitas paint), bukan hanya warna/ukuran.
+- **Bila pengguna minta "kembalikan"**: pastikan dulu bagian mana (gaya teks atau seluruh treatment). Kembalikan hanya yang diminta, lalu catat pengecualian itu di brief agar audit berikutnya tidak menyeragamkannya lagi.
 - Kembalikan semua node ID yang diubah; ambil satu screenshot per area yang berubah besar.
 
 ## Setelah selesai
@@ -50,4 +54,6 @@ Laporkan temuan ke pengguna dalam bahasa sederhana (angka sebelum → sesudah), 
 
 ## Hasil nyata (Axios, 30 Oktober 2026)
 
-Audit pertama: 82 → 43 gaya teks, 3 → 2 keluarga font, 9 varian warna → 3 token, 2 overflow, 2 sambungan section meleset. Audit kedua: 41 gaya, 30 warna non-teks dirapikan (`#111111`, `#000000` 12%), tracking marquee diseragamkan.
+- Audit pertama: 82 → 43 gaya teks, 3 → 2 keluarga font, 9 varian warna → 3 token, 2 overflow, 2 sambungan section meleset.
+- Audit kedua: 41 gaya, 30 warna non-teks dirapikan (`#111111`, `#000000` 12%), tracking marquee diseragamkan.
+- Pengguna lalu meminta **1 font saja**: 11 teks Inter Display (label tombol, logo, wordmark) → Plus Jakarta Sans; wordmark footer 619 → 590 px agar tetap satu baris.

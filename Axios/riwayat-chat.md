@@ -40,3 +40,13 @@ Sesi: https://claude.ai/code/session_01Ntd6UWVbcF3ZgsUue2tEUn
 
 - Folder `Axios/` dibuat di repository Figma-MCP dengan format yang sama seperti True Health.
 - Struktur Desktop - 11 diverifikasi lewat MCP Figma sebelum status ditulis.
+
+## 6. Feedback Sid dan audit (29–30 Oktober 2026)
+
+- Feedback Sid dikerjakan satu per satu di Desktop - 11: kartu produk dirombak (tanpa garis putus-putus/wishlist, harga lebih tenang + sale, Add saat hover, swatch warna/ukuran, dua badge kontras), marquee bergambar, satu kotak penanda di titik pertemuan garis, countdown, announcement bar + panah, currency switcher, slider di Cloud Comfort, garis Moments of care edge to edge, product grid dinaikkan, Stories, dan 3 section baru (Collections, Shoppable videos, Before & after).
+- Pengguna memindahkan Desktop - 11 ke halaman HiFi dan mengganti sistem jarak menjadi section menempel dengan padding 80 px.
+- Treatment pita/footer bergaya kartu ritual (garis, pembagi, kotak penanda) diterapkan ke kartu ritual, video unggulan, dan banner foto. Video antrean dikembalikan ke kartu putih mengambang atas permintaan pengguna.
+- Dua kali audit konsistensi; akhirnya semua teks memakai satu font (Plus Jakarta Sans), 3 warna teks, tombol dua ukuran, tanpa overflow.
+- Metode audit disimpan sebagai skill repo `.claude/skills/figma-design-audit`.
+- Izin: aturan allow untuk Figma MCP dan git disimpan di `.claude/settings.json`; mode Auto dipakai di sesi.
+

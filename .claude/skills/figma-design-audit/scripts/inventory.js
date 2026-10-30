@@ -1,10 +1,11 @@
 // Read-only inventory for figma-design-audit. Run with use_figma.
 // Replace PAGE_ID (the page that holds the frame) and FRAME_ID (the page frame to audit).
-// Optional: adjust ALLOWED_TEXT_COLORS to the project's tokens (hex without #).
+// Optional: adjust ALLOWED_TEXT_COLORS / ALLOWED_FAMILIES / ALLOWED_LH to the project brief (80% = display wordmark).
 const PAGE_ID = "11:2160";
 const FRAME_ID = "215:90";
 const ALLOWED_TEXT_COLORS = new Set(["21211f", "807a73", "ffffff"]);
-const ALLOWED_LH = [100, 110, 115, 120, 125, 130, 145, 150];
+const ALLOWED_FAMILIES = new Set(["Plus Jakarta Sans"]); // project font(s); anything else is flagged
+const ALLOWED_LH = [80, 100, 110, 115, 120, 125, 130, 145, 150];
 
 const pg = await figma.getNodeByIdAsync(PAGE_ID);
 await figma.setCurrentPageAsync(pg);
@@ -19,6 +20,7 @@ const styles = new Map(), textColors = new Map(), families = new Set(), flags = 
 for (const t of texts) {
   for (const s of t.getStyledTextSegments(["fontName", "fontSize", "lineHeight", "letterSpacing", "fills"])) {
     families.add(s.fontName.family);
+    if (!ALLOWED_FAMILIES.has(s.fontName.family)) flags.push("font " + s.fontName.family + " " + s.fontName.style + " — " + top(t) + ": " + s.characters.slice(0, 16));
     const lh = s.lineHeight.unit === "AUTO" ? "auto" : Math.round(s.lineHeight.value) + (s.lineHeight.unit === "PERCENT" ? "%" : "px");
     const key = [s.fontName.family, s.fontName.style, s.fontSize, lh, Math.round(s.letterSpacing.value) + "%"].join(" | ");
     if (!styles.has(key)) styles.set(key, []);
@@ -36,7 +38,7 @@ for (const t of texts) {
 const nonTextColors = new Map();
 for (const n of frame.findAll(n => n.type !== "TEXT" && vis(n))) for (const prop of ["fills", "strokes"]) {
   if (!(prop in n) || n[prop] === figma.mixed) continue;
-  for (const p of n[prop]) if (p.type === "SOLID" && p.visible !== false) { const h = hex(p.color); nonTextColors.set(h, (nonTextColors.get(h) || 0) + 1); }
+  for (const p of n[prop]) if (p.type === "SOLID") { const h = hex(p.color) + (p.visible === false ? " (hidden)" : ""); nonTextColors.set(h, (nonTextColors.get(h) || 0) + 1); }
 }
 
 const overflow = [];
