@@ -44,7 +44,7 @@ Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa
 
 ## Struktur halaman (Desktop - 11)
 
-0. Announcement bar 48 px gelap dengan countdown (Days/Hrs/Min/Sec) dan link "Shop the set".
+0. Announcement bar 48 px gelap dengan countdown (Days/Hrs/Min/Sec), link "Shop the set", dan panah kiri/kanan di ujung (pengumuman bisa digeser).
 1. Header: logo, menu Shop / Rituals / Our story / Journal, currency switcher (USD $, pill glass), ikon akun, keranjang, cari, tombol.
 2. Hero: foto penuh, bingkai garis dengan grid marker, label kiri dan kanan, intro, avatar, headline uppercase, tombol.
 3. Ribbon review pertama.

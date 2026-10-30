@@ -47,6 +47,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 29 Oktober 2026: Intro dan prev/next Shoppable videos dipindah ke kolom kanan (`305:2022`) di atas antrean; ditambah label "UP NEXT". Tinggi section 776 px.
 - 29 Oktober 2026: Desktop - 11 kini berada di halaman HiFi (`11:2160`). Elemen baru disesuaikan dengan gaya section lama: headline letter-spacing -1%, teks pendukung 18 px Medium gelap, tombol "Add to bag" memakai pola pill Inter Display. Eyebrow diberi nomor urut ulang: 01 Axios care, 02 Shop by category, 03 Comfort ritual, 04 Watch & shop, 05 Our philosophy, 06 Before & after, 07 Community, 08 Your next little ritual.
 - 30 Oktober 2026 (feedback Sid): Thumbnail marquee "Daily care, simplified" diperbesar dari 72×44 ke 96×56 px (radius 28). Tinggi strip 92 → 96 px (jarak garis ke isi 20 px), section di bawahnya turun 4 px.
+- 30 Oktober 2026 (feedback Sid): Panah kecil kiri/kanan (Phosphor caret 16 px, putih) ditambahkan di ujung announcement bar (`300:2022`), 40 px dari tepi, sejajar margin halaman.
 
 ## Bagian yang tidak disentuh
 
