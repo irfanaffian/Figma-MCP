@@ -44,7 +44,7 @@ Dihapus dari homepage: W05 (state pudar), W06/W07 kartu melayang, W08 globe laya
 ## Belum bisa dikerjakan (butuh klien/tim lain)
 
 - **Still/poster film terbaru** (W01, W02): hero memakai still film color-matched yang ada di file; poster film (01b) masih gambar kubus lama sebagai placeholder.
-- **IMG_5012** karakter baru (W03): file sudah dikirim pengguna (ponytail, visor, headset, jaket silver), tetapi belum ada di Figma dan upload lewat MCP diblokir jaringan sandbox (`mcp.figma.com`). Tempel manual ke layer "Karakter – GANTI ke IMG_5012" (`325:8578`) di frame 01c.
+- ~~IMG_5012~~ **Selesai 30 Okt:** karakter ponytail dipasang di layer "Karakter – IMG_5012 (ponytail, visor, headset)" (`325:8578`), frame 01c. Gambar sudah berisi label film "See how insight becomes action" bawaan still.
 - **Video 30 detik**: ganti karakter dan perjelas forecast (C03, C07) — editor video.
 - **Atribusi dataset 23.000 proyek** (W24): teks sementara "[provider], [dataset edition]".
 - **Status sertifikasi** (W20): GDPR ditaruh di "Completed" karena sumbernya menulis "Compliant"; perlu konfirmasi klien.
