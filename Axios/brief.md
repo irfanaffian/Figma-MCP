@@ -32,13 +32,13 @@ Retouch dan redesign visual landing page desktop Axios (lebar frame 1512 px), da
 | Eyebrow | 12 px SemiBold, line-height 150%, letter-spacing 9%, #807A73, bernomor urut halaman (01 hero … 08 CTA) |
 | Teks pendukung heading | 18 px Medium, #21211F, letter-spacing -1% |
 | Body | 18 / 16 / 14 px, line-height 150% |
-| Tombol | Pill, label Inter Display Medium 16 px (line-height 125%), ikon di lingkaran trailing, jarak 12 px, padding 8/8/8/20 |
+| Tombol | Pill, label Plus Jakarta Sans Medium 16 px (line-height 125%), ikon di lingkaran trailing, jarak 12 px, padding 8/8/8/20 |
 | Radius dan gap | Mengikuti patokan Desktop - 9 (radius 8 px, gap 8 px), bukan Desktop - 7 |
 | Ikon | Phosphor Icons Regular sebagai vector stroke; stroke-width = 16/256 dari ukuran ikon |
 
 ## Skala tipografi (hasil audit 30 Oktober 2026)
 
-Hanya 2 keluarga font: **Plus Jakarta Sans** (semua teks) dan **Inter Display** (label tombol + wordmark). IBM Plex Mono tidak dipakai lagi.
+Hanya **1 keluarga font: Plus Jakarta Sans** untuk semua teks, termasuk label tombol, logo, dan wordmark footer (Inter Display dan IBM Plex Mono tidak dipakai lagi).
 
 | Peran | Gaya |
 | --- | --- |
@@ -52,7 +52,8 @@ Hanya 2 keluarga font: **Plus Jakarta Sans** (semua teks) dan **Inter Display** 
 | Body 18 / 16 / 14 / 12 | Regular, 150%, 0% |
 | Ribbon | 18 SemiBold, 28 px, -2%, uppercase |
 | Eyebrow / label kecil | 12 SemiBold, 150%, 9% |
-| Label tombol | Inter Display Medium 16 (tombol 48 px) atau 18 (tombol 56 px), 125% |
+| Label tombol | Plus Jakarta Sans Medium 16 (tombol 48 px) atau 18 (tombol 56 px), 125% |
+| Wordmark footer | Plus Jakarta Sans Medium 590 px, 80%, -4% (pas satu baris selebar 1432 px) |
 
 Warna teks hanya `#21211F` (gelap), `#807A73` (abu; 60% untuk teks pudar), dan putih (dengan opasitas di atas foto).
 

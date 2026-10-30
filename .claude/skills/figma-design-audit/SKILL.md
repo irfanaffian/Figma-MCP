@@ -19,7 +19,7 @@ Jalankan `scripts/inventory.js` (ganti `PAGE_ID` dan `FRAME_ID`). Skrip itu meng
 
 | Cek | Yang dicari |
 | --- | --- |
-| Keluarga font | Lebih dari 2 keluarga = tanda masalah (misalnya font mono yang hanya dipakai 1–3 teks) |
+| Keluarga font | Ikuti brief proyek (Axios: hanya Plus Jakarta Sans). Font lain = ganti ke font proyek dengan ketebalan sama; teks display lebar tetap (wordmark) perlu diukur ulang agar tidak turun baris |
 | Gaya teks unik | Kombinasi family/style/size/line-height/tracking; kelompokkan per peran |
 | Warna teks & non-teks | Variasi hitam/abu yang hampir sama (`#262623`, `#282723`, `#000000`, `#111111` vs token) |
 | Ukuran ganjil | 15/17 px dsb. — hampir selalu salah ketik |
