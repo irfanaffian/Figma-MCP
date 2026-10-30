@@ -45,7 +45,7 @@ Figma API **tidak bisa me-resolve** comment. Jadi status dilacak sendiri:
 | Status | Artinya |
 | --- | --- |
 | `terbuka` | belum ada tanda apa pun |
-| `dikerjakan` | ada balasan berawalan **✅** atau reaksi ✅ di comment utama (dibuat lewat `reply_comment.py --done`, atau manual di Figma) |
+| `dikerjakan` | ada reaksi ✅ di comment utama (dibuat lewat `reply_comment.py --done` atau manual di Figma), atau balasan berawalan ✅ |
 | `resolved` | sudah di-resolve manual di Figma |
 
 `fetch_comments.py --pending` → hanya yang `terbuka` (jawaban untuk "mana yang belum dikerjakan?").
@@ -75,16 +75,13 @@ Figma API **tidak bisa me-resolve** comment. Jadi status dilacak sendiri:
 
    Lalu ringkas: berapa terbuka vs resolved, dan daftar tindakan revisi yang tersirat (misal "perbesar tombol CTA di Hero"). Jangan langsung mengubah desain — tanyakan dulu, kecuali pengguna sudah meminta "kerjakan revisinya". Bila diminta mengerjakan, muat skill `figma-use` sebelum `use_figma`.
 
-4. **Balas / tandai selesai** — setelah revisi dikerjakan, atau bila pengguna minta membalas:
+4. **Tandai selesai** — setelah revisi sebuah comment dikerjakan, **cukup beri reaksi ✅** (preferensi pengguna: tanpa balasan teks):
    ```bash
-   # cek dulu tanpa mengirim
-   python3 .claude/skills/figma-comments/scripts/reply_comment.py "<link>" "#13" "Sudah diganti jadi Axios Joss" --done --dry-run
-   # kirim
-   python3 .claude/skills/figma-comments/scripts/reply_comment.py "<link>" "#13" "Sudah diganti jadi Axios Joss" --done
+   python3 .claude/skills/figma-comments/scripts/reply_comment.py "<link>" "#13" --done
    ```
-   - `#13` = nomor comment di Figma (atau comment id). `--done` menambah awalan ✅ + reaksi ✅.
-   - Balasan **terlihat oleh semua orang di file** (termasuk klien) dan atas nama pemilik token. Tampilkan dulu draf balasannya ke pengguna dan kirim **hanya setelah disetujui**, kecuali pengguna sudah eksplisit bilang "balas langsung".
-   - Tulis balasan singkat, dalam bahasa yang dipakai di comment, menyebut apa yang diubah (sebelum → sesudah).
+   - `#13` = nomor comment di Figma (atau comment id). Reaksi tidak dobel bila sudah ada.
+   - Langsung tandai setelah revisi selesai dikerjakan; tidak perlu minta izin lagi untuk reaksi ✅.
+   - **Balasan teks hanya bila pengguna memintanya** (`reply_comment.py "<link>" "#13" "pesan"`). Teks terlihat semua orang di file (termasuk klien) atas nama pemilik token — tunjukkan drafnya dulu dan kirim setelah disetujui.
    - Ingatkan pengguna bahwa resolve tetap manual di Figma.
 
 5. **Catat (opsional)**: bila comment terkait proyek di repo (Axios, True Health, …) dan pengguna setuju, tambahkan ringkasan revisi ke `<Proyek>/status.md` tanpa token atau data pribadi.

@@ -1,11 +1,14 @@
 #!/usr/bin/env python3
-"""Balas sebuah comment Figma, opsional menandainya "sudah dikerjakan".
+"""Tandai comment Figma "sudah dikerjakan" (reaksi ✅) dan/atau balas dengan teks.
 
 Pemakaian:
-  python3 reply_comment.py <link-figma | file_key> <#nomor | comment_id> "pesan" [--done] [--dry-run] [--account NAMA]
+  python3 reply_comment.py <link-figma | file_key> <#nomor | comment_id> [--done] ["pesan"] [--dry-run] [--account NAMA]
 
---done     awali balasan dengan "✅ " dan beri reaksi ✅ di comment utama,
-           sehingga fetch_comments.py menampilkannya sebagai SUDAH DIKERJAKAN.
+Default yang dipakai: hanya reaksi ✅ (tanpa teks)   →  reply_comment.py <link> "#13" --done
+Balasan teks hanya bila pengguna memintanya        →  reply_comment.py <link> "#13" "pesan"
+
+--done     beri reaksi ✅ di comment utama, sehingga fetch_comments.py menampilkannya
+           sebagai SUDAH DIKERJAKAN. Bila ada pesan, pesan dikirim apa adanya (tanpa awalan).
 --dry-run  tampilkan apa yang akan dikirim tanpa mengirim.
 
 Butuh token dengan izin file_comments:write (selain file_comments:read).
@@ -17,7 +20,7 @@ import sys
 import urllib.error
 import urllib.request
 
-from fetch_comments import DONE_MARK, fetch_any, get_tokens, parse_target
+from fetch_comments import fetch_any, get_tokens, parse_target
 
 BASE = "https://api.figma.com/v1/files/{key}/comments"
 
@@ -51,8 +54,8 @@ def main():
     p = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     p.add_argument("target", help="link Figma atau file key")
     p.add_argument("comment", help="nomor comment (#13 atau 13) atau comment id")
-    p.add_argument("message", help="isi balasan")
-    p.add_argument("--done", action="store_true", help="tandai sudah dikerjakan (✅ + reaksi)")
+    p.add_argument("message", nargs="?", default="", help="isi balasan teks (opsional)")
+    p.add_argument("--done", action="store_true", help="tandai sudah dikerjakan (reaksi ✅)")
     p.add_argument("--dry-run", action="store_true", help="jangan kirim, hanya tampilkan")
     p.add_argument("--account", help="pakai token akun ini saja")
     a = p.parse_args()
@@ -70,19 +73,24 @@ def main():
     c = match[0]
 
     message = a.message.strip()
-    if a.done and not message.startswith(DONE_MARK):
-        message = f"{DONE_MARK} {message}"
+    if not message and not a.done:
+        sys.exit("ERROR: isi pesan atau pakai --done (reaksi ✅).")
 
     print(f"File {key} · akun {account}")
     print(f"Comment #{c.get('order_id')} ({c['user']['handle']}): {c['message'].strip()[:200]}")
-    print(f"Balasan: {message}" + ("  + reaksi ✅" if a.done else ""))
+    if message:
+        print(f"Balasan: {message}")
+    if a.done:
+        already = any(r.get("emoji") in (":white_check_mark:", "✅") for r in (c.get("reactions") or []))
+        print("Reaksi ✅" + (" (sudah ada)" if already else ""))
     if a.dry_run:
         print("(dry-run: tidak dikirim)")
         return
 
-    res = post(BASE.format(key=key), token, {"message": message, "comment_id": c["id"]})
-    print(f"Terkirim · id balasan {res.get('id')}")
-    if a.done:
+    if message:
+        res = post(BASE.format(key=key), token, {"message": message, "comment_id": c["id"]})
+        print(f"Terkirim · id balasan {res.get('id')}")
+    if a.done and not already:
         post(f"{BASE.format(key=key)}/{c['id']}/reactions", token, {"emoji": ":white_check_mark:"})
         print("Reaksi ✅ ditambahkan")
 
