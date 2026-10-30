@@ -53,6 +53,7 @@ Izin token yang cukup: **File comments: Read** (opsional *File content: Read* ti
 | --- | --- |
 | `token Figma tidak ditemukan` | Cloud: isi `FIGMA_TOKEN` di pengaturan environment. Mac: `security add-generic-password -a "$USER" -s figma-token -w` (token diketik, tidak tampil) |
 | `HTTP 403` | Token salah/kedaluwarsa, izin *File comments: Read* belum dicentang, atau akun pemilik token tidak punya akses ke file |
+| `Invalid scope: ["current_user:read"]` | Token dibuat dengan centang yang salah. Buat ulang dengan `file_comments:read` (bagian **Files**), lalu timpa: `security add-generic-password -U -a "$USER" -s figma-token -w` |
 | `HTTP 404` | File key salah — cek link |
 | `HTTP 429` | Rate limit — tunggu sebentar |
 | `ERROR jaringan` / `CONNECT tunnel failed 403` (cloud) | Network access environment memblokir `api.figma.com` — pengguna perlu menambahkannya di Allowed domains |
