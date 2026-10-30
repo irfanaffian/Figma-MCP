@@ -104,3 +104,7 @@ Cek otomatis: semua copy kolom E W01–W28 ada di Figma; semua teks memakai Gela
 - **W26 F** — ukuran di strip: People "rework, service quality", Planet "resource use, emissions", Profit "margin, cash, benefits" (frame utama + 4 frame detail).
 - **W27 F** — kartu delivery case dipindah langsung setelah alur keputusan, sebelum use case.
 - Perapian: sisa teks Company tersembunyi di frame footer dihapus; spasi berlebih di "Evidence"/"Security" dihapus.
+
+## W24 atribusi jadi satu baris (30 Okt)
+
+Tabel 4 baris diganti satu catatan sumber di bawah penjelasan reference class: "Source: [provider], [dataset edition]. Counting unit: one megaproject reference point. Used under [access and attribution basis]." Bagian dalam kurung siku diisi setelah HH memberi data.
