@@ -108,3 +108,7 @@ Cek otomatis: semua copy kolom E W01–W28 ada di Figma; semua teks memakai Gela
 ## W24 atribusi jadi satu baris (30 Okt)
 
 Tabel 4 baris diganti satu catatan sumber di bawah penjelasan reference class: "Source: [provider], [dataset edition]. Counting unit: one megaproject reference point. Used under [access and attribution basis]." Bagian dalam kurung siku diisi setelah HH memberi data.
+
+## Cover film resmi (30 Okt)
+
+Pengguna mengirim cover resmi film (2000×1167). Dipasang di media bawah hero (`325:8556`), frame 01b (`325:8559`), dan frame 01c (`325:8578`), menggantikan versi 1440 px. Film 30 detik sendiri masih dikerjakan pengguna. Still kanan atas hero tetap "04 Connect the dots" (W01: ganti ghost monogram dengan film still), agar tidak ada dua gambar karakter yang sama dalam satu layar.
