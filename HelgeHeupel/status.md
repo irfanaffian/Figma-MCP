@@ -67,3 +67,14 @@ Kartu Trust: lapisan gradasi cobalt di bagian bawah (`Contrast overlay (C06)`) d
 ## Ditunda (keputusan pengguna 30 Okt)
 
 - **W07 Governed AI** — copy dan diagram rekomendasi → approval → aksi menunggu halaman product detail.
+
+## Audit ulang terhadap sheet (30 Okt) — diperbaiki
+
+- **Page sequence G16 (satu CTA utama):** hanya "Book a digital twin briefing" yang berupa tombol biru penuh. "Explore our evidence base", "Explore our delivery approach", "Explore your industry", "Discuss your automotive challenge", "Discuss your financial services challenge" diubah jadi link teks cobalt dengan panah.
+- **W15 F:** kartu di Step 3 (blocked dan resolved) bergaris navy; aksi terpilih tetap cobalt.
+- **W22 F:** ikon diamond di section Company dihapus (bukan sekadar diwarnai ulang).
+- **W18 F:** item industri terpilih ("Assurance") berwarna cobalt + panah.
+
+Konflik di dalam sheet yang dibiarkan sesuai kolom E: tombol industri "Explore your industry" (Page sequence menulis "Discuss your industry challenge"); W11 tetap section pendek di homepage.
+
+Fokus kerja: **desktop saja**. Mobile responsive dan prototype tidak dikerjakan sampai ada instruksi baru.
