@@ -112,3 +112,12 @@ Tabel 4 baris diganti satu catatan sumber di bawah penjelasan reference class: "
 ## Cover film resmi (30 Okt)
 
 Pengguna mengirim cover resmi film (2000×1167). Dipasang di media bawah hero (`325:8556`), frame 01b (`325:8559`), dan frame 01c (`325:8578`), menggantikan versi 1440 px. Film 30 detik sendiri masih dikerjakan pengguna. Still kanan atas hero tetap "04 Connect the dots" (W01: ganti ghost monogram dengan film still), agar tidak ada dua gambar karakter yang sama dalam satu layar.
+
+## Audit akhir + styling dari desain asli (30 Okt)
+
+- **Audit copy otomatis:** 115/115 fragmen copy kolom E ada di Figma (W07 ditunda, W03/W05/W10/W19 tidak punya copy).
+- **Styling dari Homepage asli (`321:5660`) yang tidak bertentangan dengan sheet:**
+  - Headline Gelasio: letter-spacing −2%, line-height 108% (≥40 px) / 118% (20–32 px) — mengikuti headline asli yang rapat (Inter Medium −4%).
+  - Angka besar Arimo (≥36 px): letter-spacing −4%, seperti metrik asli.
+  - 15 panel navy (closing, strip PPP, Turn insight, Technology, forecast, enterprise model, CTA detail, label film): tekstur "dot pattern" dari kartu asli (layer `Texture – dot pattern (from original)`, opacity 55%) + garis tepi putih 14%. Dasar tetap navy solid (C08).
+- **Tidak dibawa karena bertentangan dengan sheet:** sudut 24 px (C08: 16 px), glow besar di semua kartu (C08: glow hanya untuk selection/signal), latar biru penuh di banyak section (C06: ±75% permukaan terang).
