@@ -14,3 +14,11 @@ Repository untuk konteks dan dokumentasi proyek desain yang dikerjakan melalui M
 Setiap proyek memiliki folder sendiri dengan README, brief, status, dan riwayat yang relevan. Folder proyek mengikuti riwayat Git repository utama; tidak menggunakan nested Git repository atau submodule.
 
 Desain editable tetap berada di Figma. Penyimpanan konteks di GitHub tidak otomatis menyimpan file Figma, mengaktifkan koneksi MCP, atau memindahkan chat. Kode implementasi dan ekspor aset hanya ditambahkan ketika benar-benar tersedia.
+
+## Skill
+
+| Skill | Fungsi |
+| --- | --- |
+| [figma-design-audit](./.claude/skills/figma-design-audit/SKILL.md) | Audit dan rapikan konsistensi desain Figma (font, warna, tombol, ikon, overflow, jarak section) untuk proyek mana pun di repo ini |
+
+Skill di `.claude/skills/` otomatis tersedia di setiap sesi Claude Code yang memakai repo ini.

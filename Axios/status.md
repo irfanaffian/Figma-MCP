@@ -62,6 +62,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
   - Overflow teks diperbaiki (nama produk Cloud Comfort, deskripsi Moments of care); kolom Moments of care dibuat rata atas agar judul sejajar.
 - 30 Oktober 2026: Nama produk di footer 2 video antrean dikembalikan ke SemiBold 16 (audit sempat mengubahnya ke Medium).
 - 30 Oktober 2026: Atas permintaan pengguna, 2 video antrean dikembalikan ke kartu produk putih mengambang (foto 40 px, nama 14 Medium, harga 12 abu, tombol + 32 px); footer gelap bergaris dan kotak penanda di video antrean dihapus. Video unggulan tetap memakai footer bergaya kartu ritual.
+- 30 Oktober 2026 — **Audit kedua**: 41 gaya teks, 2 font, 3 warna teks (#21211F, #807A73, putih); 0 overflow, 0 ikon salah stroke, section menempel tanpa celah. Dirapikan: #111111 (bintang/asterisk ribbon) dan #000000 12% (outline tombol panah) → #21211F; tracking teks marquee → -2%. Dibiarkan: tint #241A12 13% di kartu ritual, shape mask #D9D9D9, tombol #F4F4F4 "Meet Axios" (di atas latar putih). Metode audit disimpan sebagai skill repo `.claude/skills/figma-design-audit`.
 
 ## Bagian yang tidak disentuh
 
@@ -74,6 +75,7 @@ Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pert
 - Kartu produk di section Shop Desktop - 11 sudah di-detach (layer biasa). Komponen `Axios / Product card` versi lama tetap dipakai di frame lain.
 - Foto di section baru (collection, video, before/after, stories) memakai ulang foto yang sudah ada sebagai placeholder; before/after belum memakai pasangan foto sebelum/sesudah asli.
 - Copy before/after (durasi minggu, keluhan kulit) adalah contoh; perlu data nyata dari klien sebelum dipakai.
+- Beberapa tinggi section bukan kelipatan 4 (Shop 1038, Collections 826, banner 669, Before & after 943, Community 970, footer 1794) karena tinggi teks; tidak mengganggu visual.
 - Ada dua countdown untuk promo yang sama (announcement bar dan banner foto) — keduanya diminta Sid; pertimbangkan cukup satu.
 - Harga sale ($24 dari $30), varian warna, dan ukuran di kartu produk adalah contoh template; perlu dikonfirmasi ke klien.
 
