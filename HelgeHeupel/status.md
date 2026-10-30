@@ -15,7 +15,7 @@ Prototype: flow **"Revisi v1"**, mulai dari `325:8509`. 16 frame, klik untuk lan
 | 01 | Hero `325:8509` — tombol utama "Book a digital twin briefing" + link film; still film "04 Connect the dots" di kanan atas | W01 |
 | 01b | Film poster `325:8557` | W02 |
 | 01c | Film – karakter `325:8576` | W03 |
-| 02 | Delivery proof `325:8240` — area teks putih, kartu bukti anonim + link case, globe kecil berlabel | W04, W05, W08, W09 |
+| 02 | Delivery proof `325:8240` — area teks putih, kartu bukti anonim berisi copy W09 ("Built from the realities of global delivery.") + link case, globe kecil berlabel | W04, W05, W08, W09 |
 | 03 | Evidence base `329:32` | W24 |
 | 04 | How it works – intro `329:2` | W12 |
 | 04a–b | Step 1 `330:2`, Step 2 `330:75` (copy + link W06 di kartu perbandingan) | W13, W14, W06 |
@@ -40,7 +40,7 @@ Dihapus dari homepage: W05 (state pudar), W06/W07 kartu melayang, W08 globe laya
 Diletakkan di kolom kanan section Revisi v1, sejajar frame asalnya:
 
 - **Interaction states (C08)** `357:111` — default / hover / selected / focus untuk tombol utama, kartu terang, item industri, text link, dan link di panel navy. Hover tombol `#1A36B0`, hover kartu garis `#9FB0C2` + bayangan 12%, selected garis cobalt 2 px, focus ring 2 px navy dengan jarak 3 px (putih di panel gelap).
-- **07 State – value card detail (W17)** `356:57` — panel detail kartu "Deliver critical programmes": Baseline / Action / Measure, label *Illustrative definitions, not promised gains*.
+- **07 State – value card 1–4 detail (W17)** `356:57`, `358:5`, `358:114`, `358:223` — panel detail tiap kartu: Baseline / Action / Measure (contoh ukuran dari sheet F24: service resolution, customer-need satisfaction, approval delay, realised benefits), label *Illustrative definitions, not promised gains*; kartu yang dibuka diberi garis cobalt.
 - **09a State – form sent (W21/C09)** `356:2` — konfirmasi setelah form dikirim: langkah berikutnya tanpa janji waktu balasan, plus email langsung.
 
 Kartu Trust: lapisan gradasi cobalt di bagian bawah (`Contrast overlay (C06)`) dan teks roadmap dibuat putih penuh agar terbaca. Hapus layer overlay itu untuk kembali ke tampilan asli.
@@ -63,3 +63,7 @@ Kartu Trust: lapisan gradasi cobalt di bagian bawah (`Contrast overlay (C06)`) d
 - **Mobile 390/768 px** dan state hover/focus (C08) — ditunda; fokus desktop dulu (keputusan pengguna 30 Okt).
 - Sel H20 (kolom H "HH key art-direction feedback", baris W13 Step 1) terpotong: "Today, the cubes in the video were absolutely brilliant, it is important that we …". Tanyakan lanjutannya ke klien.
 - Status Trust disamakan dengan kartu sertifikasi asli: TISAX 6.0.3 dan ISO 27001:2022 Stage 1 = on-site assessment passed, menunggu evaluasi lembaga sertifikasi.
+
+## Ditunda (keputusan pengguna 30 Okt)
+
+- **W07 Governed AI** — copy dan diagram rekomendasi → approval → aksi menunggu halaman product detail.
