@@ -121,3 +121,16 @@ Pengguna mengirim cover resmi film (2000×1167). Dipasang di media bawah hero (`
   - Angka besar Arimo (≥36 px): letter-spacing −4%, seperti metrik asli.
   - 15 panel navy (closing, strip PPP, Turn insight, Technology, forecast, enterprise model, CTA detail, label film): tekstur "dot pattern" dari kartu asli (layer `Texture – dot pattern (from original)`, opacity 55%) + garis tepi putih 14%. Dasar tetap navy solid (C08).
 - **Tidak dibawa karena bertentangan dengan sheet:** sudut 24 px (C08: 16 px), glow besar di semua kartu (C08: glow hanya untuk selection/signal), latar biru penuh di banyak section (C06: ±75% permukaan terang).
+
+## Versi styling dipisah (30 Okt)
+
+Atas permintaan pengguna, styling dari desain asli dipindah ke duplikat di sebelah kanan; versi Revisi v1 dikembalikan ke kondisi sebelum styling.
+
+| Section | ID | Isi |
+| --- | --- | --- |
+| Homepage – Revisi v1 | `325:2` | Sesuai sheet, tanpa styling tambahan |
+| Industry detail pages (W27/W28) | `340:2` | Sesuai sheet, tanpa styling tambahan (dipindah ke kanan Revisi v1 agar tidak bertumpuk) |
+| Homepage – Revisi v1 · Styling (from original) | `368:2` | Sama + headline rapat, angka −4%, tekstur dot pattern di panel navy |
+| Industry detail pages · Styling (from original) | `368:7857` | Sama, versi styling |
+
+Catatan: pengembalian line-height di Revisi v1 memakai 118% (headline ≥40 px) / 125% (20–32 px), mendekati nilai piksel sebelumnya.
