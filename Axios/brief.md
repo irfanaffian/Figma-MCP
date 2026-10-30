@@ -65,7 +65,7 @@ Section menempel satu sama lain (tanpa jarak antar frame); jarak visual berasal 
 
 Garis tipis dengan penanda kotak hanya dipakai di **hero** dan **banner foto**. Penanda berupa **satu kotak putih 8×8 px** tepat di titik pertemuan garis (feedback Sid, 29 Oktober 2026; sebelumnya dua kotak 6 px).
 
-Kotak penanda yang sama juga dipakai di **kartu ritual Three simple steps** (titik pertemuan garis atas footer dan pembagi vertikal ml) di footer video unggulan Shoppable videos, dan di pita konten banner foto, atas permintaan pengguna 30 Oktober 2026.
+Kotak penanda yang sama juga dipakai di **kartu ritual Three simple steps** (ujung kiri garis di atas nama produk), di **video unggulan Shoppable videos** (ujung kiri garis di bawah judul), dan di pita konten banner foto, atas permintaan pengguna 30 Oktober 2026.
 
 Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa grid marker (garis atas, bawah, dan pembagi vertikal), mengikuti referensi yang dilampirkan pengguna. Jangan diterapkan ke section lain tanpa instruksi.
 
@@ -81,7 +81,7 @@ Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa
 7. Shop — Your daily essentials: kategori dan 4 kartu produk.
 8. Collections — Shop by category: judul rata kiri + prev/next, 5 kartu kategori 320×400 (kartu kelima terpotong sebagai petunjuk carousel).
 9. Cloud Comfort — slider (foto + catatan langkah, titik indikator, prev/next), lalu "Moments of care" 4 kolom.
-10. Three simple steps — kartu produk ritual.
+10. Three simple steps — kartu ritual **Variant B** (`376:4313`, dipilih 31 Oktober 2026): pill glass "STEP 0X · …" di kiri atas; judul 32, garis tipis + kotak penanda 8 px, nama produk + volume, tombol panah putih di bawah; gradasi bawah. Pita bawah + angka besar ala referensi Seoul tidak dipakai lagi.
 11. Shoppable videos — "Rituals in motion.": judul di atas; video aktif besar di kiri (856×600); kolom kanan: intro + prev/next di atas, label "UP NEXT" + 2 video antrean square 268×268 di bawah; video unggulan memakai treatment Variant B (pill glass, judul + garis bertanda) dengan konten asli: deskripsi, harga $24 USD, tombol Add to bag; video antrean memakai kartu produk putih mengambang (foto kecil, nama, harga, tombol +).
 12. Ribbon review kedua.
 13. Section "Skincare should feel like a pause" dengan foto asimetris.

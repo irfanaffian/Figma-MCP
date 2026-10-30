@@ -43,6 +43,8 @@ Laporkan temuan ke pengguna dalam bahasa sederhana (angka sebelum → sesudah), 
 - **Wordmark / teks display lebar tetap**: setelah ganti font, ukur lebar alami lewat *clone sementara di luar auto-layout* (`textAutoResize='WIDTH_AND_HEIGHT'`), lalu skala `fontSize = size × lebarTarget / lebarAlami`. Mengukur langsung di dalam frame FILL tidak berhasil.
 - **Paint tersembunyi**: bandingkan juga `visible` pada setiap fill/stroke. Outline yang disembunyikan pengguna (`visible:false`) adalah patokan — jangan dihidupkan lagi, dan samakan elemen saudaranya.
 - **Edit manual pengguna = patokan**: bila satu elemen sudah diubah pengguna dan diminta "terapkan ke yang lain", salin *semua* properti (ukuran, posisi anak, visibilitas paint), bukan hanya warna/ukuran.
+- **Varian hasil clone**: section/kartu yang di-clone dari versi lama membawa warna dan gaya lama. Setelah pengguna memasang varian ke halaman, jalankan audit lagi — biasanya ada sisa token lama (contoh: `#282723` di tombol).
+- **Treatment vs konten**: bila pengguna minta "treatment seperti X", salin gaya/struktur visual X tetapi **pertahankan konten asli** elemen tujuan (harga, tombol, teks) kecuali diminta lain.
 - **Bila pengguna minta "kembalikan"**: pastikan dulu bagian mana (gaya teks atau seluruh treatment). Kembalikan hanya yang diminta, lalu catat pengecualian itu di brief agar audit berikutnya tidak menyeragamkannya lagi.
 - Kembalikan semua node ID yang diubah; ambil satu screenshot per area yang berubah besar.
 
@@ -52,8 +54,9 @@ Laporkan temuan ke pengguna dalam bahasa sederhana (angka sebelum → sesudah), 
 2. Catat hasil di `<Proyek>/status.md` (ringkas, dengan angka) dan perbarui tabel skala tipografi/patokan di `brief.md` bila berubah.
 3. Commit + push ke `main`.
 
-## Hasil nyata (Axios, 30 Oktober 2026)
+## Hasil nyata (Axios, 30–31 Oktober 2026)
 
 - Audit pertama: 82 → 43 gaya teks, 3 → 2 keluarga font, 9 varian warna → 3 token, 2 overflow, 2 sambungan section meleset.
 - Audit kedua: 41 gaya, 30 warna non-teks dirapikan (`#111111`, `#000000` 12%), tracking marquee diseragamkan.
 - Pengguna lalu meminta **1 font saja**: 11 teks Inter Display (label tombol, logo, wordmark) → Plus Jakarta Sans; wordmark footer 619 → 590 px agar tetap satu baris.
+- Audit ketiga (31 Oktober): bersih kecuali 1 sisa warna lama dari varian yang di-clone.

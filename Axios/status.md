@@ -1,10 +1,10 @@
 # Status Axios
 
-Diperbarui: 30 Oktober 2026.
+Diperbarui: 31 Oktober 2026.
 
 ## Posisi saat ini
 
-Homepage locked oleh Sid. Menunggu keputusan Sid atas Variant B/C/D section kartu ritual (`374:2022`, `375:2022`, `375:2110`). Frame kerja aktif adalah **Desktop - 11** (`215:90`) di halaman **HiFi** (`11:2160`), tinggi 12341 px. Semua teks Plus Jakarta Sans; audit konsistensi terakhir 30 Oktober 2026.
+Homepage locked oleh Sid. **Variant B** kartu ritual sudah dipasang di Homepage oleh pengguna (`376:4313`); Variant C/D dan section lama sudah dihapus dari canvas. Frame kerja aktif adalah **Desktop - 11** (`215:90`) di halaman **HiFi** (`11:2160`), tinggi 12341 px. Semua teks Plus Jakarta Sans; audit konsistensi terakhir 31 Oktober 2026.
 
 ## Terverifikasi pada sesi ini
 
@@ -68,6 +68,7 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 31 Oktober 2026: Eksplorasi tambahan kartu ritual di samping Variant B (Homepage tetap tidak diubah): **Variant C** (`375:2022`, x 10780) — foto bersih tanpa teks, garis ritual dengan kotak penanda + label "01 — CLEANSE" di atas tiap foto, judul 24 px + produk · volume dan tombol panah di bawah foto. **Variant D** (`375:2110`, x 12492) — kartu berundak 560/496/432 px rata bawah, pill STEP di atas, kartu produk putih mengambang di bawah.
 - 31 Oktober 2026: Kartu video unggulan Shoppable videos (`303:2035`, di dalam Homepage, atas permintaan pengguna) diberi treatment Variant B: pill durasi glass "FEATURED · 0:24"; pita bawah bergaris + harga besar + tombol Add to bag dihapus, diganti judul 32 SemiBold, garis tipis dengan kotak penanda 8 px, baris deskripsi + harga kecil, dan tombol panah putih 40 px. Padding kartu 24 px.
 - 31 Oktober 2026: Konten video unggulan dikembalikan seperti sebelumnya di dalam treatment Variant B: harga "$24" 40 px + "USD" kecil dan tombol terang "Add to bag" (menggantikan tombol panah), label durasi teks asli "Featured · 0:24" (tampil kapital via text case).
+- 31 Oktober 2026 — **Audit ketiga** (skrip library): 1 font, 3 warna teks, 40 gaya teks, 0 flag, 0 overflow, 0 ikon salah stroke, section menempel tanpa celah (tinggi 12341 px). Diperbaiki: tombol "Explore rituals" di Variant B masih `#282723` (terbawa saat clone) → `#21211F`. Dicatat, dibiarkan: harga video unggulan 40 px (satu-satunya ukuran 40, peran display harga).
 
 ## Bagian yang tidak disentuh
 

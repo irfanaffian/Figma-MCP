@@ -50,3 +50,10 @@ Sesi: https://claude.ai/code/session_01Ntd6UWVbcF3ZgsUue2tEUn
 - Metode audit disimpan sebagai skill repo `.claude/skills/figma-design-audit`.
 - Izin: aturan allow untuk Figma MCP dan git disimpan di `.claude/settings.json`; mode Auto dipakai di sesi.
 
+## 7. Homepage locked dan varian kartu ritual (31 Oktober 2026)
+
+- Sid mengunci homepage, tetapi meminta section kartu ritual dimodifikasi sedikit agar tidak terlihat menyalin referensi Seoul clinic.
+- Dibuat Variant B (pill STEP, judul + garis bertanda, tanpa pita/angka besar), C (editorial, teks di bawah foto), dan D (kartu berundak) di samping Homepage. Pengguna memilih **Variant B** dan memasangnya ke Homepage.
+- Treatment Variant B juga diterapkan ke video unggulan Shoppable videos dengan konten asli (deskripsi, $24 USD, Add to bag).
+- Audit ketiga dengan skrip library: bersih; satu sisa warna lama diperbaiki. Skill audit diperbarui dengan pelajaran soal varian clone dan "treatment vs konten".
+
