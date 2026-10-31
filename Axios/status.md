@@ -115,6 +115,10 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Perbaikan variant: brand intro (lebar & margin), footer tablet pakai mode Tablet + wordmark 281 px, judul Collections diberi margin kanan. Audit akhir: 0 teks menempel tepi, 0 kata patah.
   - Catatan: lebar variant sempat membengkak karena mengikuti isi carousel — semua variant kini dikunci lebarnya.
 
+- 31 Oktober 2026 — **Rapikan mobile (brand intro & kartu Community)**:
+  - Brand intro mobile: 3 baris kaku diganti satu paragraf mengalir (`Brand statement / flow`, auto-layout wrap rata tengah); teks dipecah per frasa dan foto inline (60×36, pasangan 36×36 tumpang -10, 36×36) ikut di alur kalimat, baris terakhir tetap abu.
+  - Kartu ulasan Community mobile: padding 32/24, jarak tetap 24 (sebelumnya space-between sehingga bintang menempel garis), blok customer berjarak 24 dari garis, teks ritual bisa turun baris (tidak terpotong lagi).
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
