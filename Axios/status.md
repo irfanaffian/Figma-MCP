@@ -134,6 +134,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Tablet 768: 4 kolom link sebaris, kolom email 480, wordmark 281, margin 32.
   - CTA tablet: celah lebar di "More room for [foto] you." hilang (teks tadinya lebar tetap 320).
 
+- 31 Oktober 2026 — **Judul CTA mobile jadi 2 baris**: "A little care." / "More room for [foto] *you.*" (sebelumnya 3 baris). Foto inline 48×36, jarak 6; lebar baris 338 dari 350.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
