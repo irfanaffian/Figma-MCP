@@ -57,3 +57,22 @@ Sesi: https://claude.ai/code/session_01Ntd6UWVbcF3ZgsUue2tEUn
 - Treatment Variant B juga diterapkan ke video unggulan Shoppable videos dengan konten asli (deskripsi, $24 USD, Add to bag).
 - Audit ketiga dengan skrip library: bersih; satu sisa warna lama diperbaiki. Skill audit diperbarui dengan pelajaran soal varian clone dan "treatment vs konten".
 
+
+## 8. Design system dan responsive (31 Oktober 2026)
+
+- Fondasi diambil dari Homepage tanpa mengubah desain: koleksi variable `Axios / Primitives`, `Axios / Color`, `Axios / Responsive` (mode Desktop/Tablet/Mobile), text style `Axios/...`, komponen di halaman Components. Detail di `foundations.md`.
+- Breakpoint mengikuti Shopify Dawn: mobile < 750 (frame 390), tablet 750–989 (768), desktop ≥ 990 (1512).
+- Arahan pengguna yang menjadi prinsip:
+  - Homepage desktop tetap seperti apa adanya.
+  - Responsive memakai gaya yang sama (warna, font, garis, penanda), tetapi layout dan ukuran font menyesuaikan tiap breakpoint.
+  - **Mobile dan tablet punya komponen sendiri** (variant `Breakpoint=Desktop/Tablet/Mobile`), bukan override komponen desktop.
+- Semua section, strip (Ribbon review, Marquee), Announcement bar, dan Footer kini berupa component set per breakpoint; frame `Homepage / Tablet` dan `Homepage / Mobile` hanya berisi instance variant tersebut.
+- Perapian mobile/tablet setelah review pengguna:
+  - Brand intro menjadi satu paragraf mengalir dengan foto inline.
+  - Kartu Community diberi jarak yang lebih longgar.
+  - Kartu Before & after memakai rasio 4:5.
+  - Marquee dan ribbon mulai rata kiri.
+  - Footer mobile memakai link 2 kolom; footer tablet memakai 4 kolom.
+  - Judul CTA mobile menjadi 2 baris.
+- Membaca comment Figma: token di environment cloud kedaluwarsa (401). Perlu token baru di Network secrets (`api.figma.com`, header `X-Figma-Token`).
+- Langkah berikutnya yang diusulkan: inner page (PDP, collection, cart drawer, Our story, Journal, Contact/FAQ) dan menu drawer mobile, masing-masing langsung dengan variant per breakpoint.
