@@ -6,6 +6,7 @@ Redesign visual landing page desktop untuk Axios, brand skincare dan wellness. D
 
 - [Brief dan aturan kerja](./brief.md)
 - [Status dan hasil verifikasi](./status.md)
+- [Fondasi design system](./foundations.md)
 - [Riwayat pekerjaan](./riwayat-chat.md)
 
 Axios adalah folder proyek di repository Figma-MCP, dengan riwayat Git bersama repository utama. Belum ada implementasi kode Shopify atau ekspor desain/aset di folder ini.

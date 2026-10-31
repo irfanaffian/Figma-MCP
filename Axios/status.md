@@ -4,7 +4,7 @@ Diperbarui: 31 Oktober 2026.
 
 ## Posisi saat ini
 
-Homepage locked oleh Sid. **Variant B** kartu ritual sudah dipasang di Homepage oleh pengguna (`376:4313`); Variant C/D dan section lama sudah dihapus dari canvas. Frame kerja aktif adalah **Desktop - 11** (`215:90`) di halaman **HiFi** (`11:2160`), tinggi 12341 px. Semua teks Plus Jakarta Sans; audit konsistensi terakhir 31 Oktober 2026 (keempat). Berikutnya: design system ringan → responsive → inner page (lihat Rencana berikutnya).
+Homepage locked oleh Sid. **Variant B** kartu ritual sudah dipasang di Homepage oleh pengguna (`376:4313`); Variant C/D dan section lama sudah dihapus dari canvas. Frame kerja aktif adalah **Desktop - 11** (`215:90`) di halaman **HiFi** (`11:2160`), tinggi 12341 px. Semua teks Plus Jakarta Sans; audit konsistensi terakhir 31 Oktober 2026 (keempat). Fondasi selesai (31 Oktober). Berikutnya: langkah 2 komponen inti (lihat Rencana berikutnya).
 
 ## Terverifikasi pada sesi ini
 
@@ -80,6 +80,7 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 3. **Rapikan Homepage desktop** memakai komponen + auto-layout penuh (hero & banner dari group ke auto-layout) — tampilan tidak berubah.
 4. **Homepage tablet (768) dan mobile (390)** dari komponen yang sama.
 5. **Inner page** (PDP, collection/PLP, cart drawer, our story, journal, contact/FAQ) langsung di 3 breakpoint.
+- 31 Oktober 2026 — **Langkah 1 (fondasi) selesai**: 3 variable collection (98 variable: Primitives, Color semantik, Responsive Desktop/Tablet/Mobile), 27 text style `Axios/…` dengan ukuran terikat breakpoint, 1 effect style, dan halaman dokumentasi **Foundations** (`401:2023`). Semua diambil dari nilai Homepage; Homepage tidak diubah (0 binding/style baru). Detail: [foundations.md](./foundations.md).
 
 ## Bagian yang tidak disentuh
 
