@@ -121,6 +121,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 31 Oktober 2026 — **Kartu Before & after responsive dipendekkan**: sebelumnya tinggi 560 sama dengan desktop sehingga terlalu tinggi; kini rasio 4:5 — tablet 340×424, mobile 300×376 (desktop tetap 464×560). Gradasi ikut menyesuaikan.
 
+- 31 Oktober 2026 — **Marquee "Daily care, simplified" responsive**: komponen `Marquee` kini component set `Breakpoint=Desktop/Tablet/Mobile` (desktop tidak berubah). Tablet 768×80: thumbnail 80×48, jarak 20, margin kiri 32. Mobile 390×72: thumbnail 64×40, jarak 16, margin kiri 20. Strip mulai dari teks rata kiri (sebelumnya strip 1512 rata tengah sehingga di mobile hanya terlihat foto terpotong + satu frasa); foto pertama dipindah ke akhir. Instance di Homepage / Tablet dan / Mobile sudah di-swap.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
