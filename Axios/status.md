@@ -142,6 +142,9 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Tablet & mobile: ruang bawah wordmark "Axios Care" ditambah (tinggi hero 880 → 918, 720 → 748).
   - Reaksi ✅ belum bisa dipasang: token Figma di environment cloud tidak valid (401).
 
+- 31 Oktober 2026 — **Wordmark hero responsive diperkecil**: tablet 156 → 117 px (tinggi hero 879), mobile 77 → 62 px (tinggi hero 732); ruang bawah tetap 32 / 24 px.
+- 31 Oktober 2026 — **Brand intro mobile: skala font sendiri** (tidak mengikuti desktop/tablet): kalimat utama 28 px / 36, -4%; baris penutup abu "Everyday care, at your own pace." 20 px / 30, -2% sebagai penutup yang lebih tenang. Lima baris rata tengah, foto inline tetap 36 px.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
