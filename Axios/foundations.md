@@ -48,5 +48,5 @@ Ukuran font tiap style terikat ke variable responsive, jadi otomatis berubah saa
 ## Catatan
 
 - 12 text style lama (DM Sans, Instrument Serif, Ritual Card) **sudah dihapus** 31 Oktober 2026 — tidak dipakai di Homepage. Panel text style kini hanya berisi 27 style `Axios/…` (+1 style lain bila ada).
-- Variable collection lama `Axios / Botanical direction` dan `Axios / Warm Editorial` **belum dihapus** karena 36 layer Homepage masih terikat ke variable itu. Dibersihkan saat Homepage dipasangi token baru.
+- Variable collection lama `Axios / Botanical direction` dan `Axios / Warm Editorial` **sudah dihapus** (31 Oktober 2026) setelah Homepage dipasangi token baru.
 - Warna sekali pakai di Homepage (sand 200–700, neutral/100) dimasukkan sebagai primitives agar pemasangan nanti tidak mengubah tampilan.
