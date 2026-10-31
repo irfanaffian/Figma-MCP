@@ -4,7 +4,7 @@ Diperbarui: 31 Oktober 2026.
 
 ## Posisi saat ini
 
-Homepage locked oleh Sid. **Variant B** kartu ritual sudah dipasang di Homepage oleh pengguna (`376:4313`); Variant C/D dan section lama sudah dihapus dari canvas. Frame kerja aktif adalah **Desktop - 11** (`215:90`) di halaman **HiFi** (`11:2160`), tinggi 12341 px. Semua teks Plus Jakarta Sans; audit konsistensi terakhir 31 Oktober 2026 (keempat). Fondasi selesai (31 Oktober). Langkah 3 selesai 31 Oktober (Homepage memakai komponen + token, tampilan sama). **Berikutnya: langkah 4** — Homepage tablet (768) dan mobile (390).
+Homepage locked oleh Sid. **Variant B** kartu ritual sudah dipasang di Homepage oleh pengguna (`376:4313`); Variant C/D dan section lama sudah dihapus dari canvas. Frame kerja aktif adalah **Desktop - 11** (`215:90`) di halaman **HiFi** (`11:2160`), tinggi 12341 px. Semua teks Plus Jakarta Sans; audit konsistensi terakhir 31 Oktober 2026 (keempat). Fondasi selesai (31 Oktober). Langkah 4 selesai 31 Oktober: Homepage desktop, tablet (768), mobile (390). **Berikutnya: langkah 5** — inner page (PDP, collection, cart drawer, our story, journal, contact/FAQ) di 3 breakpoint; menu drawer mobile.
 
 ## Terverifikasi pada sesi ini
 
@@ -88,6 +88,12 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Layer non-komponen disambungkan ke token: 186 warna, 39 text style, 187 spacing, 15 radius. Variable lama dilepas/dipetakan (color/ink #282723 → text/primary #21211F, color/muted #7C766E → text/secondary #807A73 — sesuai keputusan audit; selisih tidak terlihat). Koleksi lama `Axios / Botanical direction` dan `Axios / Warm Editorial` **dihapus**.
   - Verifikasi: tinggi tetap 12421 px; overlay Difference terhadap backup hitam (identik) kecuali bekas perubahan warna di atas.
   - Belum: hero dan banner foto masih group (bukan komponen/auto-layout) — dibangun ulang saat langkah 4 (tablet/mobile).
+- 31 Oktober 2026 — **Langkah 4 (responsive) selesai** di halaman HiFi, di samping Homepage desktop (tidak diubah, tetap 1512×12421):
+  - **Homepage / Mobile** (`409:2574`, 390 px, mode Responsive = Mobile) dan **Homepage / Tablet** (`411:3275`, 768 px, mode Tablet). Font, margin, dan padding section mengikuti token responsive.
+  - Pola: baris kartu → carousel geser (produk, koleksi, ritual, before-after, story, video antrean; kartu 296–340 px); kolom berdampingan → bertumpuk; chip kategori → baris geser; brand intro → teks membungkus dengan foto inline.
+  - Komponen baru: `Header / Mobile` (logo, tas, menu), `Announcement bar / Mobile`, `Footer / Mobile` (kolom bertumpuk, wordmark 140 px), variant `Video card / Type=Featured Mobile`. Komponen mobile dikunci ke mode Mobile.
+  - Hero dan banner dibangun ulang sebagai frame auto-layout (`Hero / Mobile`, `Banner / Mobile`, versi tablet lebih tinggi) dengan garis + kotak penanda.
+  - Tablet memakai header/menu mobile (pola umum Shopify < 990 px).
 
 ## Bagian yang tidak disentuh
 

@@ -83,6 +83,8 @@ Mengikuti breakpoint tema Shopify Dawn (dasar paling umum template Shopify), sup
 
 Konten desktop maksimal 1432 px (margin 40 px di 1512). Judul ke konten: 64 / 48 / 32 px.
 
+Frame di Figma (halaman HiFi): `Homepage` (desktop 1512), `Homepage / Tablet` (768), `Homepage / Mobile` (390). Di tablet/mobile: header mobile + menu, kartu jadi carousel geser, kolom bertumpuk.
+
 ## Struktur halaman (Desktop - 11)
 
 0. Announcement bar 48 px gelap dengan countdown (Days/Hrs/Min/Sec), link "Shop the set", dan panah kiri/kanan di ujung (pengumuman bisa digeser).
