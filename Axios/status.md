@@ -147,6 +147,12 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 31 Oktober 2026 — **Banner: tombol menyatu dengan judul (feedback Sid)**: desktop dari 3 kolom (pesan | countdown | tombol) jadi 2 kolom (judul + tombol | countdown), pita naik 40 px tetap menempel garis bawah; tablet & mobile: countdown di atas, lalu judul + tombol dalam satu blok (blok tombol terpisah dihapus). Kotak penanda dipindah ke garis pembagi baru, penanda yang tidak terpakai dihapus.
 
+- 31 Oktober 2026 — **Footer: ikon sosial + link legal (feedback Sid)**:
+  - Komponen baru `Social icon` (Platform = Instagram / TikTok / Pinterest / YouTube): lingkaran 40 px, garis 1 px `border/default`, logo gaya Phosphor Regular 20 px (stroke 1.25), warna `text/primary`. Ikon logo isi di Moodboard tidak dipakai karena berbeda gaya.
+  - Ketiga variant `Footer`: grup "Follow along" kini berisi baris ikon (desktop 40 px jarak 8; tablet/mobile 36 px jarak 6 agar muat di kolom 164/167); link teks Instagram/Pinterest disembunyikan.
+  - Mobile: link legal 14 → 12 px, jarak 12, kini satu baris.
+- 31 Oktober 2026 — **Wordmark hero tablet/mobile rata tengah** (constraint CENTER).
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
