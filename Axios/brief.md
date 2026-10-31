@@ -69,6 +69,18 @@ Kotak penanda yang sama juga dipakai di **kartu ritual Three simple steps** (uju
 
 Pengecualian atas permintaan pengguna: **Closing CTA** memakai garis tipis tanpa grid marker (garis atas, bawah, dan pembagi vertikal), mengikuti referensi yang dilampirkan pengguna. Jangan diterapkan ke section lain tanpa instruksi.
 
+## Breakpoint responsive (usulan 31 Oktober 2026)
+
+Mengikuti breakpoint tema Shopify Dawn (dasar paling umum template Shopify), supaya desain langsung cocok saat dibangun.
+
+| Breakpoint | Rentang | Frame desain | Kolom / margin / gutter | Padding section | Headline / statement / body |
+| --- | --- | --- | --- | --- | --- |
+| Mobile | < 750 px | 390 px (cek juga 360) | 4 / 20 / 12 | 48 px | 36 / 28 / 16 |
+| Tablet | 750–989 px | 768 px | 8 / 32 / 16 | 64 px | 48 / 36 / 16 |
+| Desktop | ≥ 990 px | 1440 px (cek 1280; desain saat ini 1512) | 12 / 40 / 20 | 80 px | 64 / 48 / 18 |
+
+Konten desktop maksimal 1432 px (margin 40 px di 1512). Judul ke konten: 64 / 48 / 32 px.
+
 ## Struktur halaman (Desktop - 11)
 
 0. Announcement bar 48 px gelap dengan countdown (Days/Hrs/Min/Sec), link "Shop the set", dan panah kiri/kanan di ujung (pengumuman bisa digeser).

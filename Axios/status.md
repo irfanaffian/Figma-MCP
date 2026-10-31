@@ -4,7 +4,7 @@ Diperbarui: 31 Oktober 2026.
 
 ## Posisi saat ini
 
-Homepage locked oleh Sid. **Variant B** kartu ritual sudah dipasang di Homepage oleh pengguna (`376:4313`); Variant C/D dan section lama sudah dihapus dari canvas. Frame kerja aktif adalah **Desktop - 11** (`215:90`) di halaman **HiFi** (`11:2160`), tinggi 12341 px. Semua teks Plus Jakarta Sans; audit konsistensi terakhir 31 Oktober 2026.
+Homepage locked oleh Sid. **Variant B** kartu ritual sudah dipasang di Homepage oleh pengguna (`376:4313`); Variant C/D dan section lama sudah dihapus dari canvas. Frame kerja aktif adalah **Desktop - 11** (`215:90`) di halaman **HiFi** (`11:2160`), tinggi 12341 px. Semua teks Plus Jakarta Sans; audit konsistensi terakhir 31 Oktober 2026 (keempat). Berikutnya: design system ringan → responsive → inner page (lihat Rencana berikutnya).
 
 ## Terverifikasi pada sesi ini
 
@@ -69,6 +69,17 @@ Verifikasi ini hanya membaca struktur layer. Ini belum merupakan audit visual, a
 - 31 Oktober 2026: Kartu video unggulan Shoppable videos (`303:2035`, di dalam Homepage, atas permintaan pengguna) diberi treatment Variant B: pill durasi glass "FEATURED · 0:24"; pita bawah bergaris + harga besar + tombol Add to bag dihapus, diganti judul 32 SemiBold, garis tipis dengan kotak penanda 8 px, baris deskripsi + harga kecil, dan tombol panah putih 40 px. Padding kartu 24 px.
 - 31 Oktober 2026: Konten video unggulan dikembalikan seperti sebelumnya di dalam treatment Variant B: harga "$24" 40 px + "USD" kecil dan tombol terang "Add to bag" (menggantikan tombol panah), label durasi teks asli "Featured · 0:24" (tampil kapital via text case).
 - 31 Oktober 2026 — **Audit ketiga** (skrip library): 1 font, 3 warna teks, 40 gaya teks, 0 flag, 0 overflow, 0 ikon salah stroke, section menempel tanpa celah (tinggi 12341 px). Diperbaiki: tombol "Explore rituals" di Variant B masih `#282723` (terbawa saat clone) → `#21211F`. Dicatat, dibiarkan: harga video unggulan 40 px (satu-satunya ukuran 40, peran display harga).
+- 31 Oktober 2026 — **Audit keempat** (skrip library): 1 font, 3 warna teks, 40 gaya teks, 0 flag/overflow/ikon salah, section menempel tanpa celah. Kesiapan responsive: hero dan banner foto masih **group** (bukan auto-layout), header belum auto-layout, frame halaman absolute; 13 text style lokal lama (DM Sans/Instrument Serif/Ritual Card) **tidak dipakai**; 36 node masih terikat ke variable lama (`Axios / Botanical direction`, `Axios / Warm Editorial`); komponen hampir tidak dipakai (1 instance).
+
+## Rencana berikutnya (disepakati 31 Oktober 2026 — menunggu persetujuan pengguna)
+
+Homepage desktop sudah locked → saat yang tepat membangun design system **ringan** sebelum responsive dan inner page:
+
+1. **Foundation**: bersihkan style/variable lama; buat variable warna, spacing, radius, dan ukuran teks dengan mode Desktop / Tablet / Mobile; text style per peran (mengikuti skala tipografi di brief).
+2. **Komponen inti** (dengan varian ukuran/breakpoint): tombol (L/M, gelap/terang), tombol panah prev/next, pill/badge, section header (eyebrow + headline + teks), kartu produk (default/hover/sale), kartu ritual, kartu video (featured/antrean), header (desktop/mobile + menu), announcement bar, ribbon/marquee, footer.
+3. **Rapikan Homepage desktop** memakai komponen + auto-layout penuh (hero & banner dari group ke auto-layout) — tampilan tidak berubah.
+4. **Homepage tablet (768) dan mobile (390)** dari komponen yang sama.
+5. **Inner page** (PDP, collection/PLP, cart drawer, our story, journal, contact/FAQ) langsung di 3 breakpoint.
 
 ## Bagian yang tidak disentuh
 
