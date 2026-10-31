@@ -17,6 +17,7 @@ Retouch dan redesign visual landing page desktop Axios (lebar frame 1512 px), da
 - Hanya layer yang bisa diedit. Jangan membuat komponen atau style baru.
 - Pertahankan section yang tidak diminta untuk diubah.
 - Selalu baca kondisi Figma terbaru sebelum mengedit, karena pengguna juga mengedit manual.
+- **Lingkup kerja hanya Homepage di halaman HiFi** (`11:2160`). Halaman Moodboard, Archive, dan lainnya diabaikan — pemakaian di sana tidak menghalangi pembersihan style/variable.
 - Jangan menulis klaim tanpa data, misalnya "Verified buyer", "Free shipping", "Dermatologist tested", atau klaim klinis lainnya.
 
 ## Patokan visual
