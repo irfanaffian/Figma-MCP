@@ -136,6 +136,12 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 31 Oktober 2026 — **Judul CTA mobile jadi 2 baris**: "A little care." / "More room for [foto] *you.*" (sebelumnya 3 baris). Foto inline 48×36, jarak 6; lebar baris 338 dari 350.
 
+- 31 Oktober 2026 — **Feedback Sid di Hero (comment Figma)**:
+  - Desktop: tombol "Shop skincare" dipindah ke bawah headline (x 246, 24 px di bawah judul; headline naik ke y 470); lingkaran foto + "Care" dipindah ke kanan atas kotak garis (rata kanan 40 px dari garis, sejajar intro).
+  - Mobile: lingkaran foto diperkecil 56 → 44 px (tumpang -10).
+  - Tablet & mobile: ruang bawah wordmark "Axios Care" ditambah (tinggi hero 880 → 918, 720 → 748).
+  - Reaksi ✅ belum bisa dipasang: token Figma di environment cloud tidak valid (401).
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
