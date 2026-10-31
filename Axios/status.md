@@ -119,6 +119,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Brand intro mobile: 3 baris kaku diganti satu paragraf mengalir (`Brand statement / flow`, auto-layout wrap rata tengah); teks dipecah per frasa dan foto inline (60×36, pasangan 36×36 tumpang -10, 36×36) ikut di alur kalimat, baris terakhir tetap abu.
   - Kartu ulasan Community mobile: padding 32/24, jarak tetap 24 (sebelumnya space-between sehingga bintang menempel garis), blok customer berjarak 24 dari garis, teks ritual bisa turun baris (tidak terpotong lagi).
 
+- 31 Oktober 2026 — **Kartu Before & after responsive dipendekkan**: sebelumnya tinggi 560 sama dengan desktop sehingga terlalu tinggi; kini rasio 4:5 — tablet 340×424, mobile 300×376 (desktop tetap 464×560). Gradasi ikut menyesuaikan.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
