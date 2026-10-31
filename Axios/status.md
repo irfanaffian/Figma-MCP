@@ -128,6 +128,12 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - `Announcement bar` → component set Desktop/Tablet/Mobile. Tablet 768×48 baru: panah di tepi (margin 32), countdown + link "Shop the set" di tengah (pesan panjang tetap hanya di desktop). Sebelumnya tablet memakai versi mobile.
   - Pemindaian akhir: semua instance tingkat atas di Homepage / Tablet dan / Mobile memakai variant Breakpoint masing-masing; tidak ada variant Desktop di dalamnya.
 
+- 31 Oktober 2026 — **CTA + footer mobile/tablet dirapikan**:
+  - `Footer` kini component set Desktop/Tablet/Mobile (sebelumnya tablet memakai Footer / Mobile).
+  - Mobile: link jadi grid 2 kolom (Shop | Learn, Follow along | Here to help; jarak 12 seragam), kolom email selebar penuh dengan placeholder rata tengah, "All skincare" 14 → 16 seperti link lain, link legal berjejer (wrap) bukan bertumpuk 32 px, copyright + USD satu baris. Tinggi footer 1508 → ±1050.
+  - Tablet 768: 4 kolom link sebaris, kolom email 480, wordmark 281, margin 32.
+  - CTA tablet: celah lebar di "More room for [foto] you." hilang (teks tadinya lebar tetap 320).
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
