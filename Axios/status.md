@@ -123,6 +123,11 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 31 Oktober 2026 — **Marquee "Daily care, simplified" responsive**: komponen `Marquee` kini component set `Breakpoint=Desktop/Tablet/Mobile` (desktop tidak berubah). Tablet 768×80: thumbnail 80×48, jarak 20, margin kiri 32. Mobile 390×72: thumbnail 64×40, jarak 16, margin kiri 20. Strip mulai dari teks rata kiri (sebelumnya strip 1512 rata tengah sehingga di mobile hanya terlihat foto terpotong + satu frasa); foto pertama dipindah ke akhir. Instance di Homepage / Tablet dan / Mobile sudah di-swap.
 
+- 31 Oktober 2026 — **Semua bagian tablet/mobile kini memakai komponen per breakpoint** (prinsip pengguna: mobile & tablet punya komponen sendiri agar layout fit):
+  - `Ribbon review` → component set Desktop/Tablet/Mobile. Tablet 768×76: bintang 20 px, jarak 32, margin 32. Mobile 390×68: bintang 16 px, jarak 24, margin 20. Strip mulai rata kiri (sebelumnya versi 1512 dengan bintang 24 px dan teks terpotong di tepi).
+  - `Announcement bar` → component set Desktop/Tablet/Mobile. Tablet 768×48 baru: panah di tepi (margin 32), countdown + link "Shop the set" di tengah (pesan panjang tetap hanya di desktop). Sebelumnya tablet memakai versi mobile.
+  - Pemindaian akhir: semua instance tingkat atas di Homepage / Tablet dan / Mobile memakai variant Breakpoint masing-masing; tidak ada variant Desktop di dalamnya.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
