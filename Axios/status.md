@@ -153,6 +153,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Mobile: link legal 14 → 12 px, jarak 12, kini satu baris.
 - 31 Oktober 2026 — **Wordmark hero tablet/mobile rata tengah** (constraint CENTER).
 
+- 31 Oktober 2026 — **Foto trio CTA diperkecil**: tablet 96 → 72 px, mobile 96 → 64 px (tumpang -12); jarak foto ke label 40 → 24.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
