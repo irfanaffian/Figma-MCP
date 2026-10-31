@@ -4,7 +4,7 @@ Diperbarui: 31 Oktober 2026.
 
 ## Posisi saat ini
 
-Homepage locked oleh Sid. **Variant B** kartu ritual sudah dipasang di Homepage oleh pengguna (`376:4313`); Variant C/D dan section lama sudah dihapus dari canvas. Frame kerja aktif adalah **Desktop - 11** (`215:90`) di halaman **HiFi** (`11:2160`), tinggi 12341 px. Semua teks Plus Jakarta Sans; audit konsistensi terakhir 31 Oktober 2026 (keempat). Fondasi selesai (31 Oktober). **Berikutnya: langkah 2 komponen inti — belum dimulai**; skrip dan daftar node sumber siap di [ds-scripts/](./ds-scripts/README.md). Lanjutkan di sesi baru.
+Homepage locked oleh Sid. **Variant B** kartu ritual sudah dipasang di Homepage oleh pengguna (`376:4313`); Variant C/D dan section lama sudah dihapus dari canvas. Frame kerja aktif adalah **Desktop - 11** (`215:90`) di halaman **HiFi** (`11:2160`), tinggi 12341 px. Semua teks Plus Jakarta Sans; audit konsistensi terakhir 31 Oktober 2026 (keempat). Fondasi selesai (31 Oktober). Langkah 2 (komponen) selesai 31 Oktober. **Berikutnya: langkah 3** — pasang komponen + token ke Homepage (tampilan tidak berubah), lalu langkah 4 tablet/mobile.
 
 ## Terverifikasi pada sesi ini
 
@@ -81,6 +81,7 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 4. **Homepage tablet (768) dan mobile (390)** dari komponen yang sama.
 5. **Inner page** (PDP, collection/PLP, cart drawer, our story, journal, contact/FAQ) langsung di 3 breakpoint.
 - 31 Oktober 2026 — **Langkah 1 (fondasi) selesai**: 3 variable collection (98 variable: Primitives, Color semantik, Responsive Desktop/Tablet/Mobile), 27 text style `Axios/…` dengan ukuran terikat breakpoint, 1 effect style, dan halaman dokumentasi **Foundations** (`401:2023`). Semua diambil dari nilai Homepage; Homepage tidak diubah (0 binding/style baru). Detail: [foundations.md](./foundations.md).
+- 31 Oktober 2026 — **Langkah 2 (komponen inti) selesai** di halaman **Components**: 18 komponen / 32 variant, disalin dari Homepage lalu disambungkan ke token hanya bila nilainya persis sama — Button (M/L × Dark/Light, properti Label), Icon button (Previous/Next/Shop), Badge (Light/Clay), Pill glass, Chip size, Swatch, Story (New/Seen), Product card (Default/Sale/Hover), Ritual card, Video card (Featured/Queue), Collection card, Before & after card, Section header (Split/Centered), Announcement bar, Header / Desktop, Ribbon review, Marquee, Footer. Homepage tidak berubah (tinggi tetap 12421 px). Semua teks dokumentasi Figma kini bahasa Inggris. Catatan: kartu belum memakai instance komponen kecil di dalamnya (badge, swatch, tombol masih layer biasa) — dirapikan saat pemasangan ke Homepage (langkah 3).
 
 ## Bagian yang tidak disentuh
 
