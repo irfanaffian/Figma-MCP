@@ -155,6 +155,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 31 Oktober 2026 — **Foto trio CTA diperkecil**: tablet 96 → 72 px, mobile 96 → 64 px (tumpang -12); jarak foto ke label 40 → 24.
 
+- 31 Oktober 2026 — **Sinkron komponen ↔ Homepage**: pemindaian override instance di ketiga frame. Diperbaiki: brand intro mobile (baris penutup masih 28 px di Homepage karena override → kini 20 px sesuai komponen), Hero tablet/mobile (tinggi lama 880/720 → 879/732), Closing CTA mobile (sisa override teks), Cloud Comfort tablet (jarak 24 + rata atas dipindah dari instance ke komponen). Semua instance itu kini tanpa override. Sisa override yang disengaja: teks kutipan Ribbon review kedua.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
