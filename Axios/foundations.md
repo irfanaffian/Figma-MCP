@@ -18,13 +18,13 @@ Semua variable punya scope spesifik dan code syntax web (`var(--color-text-prima
 
 | Token | Desktop | Tablet | Mobile |
 | --- | --- | --- | --- |
-| display/hero | 56 | 44 | 36 |
+| display/hero | 56 | 44 | 32 |
 | display/stat | 104 | 80 | 64 |
 | display/number | 40 | 32 | 24 |
-| heading/h1 | 64 | 48 | 36 |
-| heading/statement | 48 | 36 | 28 |
-| heading/h2 | 44 | 36 | 28 |
-| heading/h3 | 32 | 28 | 24 |
+| heading/h1 | 64 | 44 | 32 |
+| heading/statement | 48 | 32 | 24 |
+| heading/h2 | 44 | 32 | 24 |
+| heading/h3 | 32 | 26 | 22 |
 | heading/h4 | 24 | 20 | 18 |
 | title/product | 20 | 18 | 16 |
 | body/lead | 18 | 17 | 16 |
@@ -51,3 +51,7 @@ Ukuran font tiap style terikat ke variable responsive, jadi otomatis berubah saa
 - 12 text style lama (DM Sans, Instrument Serif, Ritual Card) **sudah dihapus** 31 Oktober 2026 — tidak dipakai di Homepage. Panel text style kini hanya berisi 27 style `Axios/…` (+1 style lain bila ada).
 - Variable collection lama `Axios / Botanical direction` dan `Axios / Warm Editorial` **sudah dihapus** (31 Oktober 2026) setelah Homepage dipasangi token baru.
 - Warna sekali pakai di Homepage (sand 200–700, neutral/100) dimasukkan sebagai primitives agar pemasangan nanti tidak mengubah tampilan.
+
+## Section components (31 Oktober 2026)
+
+Setiap section Homepage adalah component set `Section / …` dengan variant `Breakpoint=Desktop/Tablet/Mobile` di halaman Components (frame "Axios / Sections"). Layout dan ukuran font per breakpoint diatur di variant — frame Homepage hanya memakai instance tanpa override layout. Untuk mengubah tampilan mobile/tablet, edit variant-nya, bukan instance di halaman.

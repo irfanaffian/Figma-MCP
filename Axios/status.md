@@ -107,6 +107,13 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Ukuran manual per breakpoint untuk teks khusus: ribbon review 14/16, chip "All skincare" 14/16, countdown banner 28/32 (hero, wordmark, rating sudah diatur sendiri).
   - Error layout diperbaiki: navigasi Community (customer di atas, 01/04 kiri + panah kanan), CTA mobile "More room / for [foto] *you.*", kolom email 56 px satu baris, ikon Moments of care tidak menempel garis, paragraf tanpa enter manual, kartu produk video antrean menampilkan harga.
   - Audit akhir: 0 bentuk gepeng, 0 kata patah, 0 overflow, 1 font.
+- 31 Oktober 2026 — **Section jadi komponen dengan variant Breakpoint** (keputusan pengguna: responsive lewat variant, bukan override):
+  - Backup sebelum perubahan di Archive: `423:3727` (desktop), `423:4085` (tablet), `423:4434` (mobile).
+  - 13 component set di halaman Components → frame **Axios / Sections**: `Section / Hero, Stories, Brand introduction, Shop, Collections, Cloud Comfort, Three simple steps, Shoppable videos, Philosophy, Banner, Before & after, Community, Closing CTA & footer`, masing-masing `Breakpoint=Desktop/Tablet/Mobile` (1512/768/390, tiap variant dikunci ke mode Responsive-nya). Hero dan banner desktop dibungkus dulu ke frame (group + garis + header) tanpa mengubah posisi.
+  - Ketiga frame Homepage kini berisi instance variant tersebut (+ strip ribbon/marquee + announcement). Verifikasi Difference terhadap backup: desktop & tablet identik.
+  - **Skala font per breakpoint dibuat adaptif** (bukan menyalin desktop): heading/h1 64/44/32, statement 48/32/24, heading/h2 44/32/24, heading/h3 32/26/22, display/hero 56/44/32; hero headline variant 56/44/32.
+  - Perbaikan variant: brand intro (lebar & margin), footer tablet pakai mode Tablet + wordmark 281 px, judul Collections diberi margin kanan. Audit akhir: 0 teks menempel tepi, 0 kata patah.
+  - Catatan: lebar variant sempat membengkak karena mengikuti isi carousel — semua variant kini dikunci lebarnya.
 
 ## Bagian yang tidak disentuh
 
