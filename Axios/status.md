@@ -4,7 +4,7 @@ Diperbarui: 31 Oktober 2026.
 
 ## Posisi saat ini
 
-Homepage locked oleh Sid. **Variant B** kartu ritual sudah dipasang di Homepage oleh pengguna (`376:4313`); Variant C/D dan section lama sudah dihapus dari canvas. Frame kerja aktif adalah **Desktop - 11** (`215:90`) di halaman **HiFi** (`11:2160`), tinggi 12341 px. Semua teks Plus Jakarta Sans; audit konsistensi terakhir 31 Oktober 2026 (keempat). Fondasi selesai (31 Oktober). Berikutnya: langkah 2 komponen inti (lihat Rencana berikutnya).
+Homepage locked oleh Sid. **Variant B** kartu ritual sudah dipasang di Homepage oleh pengguna (`376:4313`); Variant C/D dan section lama sudah dihapus dari canvas. Frame kerja aktif adalah **Desktop - 11** (`215:90`) di halaman **HiFi** (`11:2160`), tinggi 12341 px. Semua teks Plus Jakarta Sans; audit konsistensi terakhir 31 Oktober 2026 (keempat). Fondasi selesai (31 Oktober). **Berikutnya: langkah 2 komponen inti — belum dimulai**; skrip dan daftar node sumber siap di [ds-scripts/](./ds-scripts/README.md). Lanjutkan di sesi baru.
 
 ## Terverifikasi pada sesi ini
 
