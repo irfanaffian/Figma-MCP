@@ -94,6 +94,12 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Komponen baru: `Header / Mobile` (logo, tas, menu), `Announcement bar / Mobile`, `Footer / Mobile` (kolom bertumpuk, wordmark 140 px), variant `Video card / Type=Featured Mobile`. Komponen mobile dikunci ke mode Mobile.
   - Hero dan banner dibangun ulang sebagai frame auto-layout (`Hero / Mobile`, `Banner / Mobile`, versi tablet lebih tinggi) dengan garis + kotak penanda.
   - Tablet memakai header/menu mobile (pola umum Shopify < 990 px).
+- 31 Oktober 2026 — **Koreksi responsive agar gaya = desktop** (atas masukan pengguna: ukuran boleh beda, gaya tidak):
+  - Hero mobile/tablet dibangun ulang dari elemen desktop: tanpa gradasi (desktop tidak memakai gradasi), garis putih 1 px opasitas 40% (horizontal) / 50% (vertikal), kotak penanda 8 px di setiap pertemuan, label kiri + kanan, intro Medium 16 putih 85%, avatar, headline uppercase, tombol, dan wordmark italic "Axios Care" (77 px mobile, 156 px tablet).
+  - Banner mobile/tablet: gradasi + bingkai garis + label kiri/kanan seperti desktop; pita gelap transparan (#1F1A14 22%, garis atas putih 28%) disusun bertumpuk dengan pembagi garis atas putih 35% dan kotak penanda.
+  - `Announcement bar / Mobile` kini memakai countdown berkotak yang sama dengan desktop + panah (pesan & link disembunyikan karena tidak muat).
+  - Rating "4.9" kembali -2%; Moments of care: mobile bertumpuk dengan garis atas, tablet 2×2 dengan garis kiri/atas (warna garis sama).
+  - Verifikasi: 1 font, 3 warna teks, 0 overflow, perbandingan gaya layer-per-layer terhadap desktop tanpa selisih (kecuali garis pemisah yang dipindah sisi).
 
 ## Bagian yang tidak disentuh
 

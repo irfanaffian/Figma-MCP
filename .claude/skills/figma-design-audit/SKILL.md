@@ -45,6 +45,7 @@ Laporkan temuan ke pengguna dalam bahasa sederhana (angka sebelum → sesudah), 
 - **Edit manual pengguna = patokan**: bila satu elemen sudah diubah pengguna dan diminta "terapkan ke yang lain", salin *semua* properti (ukuran, posisi anak, visibilitas paint), bukan hanya warna/ukuran.
 - **Varian hasil clone**: section/kartu yang di-clone dari versi lama membawa warna dan gaya lama. Setelah pengguna memasang varian ke halaman, jalankan audit lagi — biasanya ada sisa token lama (contoh: `#282723` di tombol).
 - **Treatment vs konten**: bila pengguna minta "treatment seperti X", salin gaya/struktur visual X tetapi **pertahankan konten asli** elemen tujuan (harga, tombol, teks) kecuali diminta lain.
+- **Responsive = gaya sama, ukuran boleh beda**: bagian yang dibangun ulang untuk mobile/tablet harus disalin dari elemen desktop (clone), bukan dibuat baru — jangan menambah gradasi, mengganti berat font, atau menghilangkan elemen dekoratif (garis, penanda, wordmark). Jalankan perbandingan gaya layer-per-layer (fill, stroke, radius, efek, font style, letter-spacing, opasitas) antara frame responsive dan desktop.
 - **Bila pengguna minta "kembalikan"**: pastikan dulu bagian mana (gaya teks atau seluruh treatment). Kembalikan hanya yang diminta, lalu catat pengecualian itu di brief agar audit berikutnya tidak menyeragamkannya lagi.
 - Kembalikan semua node ID yang diubah; ambil satu screenshot per area yang berubah besar.
 
