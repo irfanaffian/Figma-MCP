@@ -100,6 +100,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - `Announcement bar / Mobile` kini memakai countdown berkotak yang sama dengan desktop + panah (pesan & link disembunyikan karena tidak muat).
   - Rating "4.9" kembali -2%; Moments of care: mobile bertumpuk dengan garis atas, tablet 2×2 dengan garis kiri/atas (warna garis sama).
   - Verifikasi: 1 font, 3 warna teks, 0 overflow, perbandingan gaya layer-per-layer terhadap desktop tanpa selisih (kecuali garis pemisah yang dipindah sisi).
+- 31 Oktober 2026 — **Audit detail responsive** (fokus adaptasi layout): elemen gepeng karena hug otomatis (lingkaran ikon tombol, tombol panah) dikembalikan ke ukuran desktop; kata patah "you." diperbaiki; strip ribbon/marquee mulai dari kiri; chip kategori mulai dari kiri; jarak judul→konten memakai token `layout/heading-gap` (32/48); foto Philosophy berdampingan; potret Community diperpendek; brand intro tablet tidak lagi bertumpuk; header Collections tablet kembali sejajar dengan panah.
+- **Keputusan pengguna (31 Oktober 2026):** jangan memaksa komponen desktop beradaptasi lewat override. Buat **variant Breakpoint = Desktop / Tablet / Mobile** per komponen (section header, kartu, video featured, header, announcement, footer, dan section besar: hero, banner, Cloud Comfort, Community, CTA), lalu frame tablet/mobile cukup memakai instance variant tanpa override layout. Ini langkah berikutnya sebelum inner page.
 
 ## Bagian yang tidak disentuh
 
