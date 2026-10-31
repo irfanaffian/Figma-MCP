@@ -145,6 +145,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 - 31 Oktober 2026 — **Wordmark hero responsive diperkecil**: tablet 156 → 117 px (tinggi hero 879), mobile 77 → 62 px (tinggi hero 732); ruang bawah tetap 32 / 24 px.
 - 31 Oktober 2026 — **Brand intro mobile: skala font sendiri** (tidak mengikuti desktop/tablet): kalimat utama 28 px / 36, -4%; baris penutup abu "Everyday care, at your own pace." 20 px / 30, -2% sebagai penutup yang lebih tenang. Lima baris rata tengah, foto inline tetap 36 px.
 
+- 31 Oktober 2026 — **Banner: tombol menyatu dengan judul (feedback Sid)**: desktop dari 3 kolom (pesan | countdown | tombol) jadi 2 kolom (judul + tombol | countdown), pita naik 40 px tetap menempel garis bawah; tablet & mobile: countdown di atas, lalu judul + tombol dalam satu blok (blok tombol terpisah dihapus). Kotak penanda dipindah ke garis pembagi baru, penanda yang tidak terpakai dihapus.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.

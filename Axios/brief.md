@@ -101,7 +101,7 @@ Frame di Figma (halaman HiFi): `Homepage` (desktop 1512), `Homepage / Tablet` (7
 11. Shoppable videos — "Rituals in motion.": judul di atas; video aktif besar di kiri (856×600); kolom kanan: intro + prev/next di atas, label "UP NEXT" + 2 video antrean square 268×268 di bawah; video unggulan memakai treatment Variant B (pill glass, judul + garis bertanda) dengan konten asli: deskripsi, harga $24 USD, tombol Add to bag; video antrean memakai kartu produk putih mengambang (foto kecil, nama, harga, tombol +).
 12. Ribbon review kedua.
 13. Section "Skincare should feel like a pause" dengan foto asimetris.
-14. Banner foto dengan bingkai garis; konten di pita bergaya kartu ritual (pesan | countdown | tombol) yang menempel di garis bawah.
+14. Banner foto dengan bingkai garis; konten di pita bergaya kartu ritual yang menempel di garis bawah — desktop 2 kolom (judul + tombol | countdown), tablet/mobile bertumpuk (countdown di atas, lalu judul + tombol). Feedback Sid 31 Oktober 2026: tombol tidak lagi di blok terpisah.
 15. Before & after — 3 kartu 560 px dengan toggle Before/After, disclaimer "Individual results vary."
 16. Community — Small rituals, real stories.
 17. Closing CTA dan footer.
