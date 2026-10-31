@@ -102,6 +102,11 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Verifikasi: 1 font, 3 warna teks, 0 overflow, perbandingan gaya layer-per-layer terhadap desktop tanpa selisih (kecuali garis pemisah yang dipindah sisi).
 - 31 Oktober 2026 — **Audit detail responsive** (fokus adaptasi layout): elemen gepeng karena hug otomatis (lingkaran ikon tombol, tombol panah) dikembalikan ke ukuran desktop; kata patah "you." diperbaiki; strip ribbon/marquee mulai dari kiri; chip kategori mulai dari kiri; jarak judul→konten memakai token `layout/heading-gap` (32/48); foto Philosophy berdampingan; potret Community diperpendek; brand intro tablet tidak lagi bertumpuk; header Collections tablet kembali sejajar dengan panah.
 - **Keputusan pengguna (31 Oktober 2026):** jangan memaksa komponen desktop beradaptasi lewat override. Buat **variant Breakpoint = Desktop / Tablet / Mobile** per komponen (section header, kartu, video featured, header, announcement, footer, dan section besar: hero, banner, Cloud Comfort, Community, CTA), lalu frame tablet/mobile cukup memakai instance variant tanpa override layout. Ini langkah berikutnya sebelum inner page.
+- 31 Oktober 2026 — **Audit responsive lanjutan (font per breakpoint + error layout)**:
+  - Text style dipasang ke teks komponen yang belum punya (deskripsi produk, harga, label, placeholder, dll.) sehingga ikut mengecil per breakpoint. Skala token tablet/mobile diperhalus: title/product 20/18/16, heading/h4 24/20/18, heading/h3 32/28/24, heading/h2 44/36/28, display/number 40/32/24, body/lead 18/17/16, ribbon 18/16/14, button/lg 18/18/16.
+  - Ukuran manual per breakpoint untuk teks khusus: ribbon review 14/16, chip "All skincare" 14/16, countdown banner 28/32 (hero, wordmark, rating sudah diatur sendiri).
+  - Error layout diperbaiki: navigasi Community (customer di atas, 01/04 kiri + panah kanan), CTA mobile "More room / for [foto] *you.*", kolom email 56 px satu baris, ikon Moments of care tidak menempel garis, paragraf tanpa enter manual, kartu produk video antrean menampilkan harga.
+  - Audit akhir: 0 bentuk gepeng, 0 kata patah, 0 overflow, 1 font.
 
 ## Bagian yang tidak disentuh
 

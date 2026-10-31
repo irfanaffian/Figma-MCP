@@ -20,14 +20,15 @@ Semua variable punya scope spesifik dan code syntax web (`var(--color-text-prima
 | --- | --- | --- | --- |
 | display/hero | 56 | 44 | 36 |
 | display/stat | 104 | 80 | 64 |
-| display/number | 40 | 32 | 28 |
+| display/number | 40 | 32 | 24 |
 | heading/h1 | 64 | 48 | 36 |
 | heading/statement | 48 | 36 | 28 |
-| heading/h2 | 44 | 32 | 28 |
+| heading/h2 | 44 | 36 | 28 |
 | heading/h3 | 32 | 28 | 24 |
-| heading/h4 | 24 | 20 | 20 |
-| title/product | 20 | 18 | 18 |
-| body/lead · body/lg | 18 | 16 | 16 |
+| heading/h4 | 24 | 20 | 18 |
+| title/product | 20 | 18 | 16 |
+| body/lead | 18 | 17 | 16 |
+| body/lg | 18 | 16 | 16 |
 | body/md | 16 | 16 | 16 |
 | body/sm | 14 | 14 | 14 |
 | caption | 12 | 12 | 12 |
