@@ -174,6 +174,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Tinggi section 454 → 638 px; Collection page kini 6725 px. Cek: 1 font, semua teks memakai text style, 0 overflow. Tanpa klaim ongkir/retur.
   - Versi lama dipindah ke Archive (`499:6999`, "Care notes — before Moments treatment (1 Nov 2026)").
 
+- 1 November 2026 — **Cara kerja inner page disepakati**: visual dulu tanpa komponen/token/style baru, tetapi gaya wajib konsisten dengan Homepage (detail di brief, Aturan kerja).
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.

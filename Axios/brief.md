@@ -20,6 +20,10 @@ Retouch dan redesign visual landing page desktop Axios (lebar frame 1512 px), da
 - **Semua teks di Figma berbahasa Inggris** (klien berbahasa Inggris): copy, catatan dokumentasi, nama dan deskripsi komponen/style. Instruksi pengguna boleh bahasa Indonesia.
 - **Lingkup kerja hanya Homepage di halaman HiFi** (`11:2160`). Halaman Moodboard, Archive, dan lainnya diabaikan — pemakaian di sana tidak menghalangi pembersihan style/variable.
 - **Comment Figma tidak dibaca langsung** (keputusan pengguna 1 November 2026). Jangan memakai skill `figma-comments` atau REST API; feedback disampaikan pengguna lewat chat.
+- **Inner page: fokus visual dulu** (keputusan pengguna 1 November 2026). Jangan membuat komponen, variant, variable, text style, atau color style baru sampai layout disetujui; komponen dan responsive dikerjakan sesudahnya. Tetap wajib:
+  - Teks memakai text style `Axios/...`, warna terikat token `Axios / Color`, dan elemen yang sudah ada komponennya dipasang sebagai instance (header, footer, tombol, pill glass, kartu produk, ribbon, marquee).
+  - Layout boleh berbeda dari Homepage, tetapi look and feel harus sama dan konsisten: satu font Plus Jakarta Sans, palet cream/ink/stone, garis tipis + kotak penanda 8 px, pill glass, tombol pill dengan lingkaran ikon, ikon Phosphor Regular, jarak section 80 px, eyebrow bernomor, dan copy pendek yang tenang.
+  - Audit singkat hanya di area yang berubah (font, text style, token warna, overflow).
 - Jangan menulis klaim tanpa data, misalnya "Verified buyer", "Free shipping", "Dermatologist tested", atau klaim klinis lainnya.
 
 ## Patokan visual
