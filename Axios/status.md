@@ -157,6 +157,13 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 31 Oktober 2026 — **Sinkron komponen ↔ Homepage**: pemindaian override instance di ketiga frame. Diperbaiki: brand intro mobile (baris penutup masih 28 px di Homepage karena override → kini 20 px sesuai komponen), Hero tablet/mobile (tinggi lama 880/720 → 879/732), Closing CTA mobile (sisa override teks), Cloud Comfort tablet (jarak 24 + rata atas dipindah dari instance ke komponen). Semua instance itu kini tanpa override. Sisa override yang disengaja: teks kutipan Ribbon review kedua.
 
+- 1 November 2026 — **Collection page desktop dibuat** (`496:9103`, 1512 × 6541):
+  - Gaya diambil dari Homepage: satu font, token warna, text style `Axios/...`, treatment garis + penanda, pill glass.
+  - Bagian yang memakai instance komponen Homepage: announcement, header, marquee, kartu produk, banner, ribbon review, footer.
+  - Section lain dibangun baru untuk eksplorasi layout.
+  - Audit cepat: 1 font, 0 teks meluap; teks yang dibuat semuanya memakai text style.
+  - Nama produk tambahan (Calm Mist Toner, Night Veil Oil, dll.), harga, dan jumlah produk adalah contoh template, perlu konfirmasi klien.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.

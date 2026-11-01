@@ -105,3 +105,20 @@ Frame di Figma (halaman HiFi): `Homepage` (desktop 1512), `Homepage / Tablet` (7
 15. Before & after — 3 kartu 560 px dengan toggle Before/After, disclaimer "Individual results vary."
 16. Community — Small rituals, real stories.
 17. Closing CTA dan footer.
+
+## Collection page (desktop, mulai 1 November 2026)
+
+Frame `Collection page` (`496:9103`) di halaman HiFi, kanan frame tablet. Struktur section mengikuti referensi pengguna (Moodboard `491:10449`), gaya visual mengikuti Homepage. Fokus visual desktop dulu; responsive dan komponen dibuat belakangan.
+
+0. Announcement bar.
+1. Hero koleksi 600 px: foto penuh + header, bingkai garis dan kotak penanda seperti hero Homepage, breadcrumb, label kiri/kanan, judul uppercase "ALL SKINCARE", intro di kanan bawah.
+2. Marquee.
+3. Shop by step: 4 kartu foto bergaya kartu ritual (pill STEP, garis bertanda, jumlah produk, tombol panah).
+4. Daftar produk:
+   - Toolbar: jumlah produk, filter aktif, sort.
+   - Sidebar filter 296 px: skin concern, product type, texture, price, availability, kartu promo set.
+   - Grid 3 kolom kartu produk Homepage, dengan tile editorial cream di baris 2.
+   - "Load more" dengan indikator progres (bukan nomor halaman).
+5. Banner countdown (treatment banner Homepage, foto berbeda).
+6. Catatan layanan 3 kolom bernomor di latar cream. Tanpa klaim ongkir atau batas hari retur.
+7. Ribbon review, lalu footer.
