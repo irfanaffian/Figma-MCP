@@ -176,6 +176,14 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 1 November 2026 — **Cara kerja inner page disepakati**: visual dulu tanpa komponen/token/style baru, tetapi gaya wajib konsisten dengan Homepage (detail di brief, Aturan kerja).
 
+- 1 November 2026 — **Collection page: Shop by step dieksplorasi ulang** (`497:6591`; 4 kartu sama besar terasa seperti template):
+  - Heading tetap. Isi diganti layout editorial `Steps` (`505:6681`): foto unggulan 848×560 di kiri + daftar step di kanan, jarak 64.
+  - Foto unggulan (Cleanse): pill glass "STEP 01 · CLEANSE", judul H3 putih, garis on-photo + kotak penanda 8 px, jumlah produk, dan Button M Light "Shop cleansers".
+  - Daftar step: 4 baris bergaris tipis dengan kotak penanda 8 px di ujung kiri tiap garis. Isi baris: nomor, nama step H3 + jumlah produk kecil, deskripsi satu kalimat, thumbnail pill 96×56 (motif marquee), dan tombol panah 40 px.
+  - Baris aktif (Cleanse): garis gelap, nama gelap, tombol panah gelap; baris lain abu dengan tombol panah bergaris (menunjukkan state hover/aktif).
+  - Tinggi section 740 → 880 px. Cek: 1 font, semua teks memakai text style dan token warna, 0 overflow.
+  - Backup versi kartu di Archive (`505:6618`).
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
