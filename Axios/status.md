@@ -184,6 +184,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Tinggi section 740 → 880 px. Cek: 1 font, semua teks memakai text style dan token warna, 0 overflow.
   - Backup versi kartu di Archive (`505:6618`).
 
+- 1 November 2026 — **Shop by step disederhanakan** (pengguna: harus lebih simple): layout foto unggulan + daftar diganti strip 4 kolom `Step strip` (`506:6629`). Garis atas/bawah tepi ke tepi, pembagi vertikal, kotak penanda 8 px di pertemuan garis atas (treatment Moments of care). Tiap kolom: "STEP 0X" + ikon panah di atas, thumbnail pill 96×56 + nama (Title/Product) + jumlah produk (Body/SM abu). Padding kiri/kanan section kini 0 (heading diberi padding 40) agar garis tepi ke tepi. Tinggi section 880 → 470 px. Versi daftar editorial disimpan di Archive (`506:6553`).
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
