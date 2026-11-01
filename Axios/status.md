@@ -164,6 +164,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Audit cepat: 1 font, 0 teks meluap; teks yang dibuat semuanya memakai text style.
   - Nama produk tambahan (Calm Mist Toner, Night Veil Oil, dll.), harga, dan jumlah produk adalah contoh template, perlu konfirmasi klien.
 
+- 1 November 2026 — **Comment Figma tidak dibaca langsung lagi** (keputusan pengguna). Feedback disampaikan lewat chat; skill `figma-comments` tidak dipakai untuk proyek ini.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.

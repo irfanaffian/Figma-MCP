@@ -19,6 +19,7 @@ Retouch dan redesign visual landing page desktop Axios (lebar frame 1512 px), da
 - Selalu baca kondisi Figma terbaru sebelum mengedit, karena pengguna juga mengedit manual.
 - **Semua teks di Figma berbahasa Inggris** (klien berbahasa Inggris): copy, catatan dokumentasi, nama dan deskripsi komponen/style. Instruksi pengguna boleh bahasa Indonesia.
 - **Lingkup kerja hanya Homepage di halaman HiFi** (`11:2160`). Halaman Moodboard, Archive, dan lainnya diabaikan — pemakaian di sana tidak menghalangi pembersihan style/variable.
+- **Comment Figma tidak dibaca langsung** (keputusan pengguna 1 November 2026). Jangan memakai skill `figma-comments` atau REST API; feedback disampaikan pengguna lewat chat.
 - Jangan menulis klaim tanpa data, misalnya "Verified buyer", "Free shipping", "Dermatologist tested", atau klaim klinis lainnya.
 
 ## Patokan visual
