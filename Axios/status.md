@@ -166,6 +166,14 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 1 November 2026 — **Comment Figma tidak dibaca langsung lagi** (keputusan pengguna). Feedback disampaikan lewat chat; skill `figma-comments` tidak dipakai untuk proyek ini.
 
+- 1 November 2026 — **Collection page: Care notes dieksplorasi ulang** (`502:6553`, treatment "Moments of care" Homepage `423:8029`, dengan improvisasi):
+  - Header split: eyebrow + H2 di kiri, intro Body/Lead di kanan bawah.
+  - Grid 4 kolom 358 px di bawah garis tipis tepi ke tepi (`border/subtle`), pembagi vertikal, dan kotak penanda 8 px di titik pertemuan garis.
+  - Kolom 1–3 (Delivery, Returns, Here to help): ikon Phosphor 32 px + nomor di atas, judul Title/Product + body abu + link kecil dengan panah di bawah.
+  - Kolom 4: tile foto (foto set Cloud Comfort + gradasi bawah) dengan instance Pill glass "NOT SURE YET?", judul H4 putih, dan Button M Light "Find your ritual".
+  - Tinggi section 454 → 638 px; Collection page kini 6725 px. Cek: 1 font, semua teks memakai text style, 0 overflow. Tanpa klaim ongkir/retur.
+  - Versi lama dipindah ke Archive (`499:6999`, "Care notes — before Moments treatment (1 Nov 2026)").
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
