@@ -186,6 +186,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 1 November 2026 — **Shop by step disederhanakan** (pengguna: harus lebih simple): layout foto unggulan + daftar diganti strip 4 kolom `Step strip` (`506:6629`). Garis atas/bawah tepi ke tepi, pembagi vertikal, kotak penanda 8 px di pertemuan garis atas (treatment Moments of care). Tiap kolom: "STEP 0X" + ikon panah di atas, thumbnail pill 96×56 + nama (Title/Product) + jumlah produk (Body/SM abu). Padding kiri/kanan section kini 0 (heading diberi padding 40) agar garis tepi ke tepi. Tinggi section 880 → 470 px. Versi daftar editorial disimpan di Archive (`506:6553`).
 
+- 1 November 2026 — **Kartu promo sidebar diberi treatment kartu ritual** (`498:6697`, 296×400, foto tetap): instance Pill glass "RITUAL SET", judul H4 "The Cloud Comfort ritual, in one set.", garis on-photo + kotak penanda 8 px, baris bawah 3 foto bulat 32 px bertumpuk (cleanse/treat/moisturise) + "3 steps" dan tombol panah putih 40 px. Tombol pill "Shop the set" dan judul besar dihapus. Backup di Archive (`507:6553`).
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
