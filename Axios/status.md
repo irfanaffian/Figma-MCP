@@ -203,6 +203,11 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - C. Chip ringkas (`529:6670`): pill 56 px (foto bulat 44 + nama Body/MD Medium + jumlah Caption), wrap, chip pertama "All steps" gelap sebagai state aktif; garis atas tepi ke tepi. Tinggi 409 px (paling pendek, tetap satu baris untuk 8 chip).
   - Catatan teknis: garis `border/subtle` harus memakai opacity paint 12% (konvensi Homepage); 7 garis di opsi grid sempat 100% dan sudah dikoreksi.
 
+- 2 November 2026 — **Opsi layout baru Shop by step (D–F)**, lanjutan di kanan opsi C, berlabel "Variant for Sid":
+  - D. Stories (`535:6559`): 7 instance komponen `Story` (Cleanse = New/cincin terakota sebagai aktif, lainnya Seen) + lingkaran "Shop all" bergaris dengan ikon panah. Pola Stories Homepage. Tinggi 448.
+  - E. Indeks tipografi (`535:6633`): nama step Heading/H2 berderet dan membungkus, dipisah "/" (text/muted), jumlah produk kecil di kanan atas; step aktif gelap + thumbnail pill pratinjau, lainnya abu; baris bawah petunjuk hover + Button M Dark "Shop all skincare". Tinggi 580.
+  - F. Split (`535:6709`): kiri 600 px (eyebrow, judul, teks pendukung, Button M Dark); kanan daftar 2 kolom 372 px berisi 8 baris bergaris (nomor, thumbnail pill 72×44, nama + jumlah, ikon panah), baris ke-8 "Shop all skincare". Tinggi 512.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
