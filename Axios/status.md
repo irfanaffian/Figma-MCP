@@ -188,6 +188,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 1 November 2026 — **Kartu promo sidebar diberi treatment kartu ritual** (`498:6697`, 296×400, foto tetap): instance Pill glass "RITUAL SET", judul H4 "The Cloud Comfort ritual, in one set.", garis on-photo + kotak penanda 8 px, baris bawah 3 foto bulat 32 px bertumpuk (cleanse/treat/moisturise) + "3 steps" dan tombol panah putih 40 px. Tombol pill "Shop the set" dan judul besar dihapus. Backup di Archive (`507:6553`).
 
+- 2 November 2026 (feedback Sid: "CTA missing") — **Kartu promo sidebar diberi CTA lagi**: tombol panah bulat diganti instance Button M Light "Shop the set" (169 px) di kanan baris bawah; label "3 steps" dihapus agar muat di lebar 256 (3 foto bulat tetap). Foto kartu kini foto 3 produk (diganti pengguna).
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
