@@ -148,27 +148,27 @@ State terpisah di samping frame: `Product page — sticky add to bag (on scroll)
 
 ## About us (desktop, 2 November 2026)
 
-Frame `About us` (`596:9937`, 1512 × 5459, x 21100). Eyebrow 01–06.
+Frame `About us` (`596:9937`, 1512 × 5603, x 21100). Eyebrow 01–06.
 
 0. Announcement bar.
-1. Hero split: header gelap; kiri panel cream (breadcrumb, eyebrow, H1 "Skincare for the quiet moments.", intro, tombol, baris meta bergaris + kotak penanda); kanan foto 756×760 dengan pill glass.
+1. Hero split: header gelap; kiri panel cream (breadcrumb, eyebrow, H1 "Skincare for the quiet moments.", intro, tombol, strip ritual 3 step dengan thumbnail pill di atas garis yang bertemu foto + kotak penanda); kanan foto 756×760 dengan pill glass.
 2. Marquee.
-3. Brand statement (Statement, kalimat kedua abu) + 3 thumbnail pill.
+3. Brand statement editorial 2 kolom: eyebrow di kolom kiri 360 px, Statement rata kiri (kalimat kedua abu).
 4. The beginning: foto 696×820 + cerita singkat, garis bertanda, tanda tangan "The Axios team".
-5. How we make it: timeline 4 tahap (foto bulat 120 di atas satu garis tepi ke tepi + kotak penanda), Idea → Texture → Ritual → Your shelf.
-6. What we believe (cream): 4 kolom ikon.
-7. Ribbon review, band penutup gelap (`bg/inverse`, garis on-photo + penanda putih, Statement, tombol Light + link journal), footer.
+5. How we make it: timeline 4 tahap (foto bulat 120 di atas satu garis tepi ke tepi, kotak penanda di batas kolom), Idea → Texture → Ritual → Your shelf.
+6. What we believe (cream): daftar tipografi 4 baris bergaris (nomor | judul H2 | body), kotak penanda di tiap garis — bukan grid ikon (pola itu sudah dipakai di Care notes & Product details).
+7. Ribbon review, band penutup gelap split (`bg/inverse`): kiri Statement + tombol Light + link journal; kanan daftar ritual 3 baris (thumbnail, nama, produk) bergaris putih 35% + penanda putih. Lalu footer.
 
 ## Lookbook (desktop, 2 November 2026)
 
-Frame `Lookbook` (`599:10145`, 1512 × 6989, x 22732). Eyebrow 01–05.
+Frame `Lookbook` (`599:10145`, 1512 × 7549, x 22732). Eyebrow 01–05.
 
 0. Announcement bar.
 1. Sampul editorial: header gelap, baris meta issue bergaris, judul "The slow edit" (Wordmark 250 px, ukuran manual), 3 foto berundak dengan pill glass, intro + tombol.
 2. Chapter one · Morning: foto look besar 880×1040 dengan hotspot glass + tag produk mengambang, look kedua + caption bergaris.
-3. Band kutipan cream "Less rush. More ritual."
-4. Chapter two · Night: 3 look 466 px dengan hotspot, garis bertanda, caption + panah.
-5. Shop the look: foto dengan hotspot bernomor + daftar 3 produk bergaris, tombol "Add the look to bag".
-6. All looks (cream): contact sheet 6 kolom bergaris dengan kotak penanda.
+3. Interlude foto full-bleed 720 px dengan bingkai garis on-photo + 4 kotak penanda (treatment hero/banner), judul H1 putih + intro.
+4. Chapter two · Night: 3 look berundak (400/560/400 px, offset 0/120/48) dengan hotspot, garis bertanda, caption + panah.
+5. Shop the look (Look 02, agar tidak mengulang foto Look 01): foto dengan hotspot bernomor + daftar 3 produk bergaris, tombol "Add the look to bag".
+6. All looks (cream): indeks tipografi 2 kolom × 3 baris (nomor, thumbnail pill, judul H4, chapter, panah) bergaris + kotak penanda.
 7. Ribbon review dan footer.
 
