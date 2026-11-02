@@ -216,6 +216,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Keputusan pengguna: **inner page tidak disambungkan ke design system** sampai semua screen selesai. Setelah dibangun dengan bahan Homepage, semua sambungan dilepas: 21 instance di-detach, 520 binding variable + semua text style/effect style dilepas, mode variable eksplisit dihapus. Verifikasi: 0 instance, 0 text style, 0 binding; ukuran/line-height/tracking teks sama persis sebelum vs sesudah; 1 font.
   - Header Homepage (putih di atas foto) dipakai versi gelap di latar terang (teks/ikon #21211F, tombol "Shop all" gelap, currency switcher bergaris). Nanti saat penyambungan, sebaiknya jadi variant header terang.
 
+- 2 November 2026 — **Product page: 4 tambahan** (urutan dan isi di brief): Build your ritual (bundle 3 langkah, total $92), Reviews (ringkasan rating + 3 kartu ulasan contoh), FAQ (accordion 5 pertanyaan), dan frame state sticky add-to-bag di kanan halaman (x 19432). Eyebrow dinomori ulang 01–06. Tinggi halaman 5037 → 7133 px. Tetap tanpa sambungan design system (cek: 0 instance, 0 text style, 0 binding). Tombol terang "Write to us" di latar putih diberi fill #F4F4F4 (seperti "Meet Axios" Homepage). Nama pengulas, rating 4.9/128 ulasan, sebaran, dan harga bundle adalah contoh template.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.

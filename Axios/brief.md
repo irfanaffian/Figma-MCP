@@ -131,7 +131,7 @@ Frame `Collection page` (`496:9103`) di halaman HiFi, kanan frame tablet. Strukt
 
 ## Product page (desktop, mulai 2 November 2026)
 
-Frame `Product page` (`556:6584`, 1512 × 5037) di halaman HiFi, x 17800. Produk contoh: Soft Start Cleanser. Tidak tersambung ke design system (lihat Aturan kerja).
+Frame `Product page` (`556:6584`, 1512 × 7133) di halaman HiFi, x 17800. Produk contoh: Soft Start Cleanser. Tidak tersambung ke design system (lihat Aturan kerja).
 
 0. Announcement bar dan header versi gelap di latar terang (garis bawah tipis).
 1. Breadcrumb, lalu baris produk:
@@ -140,5 +140,10 @@ Frame `Product page` (`556:6584`, 1512 × 5037) di halaman HiFi, x 17800. Produk
 2. Marquee.
 3. 01 / How to use — 3 kolom foto + nomor + judul + teks, garis atas dan pembagi bertanda.
 4. 02 / The details — latar cream, 4 kolom ikon (treatment Moments of care): Texture, When to use, Skin feel, Size.
-5. 03 / Complete the ritual — 4 kartu produk.
-6. Ribbon review dan footer.
+5. 03 / Build your ritual — 3 produk (foto 280×360 + pill STEP) dipisah lingkaran "+", panel cream: checklist 3 item, garis bertanda, total $92 USD, tombol "Add the ritual".
+6. 04 / Reviews (latar cream) — ringkasan 4.9 + bintang + sebaran rating + tombol "Write a review", 3 kartu ulasan putih. Isi ulasan contoh template (untuk app ulasan Shopify).
+7. 05 / Questions — kiri judul + tombol "Write to us", kanan accordion 5 pertanyaan.
+8. 06 / Complete the ritual — 4 kartu produk (garis atas).
+9. Ribbon review dan footer.
+
+State terpisah di samping frame: `Product page — sticky add to bag (on scroll)` (1512×88): foto, nama + step, chip ukuran, harga, tombol "Add to bag".
