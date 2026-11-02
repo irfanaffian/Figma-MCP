@@ -190,6 +190,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 2 November 2026 (feedback Sid: "CTA missing") — **Kartu promo sidebar diberi CTA lagi**: tombol panah bulat diganti instance Button M Light "Shop the set" (169 px) di kanan baris bawah; label "3 steps" dihapus agar muat di lebar 256 (3 foto bulat tetap). Foto kartu kini foto 3 produk (diganti pengguna).
 
+- 2 November 2026 (feedback Sid pada tile editorial `499:6678`: "Love this. Can you show one card with countdown?") — **Variant tile dengan countdown** dibuat di samping Collection page (`526:6659`, x kanan frame + 120, sejajar tile asli, berlabel "Variant for Sid"). Tile asli tidak diubah. Countdown disisipkan di antara judul dan foto trio: garis tipis + kotak penanda 8 px, label "THE RITUAL SET ENDS IN", angka 32 (Heading/H3 Medium, text/primary), unit 12 (Label/Eyebrow, abu), pemisah ":" (text/muted) — mengikuti countdown banner versi latar terang. Ukuran tile tetap 389×545. Angka countdown contoh template. Menunggu pilihan Sid sebelum dipasang ke grid.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
