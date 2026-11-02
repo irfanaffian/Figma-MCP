@@ -208,6 +208,10 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - E. Indeks tipografi (`535:6633`): nama step Heading/H2 berderet dan membungkus, dipisah "/" (text/muted), jumlah produk kecil di kanan atas; step aktif gelap + thumbnail pill pratinjau, lainnya abu; baris bawah petunjuk hover + Button M Dark "Shop all skincare". Tinggi 580.
   - F. Split (`535:6709`): kiri 600 px (eyebrow, judul, teks pendukung, Button M Dark); kanan daftar 2 kolom 372 px berisi 8 baris bergaris (nomor, thumbnail pill 72×44, nama + jumlah, ikon panah), baris ke-8 "Shop all skincare". Tinggi 512.
 
+- 2 November 2026 — **Tile countdown (`526:6659`) di-relayout** (sebelumnya padat, jarak antar blok ±17 px). Ukuran tetap 389×545:
+  - Atas: eyebrow + judul. Tengah bawah: teks + baris aksi (Button "Shop the trio" kiri, 3 foto bulat 48 px bertumpuk kanan). Konten padding 32, space-between.
+  - Bawah: countdown menjadi pita bergaris selebar tile (gaya pita banner Homepage) — baris label "THE RITUAL SET ENDS IN" dengan garis atas, lalu 4 sel rata (DAYS/HRS/MIN/SEC) dengan garis atas, pembagi vertikal, dan kotak penanda 8 px di pertemuan garis. Pemisah ":" dihapus (diganti garis sel).
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
