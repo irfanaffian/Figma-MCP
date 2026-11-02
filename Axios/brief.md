@@ -20,10 +20,11 @@ Retouch dan redesign visual landing page desktop Axios (lebar frame 1512 px), da
 - **Semua teks di Figma berbahasa Inggris** (klien berbahasa Inggris): copy, catatan dokumentasi, nama dan deskripsi komponen/style. Instruksi pengguna boleh bahasa Indonesia.
 - **Lingkup kerja hanya Homepage di halaman HiFi** (`11:2160`). Halaman Moodboard, Archive, dan lainnya diabaikan — pemakaian di sana tidak menghalangi pembersihan style/variable.
 - **Comment Figma tidak dibaca langsung** (keputusan pengguna 1 November 2026). Jangan memakai skill `figma-comments` atau REST API; feedback disampaikan pengguna lewat chat.
-- **Inner page: fokus visual dulu** (keputusan pengguna 1 November 2026). Jangan membuat komponen, variant, variable, text style, atau color style baru sampai layout disetujui; komponen dan responsive dikerjakan sesudahnya. Tetap wajib:
-  - Teks memakai text style `Axios/...`, warna terikat token `Axios / Color`, dan elemen yang sudah ada komponennya dipasang sebagai instance (header, footer, tombol, pill glass, kartu produk, ribbon, marquee).
-  - Layout boleh berbeda dari Homepage, tetapi look and feel harus sama dan konsisten: satu font Plus Jakarta Sans, palet cream/ink/stone, garis tipis + kotak penanda 8 px, pill glass, tombol pill dengan lingkaran ikon, ikon Phosphor Regular, jarak section 80 px, eyebrow bernomor, dan copy pendek yang tenang.
-  - Audit singkat hanya di area yang berubah (font, text style, token warna, overflow).
+- **Inner page: visual dulu, tanpa sambungan design system** (keputusan pengguna 1–2 November 2026). Pengguna akan menyambungkan ke design system sendiri setelah semua screen selesai.
+  - Jangan membuat komponen/variant/variable/style baru, dan **jangan menyambungkan** layer ke token `Axios / Color`, text style `Axios/...`, atau instance komponen. Elemen yang diambil dari komponen (header, footer, tombol, pill glass, kartu produk, ribbon, marquee) di-detach; warna, font, dan jarak memakai nilai mentah yang sama persis.
+  - Layout boleh berbeda dari Homepage, tetapi look and feel harus sama dan konsisten: satu font Plus Jakarta Sans dengan skala tipografi yang sama, palet cream/ink/stone, garis tipis 12% + kotak penanda 8 px, pill glass, tombol pill dengan lingkaran ikon, ikon Phosphor Regular, padding section 80 px, eyebrow bernomor, dan copy pendek yang tenang.
+  - Audit singkat hanya di area yang berubah (font, ukuran, warna, overflow, tidak ada binding tersisa).
+  - Catatan: Collection page dibuat sebelum aturan ini, jadi masih tersambung ke token/style/instance.
 - Jangan menulis klaim tanpa data, misalnya "Verified buyer", "Free shipping", "Dermatologist tested", atau klaim klinis lainnya.
 
 ## Patokan visual
@@ -127,3 +128,17 @@ Frame `Collection page` (`496:9103`) di halaman HiFi, kanan frame tablet. Strukt
 5. Banner countdown (treatment banner Homepage, foto berbeda).
 6. Catatan layanan 3 kolom bernomor di latar cream. Tanpa klaim ongkir atau batas hari retur.
 7. Ribbon review, lalu footer.
+
+## Product page (desktop, mulai 2 November 2026)
+
+Frame `Product page` (`556:6584`, 1512 × 5037) di halaman HiFi, x 17800. Produk contoh: Soft Start Cleanser. Tidak tersambung ke design system (lihat Aturan kerja).
+
+0. Announcement bar dan header versi gelap di latar terang (garis bawah tipis).
+1. Breadcrumb, lalu baris produk:
+   - Galeri: 5 thumbnail 72×90 vertikal (aktif bergaris) + foto utama 760 px dengan pill glass "STEP 01 · CLEANSE" dan tombol prev/next.
+   - Panel info 520 px: badge, nama (H2), deskripsi singkat, rating, harga $24 USD + harga coret, garis + kotak penanda, pilihan ukuran, jumlah + tombol "Add to bag", catatan pengiriman tanpa klaim, kartu cream "Complete the ritual" (2 produk + tombol +), accordion Details / How to use / Ingredients / Delivery & returns.
+2. Marquee.
+3. 01 / How to use — 3 kolom foto + nomor + judul + teks, garis atas dan pembagi bertanda.
+4. 02 / The details — latar cream, 4 kolom ikon (treatment Moments of care): Texture, When to use, Skin feel, Size.
+5. 03 / Complete the ritual — 4 kartu produk.
+6. Ribbon review dan footer.

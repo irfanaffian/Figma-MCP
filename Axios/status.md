@@ -212,6 +212,10 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Atas: eyebrow + judul. Tengah bawah: teks + baris aksi (Button "Shop the trio" kiri, 3 foto bulat 48 px bertumpuk kanan). Konten padding 32, space-between.
   - Bawah: countdown menjadi pita bergaris selebar tile (gaya pita banner Homepage) — baris label "THE RITUAL SET ENDS IN" dengan garis atas, lalu 4 sel rata (DAYS/HRS/MIN/SEC) dengan garis atas, pembagi vertikal, dan kotak penanda 8 px di pertemuan garis. Pemisah ":" dihapus (diganti garis sel).
 
+- 2 November 2026 — **Product page desktop dibuat** (`556:6584`, 1512 × 5037, x 17800; struktur di brief). Produk contoh Soft Start Cleanser; harga $24/$30, rating 4.9, ukuran 150/300 ml, dan langkah cara pakai adalah contoh template — perlu konfirmasi klien.
+  - Keputusan pengguna: **inner page tidak disambungkan ke design system** sampai semua screen selesai. Setelah dibangun dengan bahan Homepage, semua sambungan dilepas: 21 instance di-detach, 520 binding variable + semua text style/effect style dilepas, mode variable eksplisit dihapus. Verifikasi: 0 instance, 0 text style, 0 binding; ukuran/line-height/tracking teks sama persis sebelum vs sesudah; 1 font.
+  - Header Homepage (putih di atas foto) dipakai versi gelap di latar terang (teks/ikon #21211F, tombol "Shop all" gelap, currency switcher bergaris). Nanti saat penyambungan, sebaiknya jadi variant header terang.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
