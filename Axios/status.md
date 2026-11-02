@@ -192,6 +192,11 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 2 November 2026 (feedback Sid pada tile editorial `499:6678`: "Love this. Can you show one card with countdown?") — **Variant tile dengan countdown** dibuat di samping Collection page (`526:6659`, x kanan frame + 120, sejajar tile asli, berlabel "Variant for Sid"). Tile asli tidak diubah. Countdown disisipkan di antara judul dan foto trio: garis tipis + kotak penanda 8 px, label "THE RITUAL SET ENDS IN", angka 32 (Heading/H3 Medium, text/primary), unit 12 (Label/Eyebrow, abu), pemisah ":" (text/muted) — mengikuti countdown banner versi latar terang. Ukuran tile tetap 389×545. Angka countdown contoh template. Menunggu pilihan Sid sebelum dipasang ke grid.
 
+- 2 November 2026 (feedback Sid pada `506:6629`: kalau step bisa 6–7 lebih, carousel atau grid? Minta layout alternatif, versi sekarang tetap) — **Variant carousel Shop by step** (`528:6553`) diduplikat di samping Collection page (x kanan frame + 120, sejajar section asli, berlabel "Variant for Sid"). Section asli tidak diubah.
+  - 7 step (tambahan contoh: Exfoliate, Masks, Eye care; foto & jumlah produk placeholder), kolom 320 px; 4 kolom terlihat + kolom ke-5 terpotong sebagai petunjuk geser (pola Collections Homepage).
+  - Heading: teks pendukung + instance Icon button Previous/Next di kanan. Kotak penanda 8 px di pertemuan garis yang terlihat. Latar `bg/page`.
+  - Rekomendasi: carousel (tinggi tetap 470 px berapa pun jumlah step; grid 2 baris akan menggeser daftar produk ke bawah).
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
