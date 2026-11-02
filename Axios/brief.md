@@ -148,16 +148,15 @@ State terpisah di samping frame: `Product page — sticky add to bag (on scroll)
 
 ## About us (desktop, 2 November 2026)
 
-Frame `About us` (`596:9937`, 1512 × 5603, x 21100). Eyebrow 01–06.
+Frame `About us` (`596:9937`, 1512 × 5883, x 21100). Eyebrow 01–05.
 
 0. Announcement bar.
-1. Hero split: header gelap; kiri panel cream (breadcrumb, eyebrow, H1 "Skincare for the quiet moments.", intro, tombol, strip ritual 3 step dengan thumbnail pill di atas garis yang bertemu foto + kotak penanda); kanan foto 756×760 dengan pill glass.
+1. Hero tipografis: header gelap; baris meta bergaris (01 / OUR STORY · breadcrumb · THREE STEPS · ONE RITUAL) + kotak penanda di kedua ujung; judul Display/Stat dua baris "Skincare [foto pill] for the / quiet [foto pill] *moments.*" (baris 2 rata kanan, kata akhir abu); intro + tombol; foto sinematik 1432×520 dengan pill glass.
 2. Marquee.
-3. Brand statement editorial 2 kolom: eyebrow di kolom kiri 360 px, Statement rata kiri (kalimat kedua abu).
-4. The beginning: foto 696×820 + cerita singkat, garis bertanda, tanda tangan "The Axios team".
-5. How we make it: timeline 4 tahap (foto bulat 120 di atas satu garis tepi ke tepi, kotak penanda di batas kolom), Idea → Texture → Ritual → Your shelf.
-6. What we believe (cream): daftar tipografi 4 baris bergaris (nomor | judul H2 | body), kotak penanda di tiap garis — bukan grid ikon (pola itu sudah dipakai di Care notes & Product details).
-7. Ribbon review, band penutup gelap split (`bg/inverse`): kiri Statement + tombol Light + link journal; kanan daftar ritual 3 baris (thumbnail, nama, produk) bergaris putih 35% + penanda putih. Lalu footer.
+3. The beginning — layout esai: kolom teks tengah 568 px (eyebrow, H1, lead, 2 paragraf, tanda tangan bergaris), foto kecil kiri atas (344×440) dan kanan bawah (344×480) dengan caption; garis atas tepi ke tepi + penanda.
+4. How we make it — heading split, lalu satu foto lebar 1432×640 dengan garis on-photo dan 4 kotak penanda sebagai titik tahap; teks tahap (Idea, Texture, Ritual, Your shelf) putih di atas gradasi.
+5. What we believe (cream): daftar tipografi 4 baris bergaris (nomor | judul H2 | body) + penanda.
+6. Ribbon review, band penutup gelap split (Statement + tombol Light + link | daftar ritual bergaris putih), footer.
 
 ## Lookbook (desktop, 2 November 2026)
 

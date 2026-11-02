@@ -228,6 +228,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Lookbook: band kutipan pengisi (mengulang copy marquee) → interlude foto berbingkai garis + penanda; chapter two 3 foto sama besar → berundak 400/560/400; Shop the look pakai Look 02 (sebelumnya foto Look 01 terulang); contact sheet foto (pengulangan foto ke-3) → indeks tipografi 2 kolom. Tinggi 6989 → 7549.
   - Cek akhir: 1 font, semua teks ber-style + token, 0 overflow, 0 teks melewati margin, 0 ikon salah stroke (pengecualian tetap: judul sampul "The slow edit").
 
+- 2 November 2026 — **About us: 3 layout generik diganti** (masukan pengguna): hero split → hero tipografis (judul Display/Stat dengan foto pill di dalam kalimat, baris meta bergaris, foto sinematik); "The beginning" 50/50 → layout esai (kolom tengah + 2 foto berundak + caption); timeline 4 kolom → timeline di atas satu foto lebar (garis on-photo + 4 penanda). Brand statement dihapus (isinya sudah di hero). Eyebrow dinomori ulang 01–05; kata yatim "today." di band penutup diperbaiki. Cek: 1 font, semua teks ber-style + token, 0 teks melewati margin. Tinggi 5603 → 5883.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
