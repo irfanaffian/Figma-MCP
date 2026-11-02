@@ -20,11 +20,9 @@ Retouch dan redesign visual landing page desktop Axios (lebar frame 1512 px), da
 - **Semua teks di Figma berbahasa Inggris** (klien berbahasa Inggris): copy, catatan dokumentasi, nama dan deskripsi komponen/style. Instruksi pengguna boleh bahasa Indonesia.
 - **Lingkup kerja hanya Homepage di halaman HiFi** (`11:2160`). Halaman Moodboard, Archive, dan lainnya diabaikan — pemakaian di sana tidak menghalangi pembersihan style/variable.
 - **Comment Figma tidak dibaca langsung** (keputusan pengguna 1 November 2026). Jangan memakai skill `figma-comments` atau REST API; feedback disampaikan pengguna lewat chat.
-- **Inner page: visual dulu, tanpa sambungan design system** (keputusan pengguna 1–2 November 2026). Pengguna akan menyambungkan ke design system sendiri setelah semua screen selesai.
-  - Jangan membuat komponen/variant/variable/style baru, dan **jangan menyambungkan** layer ke token `Axios / Color`, text style `Axios/...`, atau instance komponen. Elemen yang diambil dari komponen (header, footer, tombol, pill glass, kartu produk, ribbon, marquee) di-detach; warna, font, dan jarak memakai nilai mentah yang sama persis.
-  - Layout boleh berbeda dari Homepage, tetapi look and feel harus sama dan konsisten: satu font Plus Jakarta Sans dengan skala tipografi yang sama, palet cream/ink/stone, garis tipis 12% + kotak penanda 8 px, pill glass, tombol pill dengan lingkaran ikon, ikon Phosphor Regular, padding section 80 px, eyebrow bernomor, dan copy pendek yang tenang.
-  - Audit singkat hanya di area yang berubah (font, ukuran, warna, overflow, tidak ada binding tersisa).
-  - Catatan: Collection page dibuat sebelum aturan ini, jadi masih tersambung ke token/style/instance.
+- **Inner page tersambung ke library** (keputusan pengguna 2 November 2026, menggantikan aturan "tanpa sambungan" sebelumnya). Teks memakai text style `Axios/...`, warna token `Axios / Color`, dan elemen yang ada komponennya dipasang sebagai instance. Jangan membuat komponen/variant/style baru tanpa diminta.
+- **Gaya mirip Homepage, layout dieksplorasi** (pengguna, 2 November 2026): jangan menyalin section Homepage 100% (termasuk memasang instance section Homepage di inner page). Tiap section boleh punya layout baru, asalkan look and feel sama: satu font Plus Jakarta Sans dengan skala tipografi yang sama, palet cream/ink/stone, garis tipis 12% + kotak penanda 8 px, pill glass, tombol pill dengan lingkaran ikon, ikon Phosphor Regular, padding section 80 px, eyebrow bernomor, copy pendek yang tenang. Komponen global (announcement, header, marquee, ribbon, footer, tombol, kartu produk) tetap dipakai ulang.
+- Audit singkat di area yang berubah (font, text style, token, overflow, stroke ikon).
 - Jangan menulis klaim tanpa data, misalnya "Verified buyer", "Free shipping", "Dermatologist tested", atau klaim klinis lainnya.
 
 ## Patokan visual
@@ -147,3 +145,30 @@ Frame `Product page` (`556:6584`, 1512 × 7133) di halaman HiFi, x 17800. Produk
 9. Ribbon review dan footer.
 
 State terpisah di samping frame: `Product page — sticky add to bag (on scroll)` (1512×88): foto, nama + step, chip ukuran, harga, tombol "Add to bag".
+
+## About us (desktop, 2 November 2026)
+
+Frame `About us` (`596:9937`, 1512 × 5459, x 21100). Eyebrow 01–06.
+
+0. Announcement bar.
+1. Hero split: header gelap; kiri panel cream (breadcrumb, eyebrow, H1 "Skincare for the quiet moments.", intro, tombol, baris meta bergaris + kotak penanda); kanan foto 756×760 dengan pill glass.
+2. Marquee.
+3. Brand statement (Statement, kalimat kedua abu) + 3 thumbnail pill.
+4. The beginning: foto 696×820 + cerita singkat, garis bertanda, tanda tangan "The Axios team".
+5. How we make it: timeline 4 tahap (foto bulat 120 di atas satu garis tepi ke tepi + kotak penanda), Idea → Texture → Ritual → Your shelf.
+6. What we believe (cream): 4 kolom ikon.
+7. Ribbon review, band penutup gelap (`bg/inverse`, garis on-photo + penanda putih, Statement, tombol Light + link journal), footer.
+
+## Lookbook (desktop, 2 November 2026)
+
+Frame `Lookbook` (`599:10145`, 1512 × 6989, x 22732). Eyebrow 01–05.
+
+0. Announcement bar.
+1. Sampul editorial: header gelap, baris meta issue bergaris, judul "The slow edit" (Wordmark 250 px, ukuran manual), 3 foto berundak dengan pill glass, intro + tombol.
+2. Chapter one · Morning: foto look besar 880×1040 dengan hotspot glass + tag produk mengambang, look kedua + caption bergaris.
+3. Band kutipan cream "Less rush. More ritual."
+4. Chapter two · Night: 3 look 466 px dengan hotspot, garis bertanda, caption + panah.
+5. Shop the look: foto dengan hotspot bernomor + daftar 3 produk bergaris, tombol "Add the look to bag".
+6. All looks (cream): contact sheet 6 kolom bergaris dengan kotak penanda.
+7. Ribbon review dan footer.
+

@@ -17,7 +17,9 @@ File Figma `69Z4JFbNdaEfbjMOHS7oTE`, halaman **HiFi** (`11:2160`; sebelumnya Moo
 
 | Frame | Peran | Tautan |
 | --- | --- | --- |
-| Product page | Inner page desktop, tanpa sambungan design system (2 Nov 2026) | [556:6584](https://www.figma.com/design/69Z4JFbNdaEfbjMOHS7oTE/Axios-Website-Template?node-id=556-6584) |
+| Lookbook | Inner page desktop (2 Nov 2026) | [599:10145](https://www.figma.com/design/69Z4JFbNdaEfbjMOHS7oTE/Axios-Website-Template?node-id=599-10145) |
+| About us | Inner page desktop (2 Nov 2026) | [596:9937](https://www.figma.com/design/69Z4JFbNdaEfbjMOHS7oTE/Axios-Website-Template?node-id=596-9937) |
+| Product page | Inner page desktop (2 Nov 2026) | [556:6584](https://www.figma.com/design/69Z4JFbNdaEfbjMOHS7oTE/Axios-Website-Template?node-id=556-6584) |
 | Collection page | Inner page desktop (1 Nov 2026) | [496:9103](https://www.figma.com/design/69Z4JFbNdaEfbjMOHS7oTE/Axios-Website-Template?node-id=496-9103) |
 | Desktop - 11 | **Frame kerja aktif** | [215:90](https://www.figma.com/design/69Z4JFbNdaEfbjMOHS7oTE/Axios-Website-Template?node-id=215-90) |
 | Desktop - 9 | Iterasi sebelumnya, sesuai patokan brief | [153:2865](https://www.figma.com/design/69Z4JFbNdaEfbjMOHS7oTE/Axios-Website-Template?node-id=153-2865) |
