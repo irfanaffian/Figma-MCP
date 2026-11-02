@@ -197,6 +197,12 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Heading: teks pendukung + instance Icon button Previous/Next di kanan. Kotak penanda 8 px di pertemuan garis yang terlihat. Latar `bg/page`.
   - Rekomendasi: carousel (tinggi tetap 470 px berapa pun jumlah step; grid 2 baris akan menggeser daftar produk ke bawah).
 
+- 2 November 2026 — **Opsi layout Shop by step untuk 7+ step** (diminta pengguna), berjajar di kanan Collection page, sejajar section asli, masing-masing berlabel "Variant for Sid":
+  - A. Carousel (`528:6553`) — lihat entri sebelumnya.
+  - B. Grid (`529:6559`): 4 kolom × 2 baris (358 px), sel ke-8 "ALL STEPS / Shop all skincare"; garis tepi ke tepi per baris + pembagi kolom + kotak penanda 8 px. Tinggi 619 px.
+  - C. Chip ringkas (`529:6670`): pill 56 px (foto bulat 44 + nama Body/MD Medium + jumlah Caption), wrap, chip pertama "All steps" gelap sebagai state aktif; garis atas tepi ke tepi. Tinggi 409 px (paling pendek, tetap satu baris untuk 8 chip).
+  - Catatan teknis: garis `border/subtle` harus memakai opacity paint 12% (konvensi Homepage); 7 garis di opsi grid sempat 100% dan sudah dikoreksi.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
