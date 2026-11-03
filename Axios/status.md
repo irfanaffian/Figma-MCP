@@ -238,6 +238,9 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 3 November 2026 — **Treatment foto hero About us disederhanakan** (pengguna: harus lebih simple): garis vertikal tengah + 2 penandanya dan label kanan 3 baris dihapus. Tersisa bingkai 2 garis horizontal + 2 vertikal, 4 kotak penanda, label kiri "THE RITUAL".
 
+- 3 November 2026 — **Foto hero About us kini memakai treatment banner foto Homepage** (`423:10802`, ditunjuk pengguna): gradasi keterbacaan, garis horizontal masuk 40 px, garis vertikal di kolom margin hanya di antara garis horizontal, 5 kotak penanda, label 2 baris di kiri dan kanan.
+- 3 November 2026 — **Kolom esai "The beginning" (`604:10245`) di-relayout**: lead jadi standfirst H4 gelap; 2 paragraf body berdampingan (2 kolom, Body/MD) dengan garis + kotak penanda di atas tiap kolom; tanda tangan jadi satu baris (nama + peran | 3 foto ritual bulat bertumpuk). Tinggi kolom 560 → 600, section tetap.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.

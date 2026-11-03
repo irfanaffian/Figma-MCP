@@ -151,9 +151,9 @@ State terpisah di samping frame: `Product page — sticky add to bag (on scroll)
 Frame `About us` (`596:9937`, 1512 × 5883, x 21100). Eyebrow 01–05.
 
 0. Announcement bar.
-1. Hero tipografis: header gelap; baris meta bergaris (01 / OUR STORY · breadcrumb · THREE STEPS · ONE RITUAL) + kotak penanda di kedua ujung; judul Display/Stat dua baris "Skincare [foto pill] for the / quiet [foto pill] *moments.*" (baris 2 rata kanan, kata akhir abu); intro + tombol; foto sinematik 1432×520 dengan treatment garis hero Homepage versi sederhana (pengguna: harus lebih simple): 2 garis horizontal putih 40% (y 64/456), 2 garis vertikal putih 50% (x 166/1266), 4 kotak penanda 8 px di pertemuan, satu label kiri "THE RITUAL".
+1. Hero tipografis: header gelap; baris meta bergaris (01 / OUR STORY · breadcrumb · THREE STEPS · ONE RITUAL) + kotak penanda di kedua ujung; judul Display/Stat dua baris "Skincare [foto pill] for the / quiet [foto pill] *moments.*" (baris 2 rata kanan, kata akhir abu); intro + tombol; foto sinematik 1432×520 dengan treatment banner foto Homepage (`423:10802`): gradasi keterbacaan bawah, 2 garis horizontal putih 40% masuk 40 px dari tepi, 2 garis vertikal putih 50% di kolom margin (x 166/1266) hanya di antara garis horizontal, 5 kotak penanda (4 sudut + tengah atas), label 2 baris kiri "THE AXIOS / RITUAL" dan kanan "THREE STEPS / ONE RITUAL".
 2. Marquee.
-3. The beginning — layout esai: kolom teks tengah 568 px (eyebrow, H1, lead, 2 paragraf, tanda tangan bergaris), foto kecil kiri atas (344×440) dan kanan bawah (344×480) dengan caption; garis atas tepi ke tepi + penanda.
+3. The beginning — layout esai: kolom teks tengah 568 px (eyebrow, H1, standfirst H4, body 2 kolom dengan garis + penanda di atas tiap kolom, baris tanda tangan: nama + peran | 3 foto ritual bulat 40 px bertumpuk), foto kecil kiri atas (344×440) dan kanan bawah (344×480) dengan caption; garis atas tepi ke tepi + penanda.
 4. How we make it — heading split, lalu satu foto lebar 1432×640 dengan garis on-photo dan 4 kotak penanda sebagai titik tahap; teks tahap (Idea, Texture, Ritual, Your shelf) putih di atas gradasi.
 5. What we believe (cream): daftar tipografi 4 baris bergaris (nomor | judul H2 | body) + penanda.
 6. Ribbon review, band penutup gelap split (Statement + tombol Light + link | daftar ritual bergaris putih), footer.
