@@ -252,6 +252,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Variant A (`634:10210`) — garis waktu pagi: 3 momen (6:30 / 6:40 / 6:45 AM) berundak dengan ukuran foto berbeda (560×720, 424×560, 400×480), garis + penanda di atas tiap jam, caption + link "Shop this moment"; tag produk di foto pertama.
   - Variant B (`634:10279`) — look full-bleed 1512×820 dengan treatment banner Homepage (gradasi, garis masuk 40 px, garis vertikal x 206/1306, 5 penanda, label 2 baris kiri/kanan), hotspot + tag produk, judul H1 putih; di bawah Look 02 + teks bergaris + tag Daily Dew Serum. Foto di-crop agar wajah terlihat.
 
+- 3 November 2026 — **Chapter one Lookbook: baris look dirapikan (`599:10247`)** agar lebih clean (variant A/B dihapus pengguna): pill "LOOK 01/02" di atas foto dihapus (tidak terbaca di foto terang), hotspot kedua di Look 01 dihapus, Look 01 diberi caption dengan struktur sama dengan Look 02 (garis + penanda, eyebrow "LOOK 0X · 6:30/6:40 AM", judul Title/Product, satu kalimat, link); kedua caption sama tinggi dan garisnya sejajar.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
