@@ -232,6 +232,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 3 November 2026 — **Lookbook: sisa layout generik diganti** (masukan pengguna): pembuka section yang semuanya pola "eyebrow + judul kiri, teks kanan" → pembuka bab (angka chapter besar | judul | jam + keterangan, garis + penanda) untuk Chapter one/two, dan judul + angka besar "06 LOOKS" untuk All looks; Shop the look split 50/50 → foto lebar dengan panel produk putih mengambang. Copy link "Shop look 01" di bawah Look 02 dikoreksi. Cek: 1 font, semua teks ber-style + token, 0 teks melewati margin (pengecualian tetap: judul sampul, logo header). Tinggi 7549 → 7694.
 
+- 3 November 2026 — **Lookbook: tag produk mengambang di Look 01 (`599:10255`) disamakan dengan kartu produk video antrean Homepage** (masukan pengguna: tidak konsisten): radius 0 → 8, padding/jarak 12 → 8, foto 48 → 40 (radius 4), jarak nama–harga 2 → 0, ikon + 16 → 14 (stroke 0.875). Tinggi 72 → 56 px. Nama layer disamakan (`Shoppable product`).
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
