@@ -173,24 +173,24 @@ Frame `Lookbook` (`599:10145`, 1512 × 7694, x 22732). Eyebrow 01–05.
 
 ## Journal (blog, desktop, 3 November 2026)
 
-Frame `Journal` (`663:10216`, 1512 × 4214, x 24364).
+Frame `Journal` (`663:10216`, 1512 × 4278, x 24364).
 
 0. Announcement bar, header gelap.
-1. Masthead: baris meta bergaris (01 / JOURNAL · NOTES ON SLOW SKINCARE · 24 STORIES) + penanda di kedua ujung; judul H1 dua warna "The Journal. *Small notes for slower days.*"; chip kategori (All, Rituals, Textures, Slow living, Guides).
+1. Masthead: baris meta bergaris (01 / JOURNAL · NOTES ON SLOW SKINCARE · 24 STORIES) + penanda di kedua ujung; judul H1 dua warna "The Journal. *Small notes for slower days.*"; chip kategori bergaya chip kategori Homepage (pill 44 px, radius 24, padding 20, SemiBold 16; All aktif gelap).
 2. Artikel unggulan: foto 880×600 + kolom teks (garis + penanda, kategori · waktu baca, H2, excerpt, byline, tombol "Read the story").
 3. 02 / Latest (garis atas): 2 baris × 3 kartu cerita (foto 360, garis + penanda, eyebrow, H4, excerpt, link), di antaranya band cream berisi kutipan + ajakan newsletter; "Load more" dengan progres 6/24.
 4. Ribbon review, footer.
 
 ## Journal article (blog detail, desktop, 3 November 2026)
 
-Frame `Journal article` (`664:10354`, 1512 × 5064, x 25996).
+Frame `Journal article` (`664:10354`, 1512 × 5613, x 25996). Eyebrow 01–02.
 
 0. Announcement bar, header gelap.
 1. Kepala artikel terpusat: breadcrumb, kategori · waktu baca, H1 (900 px), standfirst, byline.
 2. Foto hero 1432×680 dengan treatment banner Homepage (garis masuk 40 px, garis vertikal di kolom margin, 5 penanda, label 2 baris kiri/kanan), crop ke wajah.
-3. Isi 3 kolom (296 | 640 | 296, jarak 68): kiri daftar isi bergaris (item aktif gelap + penanda) dan share (instance Social icon); tengah artikel Body/LG dengan subjudul bernomor (garis + penanda, H3 Medium), foto + caption, kutipan bergaris atas-bawah, penutup penulis + tag; kanan "Products in this story" (3 kartu Shoppable product bergaris) + tombol "Shop the ritual".
-4. Keep reading (cream): 3 kartu cerita dari Journal.
-5. Footer.
+3. Isi 3 kolom (296 | 640 | 296, jarak 68): kiri daftar isi bergaris (item aktif gelap + penanda) dan share (instance Social icon); tengah: intro Body/Lead, kotak cream "The ritual at a glance" (3 langkah, produk, durasi), lalu 3 blok langkah (nomor abu + judul H3 Medium, teks, "Used in this step" + kartu Shoppable product; foto + caption di langkah 02), kutipan dengan garis vertikal kiri, penutup penulis + tag; kanan kotak cream "Shop the ritual" (3 foto produk, $92, tombol "Add the ritual").
+4. 02 / Keep reading (cream): 3 kartu cerita dari Journal.
+5. Ribbon review, footer.
 
 Copy artikel, kategori, jumlah cerita, dan tanggal adalah contoh template.
 
