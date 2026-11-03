@@ -254,6 +254,10 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 3 November 2026 — **Chapter one Lookbook: baris look dirapikan (`599:10247`)** agar lebih clean (variant A/B dihapus pengguna): pill "LOOK 01/02" di atas foto dihapus (tidak terbaca di foto terang), hotspot kedua di Look 01 dihapus, Look 01 diberi caption dengan struktur sama dengan Look 02 (garis + penanda, eyebrow "LOOK 0X · 6:30/6:40 AM", judul Title/Product, satu kalimat, link); kedua caption sama tinggi dan garisnya sejajar.
 
+- 3 November 2026 — **Eksplorasi band penutup About us (`600:10531`)**: section asli tidak diubah (sebelumnya diminta dikembalikan); 2 variant di bawah halaman About us (x 21100), berlabel:
+  - Variant A (`636:10208`) — split foto: kiri foto wastafel 756×640 dengan garis on-photo + penanda + label eyebrow; kanan panel gelap: judul H2 dua baris, daftar ritual ringkas bergaris putih (nomor | langkah | produk), tombol Light + link journal.
+  - Variant B (`636:10241`) — terang dan terpusat: latar cream, eyebrow + judul H1 dua warna di tengah, 3 langkah ritual (foto bulat 112, STEP, nama, produk · harga) dihubungkan satu garis tepi ke tepi + 4 kotak penanda, tombol Dark + link di tengah.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
