@@ -234,6 +234,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 3 November 2026 — **Lookbook: tag produk mengambang di Look 01 (`599:10255`) disamakan dengan kartu produk video antrean Homepage** (masukan pengguna: tidak konsisten): radius 0 → 8, padding/jarak 12 → 8, foto 48 → 40 (radius 4), jarak nama–harga 2 → 0, ikon + 16 → 14 (stroke 0.875). Tinggi 72 → 56 px. Nama layer disamakan (`Shoppable product`).
 
+- 3 November 2026 — **Foto hero About us (`604:10236`) diberi treatment foto hero Homepage** (diminta pengguna): garis horizontal putih 40% di y 64/456 selebar foto, garis vertikal putih 50% di x 166/716/1266 (skala posisi hero Homepage 206/756/1306), 6 kotak penanda 8 px `bg/page` di setiap pertemuan, label kiri "THE RITUAL" dan label kanan "CLEANSE / TREAT / COMFORT" (gaya label hero, eyebrow putih). Pill glass dihapus (diganti label).
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.

@@ -151,7 +151,7 @@ State terpisah di samping frame: `Product page — sticky add to bag (on scroll)
 Frame `About us` (`596:9937`, 1512 × 5883, x 21100). Eyebrow 01–05.
 
 0. Announcement bar.
-1. Hero tipografis: header gelap; baris meta bergaris (01 / OUR STORY · breadcrumb · THREE STEPS · ONE RITUAL) + kotak penanda di kedua ujung; judul Display/Stat dua baris "Skincare [foto pill] for the / quiet [foto pill] *moments.*" (baris 2 rata kanan, kata akhir abu); intro + tombol; foto sinematik 1432×520 dengan pill glass.
+1. Hero tipografis: header gelap; baris meta bergaris (01 / OUR STORY · breadcrumb · THREE STEPS · ONE RITUAL) + kotak penanda di kedua ujung; judul Display/Stat dua baris "Skincare [foto pill] for the / quiet [foto pill] *moments.*" (baris 2 rata kanan, kata akhir abu); intro + tombol; foto sinematik 1432×520 dengan treatment foto hero Homepage: 2 garis horizontal putih 40% (y 64/456), 3 garis vertikal putih 50% (x 166/716/1266), 6 kotak penanda 8 px, label kiri "THE RITUAL" dan label kanan 3 baris "CLEANSE / TREAT / COMFORT".
 2. Marquee.
 3. The beginning — layout esai: kolom teks tengah 568 px (eyebrow, H1, lead, 2 paragraf, tanda tangan bergaris), foto kecil kiri atas (344×440) dan kanan bawah (344×480) dengan caption; garis atas tepi ke tepi + penanda.
 4. How we make it — heading split, lalu satu foto lebar 1432×640 dengan garis on-photo dan 4 kotak penanda sebagai titik tahap; teks tahap (Idea, Texture, Ritual, Your shelf) putih di atas gradasi.
