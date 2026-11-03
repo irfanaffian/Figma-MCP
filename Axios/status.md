@@ -230,6 +230,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 2 November 2026 — **About us: 3 layout generik diganti** (masukan pengguna): hero split → hero tipografis (judul Display/Stat dengan foto pill di dalam kalimat, baris meta bergaris, foto sinematik); "The beginning" 50/50 → layout esai (kolom tengah + 2 foto berundak + caption); timeline 4 kolom → timeline di atas satu foto lebar (garis on-photo + 4 penanda). Brand statement dihapus (isinya sudah di hero). Eyebrow dinomori ulang 01–05; kata yatim "today." di band penutup diperbaiki. Cek: 1 font, semua teks ber-style + token, 0 teks melewati margin. Tinggi 5603 → 5883.
 
+- 3 November 2026 — **Lookbook: sisa layout generik diganti** (masukan pengguna): pembuka section yang semuanya pola "eyebrow + judul kiri, teks kanan" → pembuka bab (angka chapter besar | judul | jam + keterangan, garis + penanda) untuk Chapter one/two, dan judul + angka besar "06 LOOKS" untuk All looks; Shop the look split 50/50 → foto lebar dengan panel produk putih mengambang. Copy link "Shop look 01" di bawah Look 02 dikoreksi. Cek: 1 font, semua teks ber-style + token, 0 teks melewati margin (pengecualian tetap: judul sampul, logo header). Tinggi 7549 → 7694.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.

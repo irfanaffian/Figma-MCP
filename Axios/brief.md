@@ -160,14 +160,14 @@ Frame `About us` (`596:9937`, 1512 × 5883, x 21100). Eyebrow 01–05.
 
 ## Lookbook (desktop, 2 November 2026)
 
-Frame `Lookbook` (`599:10145`, 1512 × 7549, x 22732). Eyebrow 01–05.
+Frame `Lookbook` (`599:10145`, 1512 × 7694, x 22732). Eyebrow 01–05.
 
 0. Announcement bar.
 1. Sampul editorial: header gelap, baris meta issue bergaris, judul "The slow edit" (Wordmark 250 px, ukuran manual), 3 foto berundak dengan pill glass, intro + tombol.
-2. Chapter one · Morning: foto look besar 880×1040 dengan hotspot glass + tag produk mengambang, look kedua + caption bergaris.
+2. Chapter one · Morning — pembuka bab: angka chapter besar (Display/Stat, abu pudar) | eyebrow + H1 | jam "6:30 AM" + keterangan dengan pembagi vertikal, garis bawah + penanda. Lalu foto look besar 880×1040 dengan hotspot glass + tag produk mengambang, look kedua + caption bergaris.
 3. Interlude foto full-bleed 720 px dengan bingkai garis on-photo + 4 kotak penanda (treatment hero/banner), judul H1 putih + intro.
-4. Chapter two · Night: 3 look berundak (400/560/400 px, offset 0/120/48) dengan hotspot, garis bertanda, caption + panah.
-5. Shop the look (Look 02, agar tidak mengulang foto Look 01): foto dengan hotspot bernomor + daftar 3 produk bergaris, tombol "Add the look to bag".
-6. All looks (cream): indeks tipografi 2 kolom × 3 baris (nomor, thumbnail pill, judul H4, chapter, panah) bergaris + kotak penanda.
+4. Chapter two · Night — pembuka bab sama (02, "9:45 PM"), lalu 3 look berundak (400/560/400 px, offset 0/120/48) dengan hotspot, garis bertanda, caption + panah.
+5. Shop the look (Look 02): satu foto lebar 1432×800 dengan hotspot bernomor, panel putih 520 px mengambang di kanan bawah (melewati tepi bawah foto) berisi judul H2, daftar 3 produk bergaris, tombol "Add the look to bag".
+6. All looks (cream): pembuka judul kiri + angka besar "06 LOOKS" kanan, lalu indeks tipografi 2 kolom × 3 baris (nomor, thumbnail pill, judul H4, chapter, panah) bergaris + kotak penanda.
 7. Ribbon review dan footer.
 
