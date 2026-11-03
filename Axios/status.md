@@ -243,6 +243,9 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 3 November 2026 — **Product page: foto utama galeri dipendekkan** (pengguna: terlalu tinggi): 760×1132 (sebelumnya disamakan dengan tinggi panel info) → 760×950 (rasio 4:5). Panel info tetap 1130 px; di build, galeri dibuat sticky. Tinggi halaman 7133 → 7131.
 
+- 3 November 2026 — **Retouch band penutup About us (`600:10531`)**: kolom nomor dikunci 24 px (thumbnail sebelumnya bergeser 35/37/38 → semua x 48); kiri dan kanan rata atas, tombol turun ke bawah kolom kiri; judul jadi H1 dua warna dua baris; tiap baris ritual diberi harga + panah; penanda ditambah di garis bawah daftar.
+- 3 November 2026 — **Retouch foto sampul Lookbook (`600:10667`)**, foto baru dari pengguna dipertahankan: lebar 467×3 → 380 / 624 / 380 (foto trio jadi fokus), undakan diagonal, pill di atas foto diganti caption bergaris di bawah foto (label + 6:30 AM / The trio / 9:45 PM).
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
