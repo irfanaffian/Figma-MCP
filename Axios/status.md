@@ -241,6 +241,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 - 3 November 2026 — **Foto hero About us kini memakai treatment banner foto Homepage** (`423:10802`, ditunjuk pengguna): gradasi keterbacaan, garis horizontal masuk 40 px, garis vertikal di kolom margin hanya di antara garis horizontal, 5 kotak penanda, label 2 baris di kiri dan kanan.
 - 3 November 2026 — **Kolom esai "The beginning" (`604:10245`) di-relayout**: lead jadi standfirst H4 gelap; 2 paragraf body berdampingan (2 kolom, Body/MD) dengan garis + kotak penanda di atas tiap kolom; tanda tangan jadi satu baris (nama + peran | 3 foto ritual bulat bertumpuk). Tinggi kolom 560 → 600, section tetap.
 
+- 3 November 2026 — **Product page: foto utama galeri dipendekkan** (pengguna: terlalu tinggi): 760×1132 (sebelumnya disamakan dengan tinggi panel info) → 760×950 (rasio 4:5). Panel info tetap 1130 px; di build, galeri dibuat sticky. Tinggi halaman 7133 → 7131.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.

@@ -133,7 +133,7 @@ Frame `Product page` (`556:6584`, 1512 × 7133) di halaman HiFi, x 17800. Produk
 
 0. Announcement bar dan header versi gelap di latar terang (garis bawah tipis).
 1. Breadcrumb, lalu baris produk:
-   - Galeri: 5 thumbnail 72×90 vertikal (aktif bergaris) + foto utama 760 px dengan pill glass "STEP 01 · CLEANSE" dan tombol prev/next.
+   - Galeri: 5 thumbnail 72×90 vertikal (aktif bergaris) + foto utama 760×950 (4:5; galeri sticky saat panel info di-scroll) dengan pill glass "STEP 01 · CLEANSE" dan tombol prev/next.
    - Panel info 520 px: badge, nama (H2), deskripsi singkat, rating, harga $24 USD + harga coret, garis + kotak penanda, pilihan ukuran, jumlah + tombol "Add to bag", catatan pengiriman tanpa klaim, kartu cream "Complete the ritual" (2 produk + tombol +), accordion Details / How to use / Ingredients / Delivery & returns.
 2. Marquee.
 3. 01 / How to use — 3 kolom foto + nomor + judul + teks, garis atas dan pembagi bertanda.
