@@ -246,6 +246,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 - 3 November 2026 — **Retouch band penutup About us (`600:10531`)**: kolom nomor dikunci 24 px (thumbnail sebelumnya bergeser 35/37/38 → semua x 48); kiri dan kanan rata atas, tombol turun ke bawah kolom kiri; judul jadi H1 dua warna dua baris; tiap baris ritual diberi harga + panah; penanda ditambah di garis bawah daftar.
 - 3 November 2026 — **Retouch foto sampul Lookbook (`600:10667`)**, foto baru dari pengguna dipertahankan: lebar 467×3 → 380 / 624 / 380 (foto trio jadi fokus), undakan diagonal, pill di atas foto diganti caption bergaris di bawah foto (label + 6:30 AM / The trio / 9:45 PM).
 
+- 3 November 2026 — **Retouch band penutup About us dan foto sampul Lookbook dibatalkan** (pengguna: "kembalikan sebelumnya", keduanya). Band penutup kembali: Statement satu baris, rata bawah, baris ritual tanpa harga/panah. Sampul kembali: 3 foto 467 px berundak (560/680/600) dengan pill glass; foto baru dari pengguna tetap. Dicatat di brief sebagai pengecualian.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
