@@ -258,6 +258,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
   - Variant A (`636:10208`) — split foto: kiri foto wastafel 756×640 dengan garis on-photo + penanda + label eyebrow; kanan panel gelap: judul H2 dua baris, daftar ritual ringkas bergaris putih (nomor | langkah | produk), tombol Light + link journal.
   - Variant B (`636:10241`) — terang dan terpusat: latar cream, eyebrow + judul H1 dua warna di tengah, 3 langkah ritual (foto bulat 112, STEP, nama, produk · harga) dihubungkan satu garis tepi ke tepi + 4 kotak penanda, tombol Dark + link di tengah.
 
+- 3 November 2026 — **Journal (blog) dan Journal article (blog detail) desktop dibuat**, tersambung ke library (struktur di brief): `663:10216` (1512 × 4214) dan `664:10354` (1512 × 5064). Memakai komponen global (announcement, header gelap, chip, tombol, pill, Social icon, ribbon, footer) dan treatment Homepage (garis + penanda, banner foto, kartu Shoppable product). Audit: 1 font, semua teks ber-style + token (kecuali label banner, sama dengan sumbernya di Homepage), 0 overflow, 0 ikon salah stroke. Foto memakai aset yang ada (termasuk foto baru pengguna dari Lookbook); copy artikel contoh template.
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.

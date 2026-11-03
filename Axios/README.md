@@ -17,6 +17,8 @@ File Figma `69Z4JFbNdaEfbjMOHS7oTE`, halaman **HiFi** (`11:2160`; sebelumnya Moo
 
 | Frame | Peran | Tautan |
 | --- | --- | --- |
+| Journal article | Inner page desktop (3 Nov 2026) | [664:10354](https://www.figma.com/design/69Z4JFbNdaEfbjMOHS7oTE/Axios-Website-Template?node-id=664-10354) |
+| Journal | Inner page desktop (3 Nov 2026) | [663:10216](https://www.figma.com/design/69Z4JFbNdaEfbjMOHS7oTE/Axios-Website-Template?node-id=663-10216) |
 | Lookbook | Inner page desktop (2 Nov 2026) | [599:10145](https://www.figma.com/design/69Z4JFbNdaEfbjMOHS7oTE/Axios-Website-Template?node-id=599-10145) |
 | About us | Inner page desktop (2 Nov 2026) | [596:9937](https://www.figma.com/design/69Z4JFbNdaEfbjMOHS7oTE/Axios-Website-Template?node-id=596-9937) |
 | Product page | Inner page desktop (2 Nov 2026) | [556:6584](https://www.figma.com/design/69Z4JFbNdaEfbjMOHS7oTE/Axios-Website-Template?node-id=556-6584) |
