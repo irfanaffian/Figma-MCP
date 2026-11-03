@@ -236,6 +236,8 @@ Homepage desktop sudah locked → saat yang tepat membangun design system **ring
 
 - 3 November 2026 — **Foto hero About us (`604:10236`) diberi treatment foto hero Homepage** (diminta pengguna): garis horizontal putih 40% di y 64/456 selebar foto, garis vertikal putih 50% di x 166/716/1266 (skala posisi hero Homepage 206/756/1306), 6 kotak penanda 8 px `bg/page` di setiap pertemuan, label kiri "THE RITUAL" dan label kanan "CLEANSE / TREAT / COMFORT" (gaya label hero, eyebrow putih). Pill glass dihapus (diganti label).
 
+- 3 November 2026 — **Treatment foto hero About us disederhanakan** (pengguna: harus lebih simple): garis vertikal tengah + 2 penandanya dan label kanan 3 baris dihapus. Tersisa bingkai 2 garis horizontal + 2 vertikal, 4 kotak penanda, label kiri "THE RITUAL".
+
 ## Bagian yang tidak disentuh
 
 Hero, brand intro, dan kartu ritual (mengacu ke Desktop - 6), ribbon review pertama, serta section lain yang tidak diminta.
