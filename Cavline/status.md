@@ -41,3 +41,11 @@ Dibiarkan (menunggu keputusan pengguna):
 - Variasi hitam teks `#000000`/`#030303`/`#040404`/`#111111` berasal dari first draft yang sudah disetujui.
 - Ukuran judul 64/72/96 px berbeda per pola slide.
 - Radius kartu 32 px vs 40 px (40 px dipakai di slide dengan kartu hitam tinggi dan cover).
+
+## Option 2 (light editorial), 4 November 2026
+
+Section `84:7983` di HiFi, 11 slide.
+
+- Ritme terang–gelap: 23 Problem (`84:8043`), 08 Economics (`84:8261`), dan 10 Ask (`84:8381`) dijadikan latar hitam penuh `#040404`. Pemetaan: kartu putih → `#141414`, kartu hitam besar → lime, pill/titik hitam kecil → putih, teks hitam → putih, abu `#A3A3A3` → `#6E6E6E`, angka abu `#E2E2E2` → `#2A2A2A`.
+- 05 Traction (`84:8115`) didesain ulang: angka hero "6×" (MRR $2.4K → $14.6K), kartu chart putih dengan area lime dan garis MRR hitam, 3 tile stat (putih, hitam, lime). Layout lama disimpan tersembunyi di frame "(old layout, hidden)".
+- Sisa temuan, dibiarkan: ukuran judul 72/76/80/96/104/128 px; teks meta kanan bawah tidak ada di Option 2.
